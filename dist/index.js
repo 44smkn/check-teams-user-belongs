@@ -1844,6 +1844,96 @@ exports.getSdk = getSdk;
 
 /***/ }),
 
+/***/ 4072:
+/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.isTeamsBeIncluded = exports.GithubClient = void 0;
+const core = __importStar(__nccwpck_require__(2186));
+const graphql_1 = __nccwpck_require__(9088);
+const graphql_request_1 = __nccwpck_require__(2476);
+class GithubClient {
+    constructor(token, endpoint = 'https://api.github.com/graphql') {
+        const client = new graphql_request_1.GraphQLClient(endpoint, {
+            headers: {
+                authorization: `token ${token}`
+            }
+        });
+        this.sdk = (0, graphql_1.getSdk)(client);
+    }
+    isUserBelongsToTeams(username, organization, candidateTeams) {
+        var _a, _b, _c, _d;
+        return __awaiter(this, void 0, void 0, function* () {
+            let after;
+            let response;
+            do {
+                response = yield this.sdk.TeamsUserBelongs({
+                    first: 20,
+                    after: after,
+                    userLogins: [username],
+                    organization: organization
+                });
+                core.debug(JSON.stringify(response));
+                const teamsUserBelongs = (_b = (_a = response.organization) === null || _a === void 0 ? void 0 : _a.teams.edges) === null || _b === void 0 ? void 0 : _b.map(e => { var _a; return (_a = e === null || e === void 0 ? void 0 : e.node) === null || _a === void 0 ? void 0 : _a.name; });
+                const userBelongs = isTeamsBeIncluded(teamsUserBelongs, candidateTeams);
+                if (userBelongs) {
+                    return true;
+                }
+                after = (_c = response.organization) === null || _c === void 0 ? void 0 : _c.teams.pageInfo.endCursor;
+            } while ((_d = response.organization) === null || _d === void 0 ? void 0 : _d.teams.pageInfo.hasNextPage);
+            return false;
+        });
+    }
+}
+exports.GithubClient = GithubClient;
+function isTeamsBeIncluded(teamsUserBelongs, candidateTeams) {
+    if (teamsUserBelongs == null) {
+        return false;
+    }
+    return candidateTeams.some(e => {
+        core.debug(`candidate: ${e}, teams: ${teamsUserBelongs}`);
+        return teamsUserBelongs.includes(e);
+    });
+}
+exports.isTeamsBeIncluded = isTeamsBeIncluded;
+
+
+/***/ }),
+
 /***/ 3109:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
@@ -1883,47 +1973,25 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const core = __importStar(__nccwpck_require__(2186));
-const graphql_1 = __nccwpck_require__(9088);
-const graphql_request_1 = __nccwpck_require__(2476);
+const github_client_1 = __nccwpck_require__(4072);
 function run() {
-    var _a, _b, _c, _d;
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const organization = core.getInput('organization');
+            // Get inputs
             const username = core.getInput('username');
             const teams = core.getMultilineInput('teams').map(t => t.trim());
-            core.info(`Starting to check if ${username} belongs to ${teams} in ${organization} ...`);
             const githubToken = core.getInput('token');
-            const client = new graphql_request_1.GraphQLClient('https://api.github.com/graphql', {
-                headers: {
-                    authorization: `token ${githubToken}`
-                }
-            });
-            const sdk = (0, graphql_1.getSdk)(client);
-            let after = null;
-            let response;
-            do {
-                response = yield sdk.TeamsUserBelongs({
-                    first: 20,
-                    after: after,
-                    userLogins: [username],
-                    organization: organization
-                });
-                core.debug(JSON.stringify(response));
-                const userBelongs = (_b = (_a = response.organization) === null || _a === void 0 ? void 0 : _a.teams.edges) === null || _b === void 0 ? void 0 : _b.some(e => {
-                    var _a;
-                    const team = (_a = e === null || e === void 0 ? void 0 : e.node) === null || _a === void 0 ? void 0 : _a.name;
-                    core.debug(`team: ${team}`);
-                    return team != null && teams.includes(team);
-                });
-                if (userBelongs) {
-                    core.setOutput('userBelongsToGivenTeams', true);
-                    return;
-                }
-                after = (_c = response.organization) === null || _c === void 0 ? void 0 : _c.teams.pageInfo.endCursor;
-            } while ((_d = response.organization) === null || _d === void 0 ? void 0 : _d.teams.pageInfo.hasNextPage);
+            const organization = core.getInput('organization');
+            const failIfuserNotBelongs = core.getBooleanInput('failIfuserNotBelongs');
+            core.info(`Starting to check if ${username} belongs to ${teams} in ${organization} ...`);
+            const githubClient = new github_client_1.GithubClient(githubToken);
+            const userBelongs = yield githubClient.isUserBelongsToTeams(username, organization, teams);
+            if (userBelongs) {
+                core.setOutput('userBelongsToGivenTeams', true);
+                return;
+            }
             core.setOutput('userBelongsToGivenTeams', false);
-            if (core.getBooleanInput('failIfuserNotBelongs')) {
+            if (failIfuserNotBelongs) {
                 core.setFailed(`${username} doesn't belong to ${teams}`);
             }
         }

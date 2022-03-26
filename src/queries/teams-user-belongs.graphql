@@ -1,0 +1,21 @@
+query TeamsUserBelongs(
+  $first: Int
+  $after: String
+  $userLogins: [String!]
+  $organization: String!
+) {
+  organization(login: $organization) {
+    teams(first: $first, after: $after, userLogins: $userLogins) {
+      totalCount
+      edges {
+        node {
+          name
+        }
+      }
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+    }
+  }
+}

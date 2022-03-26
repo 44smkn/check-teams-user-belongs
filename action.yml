@@ -1,11 +1,27 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Check if user belongs to teams'
+description: 'Check if given user belongs to given teams in an organization'
+author: '44smkn'
 inputs:
-  milliseconds: # change this
+  username:
+    description: 'Username to check belongs'
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+  teams:
+    description: 'Teams that you want to check given user belongs'
+    required: true
+  token:
+    description: 'GitHub token to retrieve membership information.'
+    required: true
+  organization:
+    description: 'Organization name to which the team belongs. Since there is a default, this is typically not supplied by the user'
+    required: false
+    default: ${{ github.repository_owner }}
+  failIfuserNotBelongs:
+    description: 'If given user does not belong to given teams, set fail status to this action'
+    required: false
+    default: false
+outputs:
+  userBelongsToGivenTeams:
+    description: 'Whether given user belongs to given teams in an organization'
 runs:
   using: 'node16'
   main: 'dist/index.js'

@@ -37,4 +37,5 @@ steps:
       admin
       owners
     token: ${{ secrets.PAT_ONLY_READ_ORG }}
+    failIfuserNotBelongs: true
 ```

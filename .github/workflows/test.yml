@@ -10,15 +10,36 @@ jobs:
   build: # make sure build/ci work properly
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: yarn
       - run: |
-          npm install
+          yarn install
       - run: |
-          npm run all
+          yarn all
   test: # make sure the action works on a clean machine without building
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: ./
+      - uses: actions/checkout@v3
+      - id: testWantTrue
+        uses: ./
         with:
-          milliseconds: 1000
+          username: ${{ github.actor }}
+          organization: PangsOfConscience
+          teams: |
+            admin
+            owners
+          token: ${{ secrets.PAT_ONLY_READ_ORG }}
+      - if: ${{ steps.testWantTrue.outputs.userBelongsToGivenTeams != 'true' }}
+        run: echo 'want is true, but actual is false' && exit 1
+      - id: testWantFalse
+        uses: ./
+        with:
+          username: ${{ github.actor }}
+          organization: PangsOfConscience
+          teams: admin
+          token: ${{ secrets.PAT_ONLY_READ_ORG }}
+      - if: ${{ steps.testWantFalse.outputs.userBelongsToGivenTeams != 'false' }}
+        run: echo 'want is false, but actual is true' && exit 1

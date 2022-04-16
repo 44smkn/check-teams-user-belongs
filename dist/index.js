@@ -1901,11 +1901,12 @@ class GithubClient {
             let after;
             let response;
             do {
+                core.info(`Requesting to GitHub API...`);
                 response = yield this.sdk.TeamsUserBelongs({
                     first: 20,
-                    after: after,
+                    after,
                     userLogins: [username],
-                    organization: organization
+                    organization
                 });
                 core.debug(JSON.stringify(response));
                 const teamsUserBelongs = (_b = (_a = response.organization) === null || _a === void 0 ? void 0 : _a.teams.edges) === null || _b === void 0 ? void 0 : _b.map(e => { var _a; return (_a = e === null || e === void 0 ? void 0 : e.node) === null || _a === void 0 ? void 0 : _a.name; });
@@ -1987,6 +1988,7 @@ function run() {
             const githubClient = new github_client_1.GithubClient(githubToken);
             const userBelongs = yield githubClient.isUserBelongsToTeams(username, organization, teams);
             if (userBelongs) {
+                core.info(`Results of confirmation, ${username} belongs to ${teams} in ${organization}`);
                 core.setOutput('userBelongsToGivenTeams', true);
                 return;
             }

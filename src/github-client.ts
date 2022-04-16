@@ -25,6 +25,7 @@ export class GithubClient {
     let after: string | null | undefined
     let response: TeamsUserBelongsQuery
     do {
+      core.info(`Requesting to GitHub API...`)
       response = await this.sdk.TeamsUserBelongs({
         first: 20,
         after: after,

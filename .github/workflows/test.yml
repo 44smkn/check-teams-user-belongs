@@ -26,7 +26,7 @@ jobs:
       - id: testWantTrue
         uses: ./
         with:
-          username: ${{ github.actor }}
+          username: 44smkn
           organization: PangsOfConscience
           teams: |
             admin
@@ -37,7 +37,7 @@ jobs:
       - id: testWantFalse
         uses: ./
         with:
-          username: ${{ github.actor }}
+          username: 44smkn
           organization: PangsOfConscience
           teams: admin
           token: ${{ secrets.PAT_ONLY_READ_ORG }}

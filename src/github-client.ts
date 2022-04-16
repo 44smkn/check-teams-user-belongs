@@ -1,14 +1,11 @@
 import * as core from '@actions/core'
-import {Sdk, getSdk, TeamsUserBelongsQuery} from './generated/graphql'
+import {getSdk, Sdk, TeamsUserBelongsQuery} from './generated/graphql'
 import {GraphQLClient} from 'graphql-request'
 
 export class GithubClient {
   private sdk: Sdk
 
-  constructor(
-    token: string,
-    endpoint: string = 'https://api.github.com/graphql'
-  ) {
+  constructor(token: string, endpoint = 'https://api.github.com/graphql') {
     const client = new GraphQLClient(endpoint, {
       headers: {
         authorization: `token ${token}`
@@ -25,11 +22,12 @@ export class GithubClient {
     let after: string | null | undefined
     let response: TeamsUserBelongsQuery
     do {
+      core.info(`Requesting to GitHub API...`)
       response = await this.sdk.TeamsUserBelongs({
         first: 20,
-        after: after,
+        after,
         userLogins: [username],
-        organization: organization
+        organization
       })
       core.debug(JSON.stringify(response))
 

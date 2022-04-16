@@ -21,6 +21,9 @@ async function run(): Promise<void> {
       teams
     )
     if (userBelongs) {
+      core.info(
+        `Results of confirmation, ${username} belongs to ${teams} in ${organization}`
+      )
       core.setOutput('userBelongsToGivenTeams', true)
       return
     }

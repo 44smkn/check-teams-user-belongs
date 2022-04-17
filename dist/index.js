@@ -4726,6 +4726,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var extract_files_1 = __nccwpck_require__(5498);
 var form_data_1 = __importDefault(__nccwpck_require__(4334));
+var defaultJsonSerializer_1 = __nccwpck_require__(716);
 /**
  * Duck type if NodeJS stream
  * https://github.com/sindresorhus/is-stream/blob/3750505b0727f6df54324784fe369365ef78841e/index.js#L3
@@ -4739,11 +4740,12 @@ var isExtractableFileEnhanced = function (value) {
  * (https://github.com/jaydenseric/graphql-multipart-request-spec)
  * Otherwise returns JSON
  */
-function createRequestBody(query, variables, operationName) {
+function createRequestBody(query, variables, operationName, jsonSerializer) {
+    if (jsonSerializer === void 0) { jsonSerializer = defaultJsonSerializer_1.defaultJsonSerializer; }
     var _a = extract_files_1.extractFiles({ query: query, variables: variables, operationName: operationName }, '', isExtractableFileEnhanced), clone = _a.clone, files = _a.files;
     if (files.size === 0) {
         if (!Array.isArray(query)) {
-            return JSON.stringify(clone);
+            return jsonSerializer.stringify(clone);
         }
         if (typeof variables !== 'undefined' && !Array.isArray(variables)) {
             throw new Error('Cannot create request body with given variable type, array expected');
@@ -4753,17 +4755,17 @@ function createRequestBody(query, variables, operationName) {
             accu.push({ query: currentQuery, variables: variables ? variables[index] : undefined });
             return accu;
         }, []);
-        return JSON.stringify(payload);
+        return jsonSerializer.stringify(payload);
     }
     var Form = typeof FormData === 'undefined' ? form_data_1.default : FormData;
     var form = new Form();
-    form.append('operations', JSON.stringify(clone));
+    form.append('operations', jsonSerializer.stringify(clone));
     var map = {};
     var i = 0;
     files.forEach(function (paths) {
         map[++i] = paths;
     });
-    form.append('map', JSON.stringify(map));
+    form.append('map', jsonSerializer.stringify(map));
     i = 0;
     files.forEach(function (paths, file) {
         form.append("" + ++i, file);
@@ -4772,6 +4774,21 @@ function createRequestBody(query, variables, operationName) {
 }
 exports["default"] = createRequestBody;
 //# sourceMappingURL=createRequestBody.js.map
+
+/***/ }),
+
+/***/ 716:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.defaultJsonSerializer = void 0;
+exports.defaultJsonSerializer = {
+    parse: JSON.parse,
+    stringify: JSON.stringify
+};
+//# sourceMappingURL=defaultJsonSerializer.js.map
 
 /***/ }),
 
@@ -4866,6 +4883,7 @@ var cross_fetch_1 = __importStar(__nccwpck_require__(9805)), CrossFetch = cross_
 var parser_1 = __nccwpck_require__(655);
 var printer_1 = __nccwpck_require__(8203);
 var createRequestBody_1 = __importDefault(__nccwpck_require__(8119));
+var defaultJsonSerializer_1 = __nccwpck_require__(716);
 var parseArgs_1 = __nccwpck_require__(2985);
 var types_1 = __nccwpck_require__(1065);
 Object.defineProperty(exports, "ClientError", ({ enumerable: true, get: function () { return types_1.ClientError; } }));
@@ -4908,11 +4926,11 @@ var queryCleanner = function (str) { return str.replace(/([\s,]|#[^\n\r]+)+/g, '
  * @param {any|any[]} param0.variables the GraphQL variables to use
  */
 var buildGetQueryParams = function (_a) {
-    var query = _a.query, variables = _a.variables, operationName = _a.operationName;
+    var query = _a.query, variables = _a.variables, operationName = _a.operationName, jsonSerializer = _a.jsonSerializer;
     if (!Array.isArray(query)) {
         var search = ["query=" + encodeURIComponent(queryCleanner(query))];
         if (variables) {
-            search.push("variables=" + encodeURIComponent(JSON.stringify(variables)));
+            search.push("variables=" + encodeURIComponent(jsonSerializer.stringify(variables)));
         }
         if (operationName) {
             search.push("operationName=" + encodeURIComponent(operationName));
@@ -4926,11 +4944,11 @@ var buildGetQueryParams = function (_a) {
     var payload = query.reduce(function (accu, currentQuery, index) {
         accu.push({
             query: queryCleanner(currentQuery),
-            variables: variables ? JSON.stringify(variables[index]) : undefined,
+            variables: variables ? jsonSerializer.stringify(variables[index]) : undefined,
         });
         return accu;
     }, []);
-    return "query=" + encodeURIComponent(JSON.stringify(payload));
+    return "query=" + encodeURIComponent(jsonSerializer.stringify(payload));
 };
 /**
  * Fetch data using POST method
@@ -4942,7 +4960,7 @@ var post = function (_a) {
         return __generator(this, function (_b) {
             switch (_b.label) {
                 case 0:
-                    body = createRequestBody_1.default(query, variables, operationName);
+                    body = createRequestBody_1.default(query, variables, operationName, fetchOptions.jsonSerializer);
                     return [4 /*yield*/, fetch(url, __assign({ method: 'POST', headers: __assign(__assign({}, (typeof body === 'string' ? { 'Content-Type': 'application/json' } : {})), headers), body: body }, fetchOptions))];
                 case 1: return [2 /*return*/, _b.sent()];
             }
@@ -4963,6 +4981,7 @@ var get = function (_a) {
                         query: query,
                         variables: variables,
                         operationName: operationName,
+                        jsonSerializer: fetchOptions.jsonSerializer
                     });
                     return [4 /*yield*/, fetch(url + "?" + queryParams, __assign({ method: 'GET', headers: headers }, fetchOptions))];
                 case 1: return [2 /*return*/, _b.sent()];
@@ -5119,7 +5138,7 @@ function makeRequest(_a) {
                         })];
                 case 1:
                     response = _c.sent();
-                    return [4 /*yield*/, getResult(response)];
+                    return [4 /*yield*/, getResult(response, fetchOptions.jsonSerializer)];
                 case 2:
                     result = _c.sent();
                     successfullyReceivedData = isBathchingQuery && Array.isArray(result) ? !result.some(function (_a) {
@@ -5176,19 +5195,26 @@ exports["default"] = request;
 /**
  * todo
  */
-function getResult(response) {
-    var contentType;
-    response.headers.forEach(function (value, key) {
-        if (key.toLowerCase() === 'content-type') {
-            contentType = value;
-        }
+function getResult(response, jsonSerializer) {
+    if (jsonSerializer === void 0) { jsonSerializer = defaultJsonSerializer_1.defaultJsonSerializer; }
+    return __awaiter(this, void 0, void 0, function () {
+        var contentType, _a, _b;
+        return __generator(this, function (_c) {
+            switch (_c.label) {
+                case 0:
+                    response.headers.forEach(function (value, key) {
+                        if (key.toLowerCase() === 'content-type') {
+                            contentType = value;
+                        }
+                    });
+                    if (!(contentType && contentType.toLowerCase().startsWith('application/json'))) return [3 /*break*/, 2];
+                    _b = (_a = jsonSerializer).parse;
+                    return [4 /*yield*/, response.text()];
+                case 1: return [2 /*return*/, _b.apply(_a, [_c.sent()])];
+                case 2: return [2 /*return*/, response.text()];
+            }
+        });
     });
-    if (contentType && contentType.toLowerCase().startsWith('application/json')) {
-        return response.json();
-    }
-    else {
-        return response.text();
-    }
 }
 /**
  * helpers

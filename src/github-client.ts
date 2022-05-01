@@ -1,5 +1,5 @@
 import * as core from '@actions/core'
-import {getSdk, Sdk, TeamsUserBelongsQuery} from './generated/graphql'
+import {Sdk, TeamsUserBelongsQuery, getSdk} from './generated/graphql'
 import {GraphQLClient} from 'graphql-request'
 
 export class GithubClient {

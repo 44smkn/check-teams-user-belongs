@@ -4372,118 +4372,6 @@ DelayedStream.prototype._checkIfMaxDataSizeExceeded = function() {
 
 /***/ }),
 
-/***/ 776:
-/***/ ((module) => {
-
-"use strict";
-
-
-module.exports = function ReactNativeFile(_ref) {
-  var uri = _ref.uri,
-    name = _ref.name,
-    type = _ref.type;
-  this.uri = uri;
-  this.name = name;
-  this.type = type;
-};
-
-
-/***/ }),
-
-/***/ 5458:
-/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-var defaultIsExtractableFile = __nccwpck_require__(8403);
-
-module.exports = function extractFiles(value, path, isExtractableFile) {
-  if (path === void 0) {
-    path = '';
-  }
-
-  if (isExtractableFile === void 0) {
-    isExtractableFile = defaultIsExtractableFile;
-  }
-
-  var clone;
-  var files = new Map();
-
-  function addFile(paths, file) {
-    var storedPaths = files.get(file);
-    if (storedPaths) storedPaths.push.apply(storedPaths, paths);
-    else files.set(file, paths);
-  }
-
-  if (isExtractableFile(value)) {
-    clone = null;
-    addFile([path], value);
-  } else {
-    var prefix = path ? path + '.' : '';
-    if (typeof FileList !== 'undefined' && value instanceof FileList)
-      clone = Array.prototype.map.call(value, function (file, i) {
-        addFile(['' + prefix + i], file);
-        return null;
-      });
-    else if (Array.isArray(value))
-      clone = value.map(function (child, i) {
-        var result = extractFiles(child, '' + prefix + i, isExtractableFile);
-        result.files.forEach(addFile);
-        return result.clone;
-      });
-    else if (value && value.constructor === Object) {
-      clone = {};
-
-      for (var i in value) {
-        var result = extractFiles(value[i], '' + prefix + i, isExtractableFile);
-        result.files.forEach(addFile);
-        clone[i] = result.clone;
-      }
-    } else clone = value;
-  }
-
-  return {
-    clone: clone,
-    files: files,
-  };
-};
-
-
-/***/ }),
-
-/***/ 5498:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-exports.ReactNativeFile = __nccwpck_require__(776);
-exports.extractFiles = __nccwpck_require__(5458);
-exports.isExtractableFile = __nccwpck_require__(8403);
-
-
-/***/ }),
-
-/***/ 8403:
-/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-var ReactNativeFile = __nccwpck_require__(776);
-
-module.exports = function isExtractableFile(value) {
-  return (
-    (typeof File !== 'undefined' && value instanceof File) ||
-    (typeof Blob !== 'undefined' && value instanceof Blob) ||
-    value instanceof ReactNativeFile
-  );
-};
-
-
-/***/ }),
-
 /***/ 4334:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
@@ -5015,7 +4903,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var extract_files_1 = __nccwpck_require__(5498);
+var extract_files_1 = __nccwpck_require__(9980);
 var form_data_1 = __importDefault(__nccwpck_require__(4334));
 var defaultJsonSerializer_1 = __nccwpck_require__(716);
 /**
@@ -5989,6 +5877,118 @@ var ClientError = /** @class */ (function (_super) {
 }(Error));
 exports.ClientError = ClientError;
 //# sourceMappingURL=types.js.map
+
+/***/ }),
+
+/***/ 51:
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function ReactNativeFile(_ref) {
+  var uri = _ref.uri,
+    name = _ref.name,
+    type = _ref.type;
+  this.uri = uri;
+  this.name = name;
+  this.type = type;
+};
+
+
+/***/ }),
+
+/***/ 5130:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+
+
+var defaultIsExtractableFile = __nccwpck_require__(394);
+
+module.exports = function extractFiles(value, path, isExtractableFile) {
+  if (path === void 0) {
+    path = '';
+  }
+
+  if (isExtractableFile === void 0) {
+    isExtractableFile = defaultIsExtractableFile;
+  }
+
+  var clone;
+  var files = new Map();
+
+  function addFile(paths, file) {
+    var storedPaths = files.get(file);
+    if (storedPaths) storedPaths.push.apply(storedPaths, paths);
+    else files.set(file, paths);
+  }
+
+  if (isExtractableFile(value)) {
+    clone = null;
+    addFile([path], value);
+  } else {
+    var prefix = path ? path + '.' : '';
+    if (typeof FileList !== 'undefined' && value instanceof FileList)
+      clone = Array.prototype.map.call(value, function (file, i) {
+        addFile(['' + prefix + i], file);
+        return null;
+      });
+    else if (Array.isArray(value))
+      clone = value.map(function (child, i) {
+        var result = extractFiles(child, '' + prefix + i, isExtractableFile);
+        result.files.forEach(addFile);
+        return result.clone;
+      });
+    else if (value && value.constructor === Object) {
+      clone = {};
+
+      for (var i in value) {
+        var result = extractFiles(value[i], '' + prefix + i, isExtractableFile);
+        result.files.forEach(addFile);
+        clone[i] = result.clone;
+      }
+    } else clone = value;
+  }
+
+  return {
+    clone: clone,
+    files: files,
+  };
+};
+
+
+/***/ }),
+
+/***/ 9980:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+
+exports.ReactNativeFile = __nccwpck_require__(51);
+exports.extractFiles = __nccwpck_require__(5130);
+exports.isExtractableFile = __nccwpck_require__(394);
+
+
+/***/ }),
+
+/***/ 394:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+
+
+var ReactNativeFile = __nccwpck_require__(51);
+
+module.exports = function isExtractableFile(value) {
+  return (
+    (typeof File !== 'undefined' && value instanceof File) ||
+    (typeof Blob !== 'undefined' && value instanceof Blob) ||
+    value instanceof ReactNativeFile
+  );
+};
+
 
 /***/ }),
 

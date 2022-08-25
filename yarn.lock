@@ -1242,12 +1242,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@octokit/graphql-schema@10.74.1":
-  version "10.74.1"
-  resolved "https://registry.yarnpkg.com/@octokit/graphql-schema/-/graphql-schema-10.74.1.tgz#097f9923dc2a4716bd962298f5e39e045d4ece02"
-  integrity sha512-FeaXZH/xwZ8aTtBBMvVg7slRTgvRZGsf407coLjl4pLTirWkN/PQ6DxZUSEeXsYJcYiMim4C1rSaPNzjhBx98w==
+"@octokit/graphql-schema@11.2.0":
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/@octokit/graphql-schema/-/graphql-schema-11.2.0.tgz#c49f77b04833bd95c4466a24d00299d5002d69fc"
+  integrity sha512-WjEkNsldqH36aryoerPbJhfNFVkAy1BpBlfsQMug42SvuvdaEB1BCcIIv1Sa0g/6I4YFQmFvLJ1XbS0fWGgMXg==
   dependencies:
-    graphql "^15.0.0"
+    graphql "^16.0.0"
     graphql-tag "^2.10.3"
 
 "@samverschueren/stream-to-observable@^0.3.0":
@@ -3431,10 +3431,15 @@ graphql-ws@^5.4.1:
   resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-5.6.3.tgz#32321594a7b744755df992f24afccc84143b4b7d"
   integrity sha512-ZolWOi6bzI35ovGROCZROB9nDbwZiJdIsaPdzW/jkICCGNb3qL/33IONY/yQiBa+Je2uA11HfY4Uxse4+/ePYA==
 
-graphql@15.8.0, graphql@^15.0.0:
+graphql@15.8.0:
   version "15.8.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.8.0.tgz#33410e96b012fa3bdb1091cc99a94769db212b38"
   integrity sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==
+
+graphql@^16.0.0:
+  version "16.6.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
+  integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
 
 has-ansi@^2.0.0:
   version "2.0.0"

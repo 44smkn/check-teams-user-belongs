@@ -5077,7 +5077,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.defaultJsonSerializer = void 0;
 exports.defaultJsonSerializer = {
     parse: JSON.parse,
-    stringify: JSON.stringify
+    stringify: JSON.stringify,
 };
 //# sourceMappingURL=defaultJsonSerializer.js.map
 
@@ -5154,17 +5154,23 @@ var GraphQLWebSocketMessage = /** @class */ (function () {
         this._id = id;
     }
     Object.defineProperty(GraphQLWebSocketMessage.prototype, "type", {
-        get: function () { return this._type; },
+        get: function () {
+            return this._type;
+        },
         enumerable: false,
         configurable: true
     });
     Object.defineProperty(GraphQLWebSocketMessage.prototype, "id", {
-        get: function () { return this._id; },
+        get: function () {
+            return this._id;
+        },
         enumerable: false,
         configurable: true
     });
     Object.defineProperty(GraphQLWebSocketMessage.prototype, "payload", {
-        get: function () { return this._payload; },
+        get: function () {
+            return this._payload;
+        },
         enumerable: false,
         configurable: true
     });
@@ -5228,7 +5234,7 @@ var GraphQLWebSocketClient = /** @class */ (function () {
                 switch (message.type) {
                     case CONNECTION_ACK: {
                         if (_this.socketState.acknowledged) {
-                            console.warn("Duplicate CONNECTION_ACK message ignored");
+                            console.warn('Duplicate CONNECTION_ACK message ignored');
                         }
                         else {
                             _this.socketState.acknowledged = true;
@@ -5265,14 +5271,16 @@ var GraphQLWebSocketClient = /** @class */ (function () {
                             subscriber.next && subscriber.next(message.payload.data);
                         }
                         if (message.payload.errors) {
-                            subscriber.error && subscriber.error(new types_1.ClientError(__assign(__assign({}, message.payload), { status: 200 }), { query: query, variables: variables }));
+                            subscriber.error &&
+                                subscriber.error(new types_1.ClientError(__assign(__assign({}, message.payload), { status: 200 }), { query: query, variables: variables }));
                         }
                         else {
                         }
                         return;
                     }
                     case ERROR: {
-                        subscriber.error && subscriber.error(new types_1.ClientError({ errors: message.payload, status: 200 }, { query: query, variables: variables }));
+                        subscriber.error &&
+                            subscriber.error(new types_1.ClientError({ errors: message.payload, status: 200 }, { query: query, variables: variables }));
                         return;
                     }
                     case COMPLETE: {
@@ -5287,7 +5295,7 @@ var GraphQLWebSocketClient = /** @class */ (function () {
                 console.error(e);
                 socket.close(1006);
             }
-            socket.close(4400, "Unknown graphql-ws message.");
+            socket.close(4400, 'Unknown graphql-ws message.');
         };
     }
     GraphQLWebSocketClient.prototype.makeSubscribe = function (query, operationName, variables, subscriber) {
@@ -5335,7 +5343,7 @@ var GraphQLWebSocketClient = /** @class */ (function () {
     GraphQLWebSocketClient.prototype.close = function () {
         this.socket.close(1000);
     };
-    GraphQLWebSocketClient.PROTOCOL = "graphql-transport-ws";
+    GraphQLWebSocketClient.PROTOCOL = 'graphql-transport-ws';
     return GraphQLWebSocketClient;
 }());
 exports.GraphQLWebSocketClient = GraphQLWebSocketClient;
@@ -5466,7 +5474,7 @@ var resolveHeaders = function (headers) {
     var oHeaders = {};
     if (headers) {
         if ((typeof Headers !== 'undefined' && headers instanceof Headers) ||
-            headers instanceof CrossFetch.Headers) {
+            (CrossFetch && CrossFetch.Headers && headers instanceof CrossFetch.Headers)) {
             oHeaders = HeadersInstanceToPlainObject(headers);
         }
         else if (Array.isArray(headers)) {
@@ -5526,15 +5534,21 @@ var buildGetQueryParams = function (_a) {
  * Fetch data using POST method
  */
 var post = function (_a) {
-    var url = _a.url, query = _a.query, variables = _a.variables, operationName = _a.operationName, headers = _a.headers, fetch = _a.fetch, fetchOptions = _a.fetchOptions;
+    var url = _a.url, query = _a.query, variables = _a.variables, operationName = _a.operationName, headers = _a.headers, fetch = _a.fetch, fetchOptions = _a.fetchOptions, middleware = _a.middleware;
     return __awaiter(void 0, void 0, void 0, function () {
-        var body;
+        var body, options;
         return __generator(this, function (_b) {
             switch (_b.label) {
                 case 0:
                     body = createRequestBody_1.default(query, variables, operationName, fetchOptions.jsonSerializer);
-                    return [4 /*yield*/, fetch(url, __assign({ method: 'POST', headers: __assign(__assign({}, (typeof body === 'string' ? { 'Content-Type': 'application/json' } : {})), headers), body: body }, fetchOptions))];
-                case 1: return [2 /*return*/, _b.sent()];
+                    options = __assign({ method: 'POST', headers: __assign(__assign({}, (typeof body === 'string' ? { 'Content-Type': 'application/json' } : {})), headers), body: body }, fetchOptions);
+                    if (!middleware) return [3 /*break*/, 2];
+                    return [4 /*yield*/, Promise.resolve(middleware(options))];
+                case 1:
+                    options = _b.sent();
+                    _b.label = 2;
+                case 2: return [4 /*yield*/, fetch(url, options)];
+                case 3: return [2 /*return*/, _b.sent()];
             }
         });
     });
@@ -5543,9 +5557,9 @@ var post = function (_a) {
  * Fetch data using GET method
  */
 var get = function (_a) {
-    var url = _a.url, query = _a.query, variables = _a.variables, operationName = _a.operationName, headers = _a.headers, fetch = _a.fetch, fetchOptions = _a.fetchOptions;
+    var url = _a.url, query = _a.query, variables = _a.variables, operationName = _a.operationName, headers = _a.headers, fetch = _a.fetch, fetchOptions = _a.fetchOptions, middleware = _a.middleware;
     return __awaiter(void 0, void 0, void 0, function () {
-        var queryParams;
+        var queryParams, options;
         return __generator(this, function (_b) {
             switch (_b.label) {
                 case 0:
@@ -5553,10 +5567,16 @@ var get = function (_a) {
                         query: query,
                         variables: variables,
                         operationName: operationName,
-                        jsonSerializer: fetchOptions.jsonSerializer
+                        jsonSerializer: fetchOptions.jsonSerializer,
                     });
-                    return [4 /*yield*/, fetch(url + "?" + queryParams, __assign({ method: 'GET', headers: headers }, fetchOptions))];
-                case 1: return [2 /*return*/, _b.sent()];
+                    options = __assign({ method: 'GET', headers: headers }, fetchOptions);
+                    if (!middleware) return [3 /*break*/, 2];
+                    return [4 /*yield*/, Promise.resolve(middleware(options))];
+                case 1:
+                    options = _b.sent();
+                    _b.label = 2;
+                case 2: return [4 /*yield*/, fetch(url + "?" + queryParams, options)];
+                case 3: return [2 /*return*/, _b.sent()];
             }
         });
     });
@@ -5566,15 +5586,16 @@ var get = function (_a) {
  */
 var GraphQLClient = /** @class */ (function () {
     function GraphQLClient(url, options) {
+        if (options === void 0) { options = {}; }
         this.url = url;
-        this.options = options || {};
+        this.options = options;
     }
     GraphQLClient.prototype.rawRequest = function (queryOrOptions, variables, requestHeaders) {
         return __awaiter(this, void 0, void 0, function () {
-            var rawRequestOptions, _a, headers, _b, fetch, _c, method, fetchOptions, url, operationName;
+            var rawRequestOptions, _a, headers, _b, fetch, _c, method, requestMiddleware, responseMiddleware, fetchOptions, url, operationName;
             return __generator(this, function (_d) {
                 rawRequestOptions = parseArgs_1.parseRawRequestArgs(queryOrOptions, variables, requestHeaders);
-                _a = this.options, headers = _a.headers, _b = _a.fetch, fetch = _b === void 0 ? cross_fetch_1.default : _b, _c = _a.method, method = _c === void 0 ? 'POST' : _c, fetchOptions = __rest(_a, ["headers", "fetch", "method"]);
+                _a = this.options, headers = _a.headers, _b = _a.fetch, fetch = _b === void 0 ? cross_fetch_1.default : _b, _c = _a.method, method = _c === void 0 ? 'POST' : _c, requestMiddleware = _a.requestMiddleware, responseMiddleware = _a.responseMiddleware, fetchOptions = __rest(_a, ["headers", "fetch", "method", "requestMiddleware", "responseMiddleware"]);
                 url = this.url;
                 if (rawRequestOptions.signal !== undefined) {
                     fetchOptions.signal = rawRequestOptions.signal;
@@ -5589,75 +5610,97 @@ var GraphQLClient = /** @class */ (function () {
                         fetch: fetch,
                         method: method,
                         fetchOptions: fetchOptions,
+                        middleware: requestMiddleware,
+                    })
+                        .then(function (response) {
+                        if (responseMiddleware) {
+                            responseMiddleware(response);
+                        }
+                        return response;
+                    })
+                        .catch(function (error) {
+                        if (responseMiddleware) {
+                            responseMiddleware(error);
+                        }
+                        throw error;
                     })];
             });
         });
     };
-    GraphQLClient.prototype.request = function (documentOrOptions, variables, requestHeaders) {
-        return __awaiter(this, void 0, void 0, function () {
-            var requestOptions, _a, headers, _b, fetch, _c, method, fetchOptions, url, _d, query, operationName, data;
-            return __generator(this, function (_e) {
-                switch (_e.label) {
-                    case 0:
-                        requestOptions = parseArgs_1.parseRequestArgs(documentOrOptions, variables, requestHeaders);
-                        _a = this.options, headers = _a.headers, _b = _a.fetch, fetch = _b === void 0 ? cross_fetch_1.default : _b, _c = _a.method, method = _c === void 0 ? 'POST' : _c, fetchOptions = __rest(_a, ["headers", "fetch", "method"]);
-                        url = this.url;
-                        if (requestOptions.signal !== undefined) {
-                            fetchOptions.signal = requestOptions.signal;
-                        }
-                        _d = resolveRequestDocument(requestOptions.document), query = _d.query, operationName = _d.operationName;
-                        return [4 /*yield*/, makeRequest({
-                                url: url,
-                                query: query,
-                                variables: requestOptions.variables,
-                                headers: __assign(__assign({}, resolveHeaders(callOrIdentity(headers))), resolveHeaders(requestOptions.requestHeaders)),
-                                operationName: operationName,
-                                fetch: fetch,
-                                method: method,
-                                fetchOptions: fetchOptions,
-                            })];
-                    case 1:
-                        data = (_e.sent()).data;
-                        return [2 /*return*/, data];
-                }
-            });
+    GraphQLClient.prototype.request = function (documentOrOptions) {
+        var variablesAndRequestHeaders = [];
+        for (var _i = 1; _i < arguments.length; _i++) {
+            variablesAndRequestHeaders[_i - 1] = arguments[_i];
+        }
+        var variables = variablesAndRequestHeaders[0], requestHeaders = variablesAndRequestHeaders[1];
+        var requestOptions = parseArgs_1.parseRequestArgs(documentOrOptions, variables, requestHeaders);
+        var _a = this.options, headers = _a.headers, _b = _a.fetch, fetch = _b === void 0 ? cross_fetch_1.default : _b, _c = _a.method, method = _c === void 0 ? 'POST' : _c, requestMiddleware = _a.requestMiddleware, responseMiddleware = _a.responseMiddleware, fetchOptions = __rest(_a, ["headers", "fetch", "method", "requestMiddleware", "responseMiddleware"]);
+        var url = this.url;
+        if (requestOptions.signal !== undefined) {
+            fetchOptions.signal = requestOptions.signal;
+        }
+        var _d = resolveRequestDocument(requestOptions.document), query = _d.query, operationName = _d.operationName;
+        return makeRequest({
+            url: url,
+            query: query,
+            variables: requestOptions.variables,
+            headers: __assign(__assign({}, resolveHeaders(callOrIdentity(headers))), resolveHeaders(requestOptions.requestHeaders)),
+            operationName: operationName,
+            fetch: fetch,
+            method: method,
+            fetchOptions: fetchOptions,
+            middleware: requestMiddleware,
+        })
+            .then(function (response) {
+            if (responseMiddleware) {
+                responseMiddleware(response);
+            }
+            return response.data;
+        })
+            .catch(function (error) {
+            if (responseMiddleware) {
+                responseMiddleware(error);
+            }
+            throw error;
         });
     };
     GraphQLClient.prototype.batchRequests = function (documentsOrOptions, requestHeaders) {
-        return __awaiter(this, void 0, void 0, function () {
-            var batchRequestOptions, _a, headers, _b, fetch, _c, method, fetchOptions, url, queries, variables, data;
-            return __generator(this, function (_d) {
-                switch (_d.label) {
-                    case 0:
-                        batchRequestOptions = parseArgs_1.parseBatchRequestArgs(documentsOrOptions, requestHeaders);
-                        _a = this.options, headers = _a.headers, _b = _a.fetch, fetch = _b === void 0 ? cross_fetch_1.default : _b, _c = _a.method, method = _c === void 0 ? 'POST' : _c, fetchOptions = __rest(_a, ["headers", "fetch", "method"]);
-                        url = this.url;
-                        if (batchRequestOptions.signal !== undefined) {
-                            fetchOptions.signal = batchRequestOptions.signal;
-                        }
-                        queries = batchRequestOptions.documents.map(function (_a) {
-                            var document = _a.document;
-                            return resolveRequestDocument(document).query;
-                        });
-                        variables = batchRequestOptions.documents.map(function (_a) {
-                            var variables = _a.variables;
-                            return variables;
-                        });
-                        return [4 /*yield*/, makeRequest({
-                                url: url,
-                                query: queries,
-                                variables: variables,
-                                headers: __assign(__assign({}, resolveHeaders(callOrIdentity(headers))), resolveHeaders(batchRequestOptions.requestHeaders)),
-                                operationName: undefined,
-                                fetch: fetch,
-                                method: method,
-                                fetchOptions: fetchOptions,
-                            })];
-                    case 1:
-                        data = (_d.sent()).data;
-                        return [2 /*return*/, data];
-                }
-            });
+        var batchRequestOptions = parseArgs_1.parseBatchRequestArgs(documentsOrOptions, requestHeaders);
+        var _a = this.options, headers = _a.headers, _b = _a.fetch, fetch = _b === void 0 ? cross_fetch_1.default : _b, _c = _a.method, method = _c === void 0 ? 'POST' : _c, requestMiddleware = _a.requestMiddleware, responseMiddleware = _a.responseMiddleware, fetchOptions = __rest(_a, ["headers", "fetch", "method", "requestMiddleware", "responseMiddleware"]);
+        var url = this.url;
+        if (batchRequestOptions.signal !== undefined) {
+            fetchOptions.signal = batchRequestOptions.signal;
+        }
+        var queries = batchRequestOptions.documents.map(function (_a) {
+            var document = _a.document;
+            return resolveRequestDocument(document).query;
+        });
+        var variables = batchRequestOptions.documents.map(function (_a) {
+            var variables = _a.variables;
+            return variables;
+        });
+        return makeRequest({
+            url: url,
+            query: queries,
+            variables: variables,
+            headers: __assign(__assign({}, resolveHeaders(callOrIdentity(headers))), resolveHeaders(batchRequestOptions.requestHeaders)),
+            operationName: undefined,
+            fetch: fetch,
+            method: method,
+            fetchOptions: fetchOptions,
+            middleware: requestMiddleware,
+        })
+            .then(function (response) {
+            if (responseMiddleware) {
+                responseMiddleware(response);
+            }
+            return response.data;
+        })
+            .catch(function (error) {
+            if (responseMiddleware) {
+                responseMiddleware(error);
+            }
+            throw error;
         });
     };
     GraphQLClient.prototype.setHeaders = function (headers) {
@@ -5691,7 +5734,7 @@ var GraphQLClient = /** @class */ (function () {
 }());
 exports.GraphQLClient = GraphQLClient;
 function makeRequest(_a) {
-    var url = _a.url, query = _a.query, variables = _a.variables, headers = _a.headers, operationName = _a.operationName, fetch = _a.fetch, _b = _a.method, method = _b === void 0 ? 'POST' : _b, fetchOptions = _a.fetchOptions;
+    var url = _a.url, query = _a.query, variables = _a.variables, headers = _a.headers, operationName = _a.operationName, fetch = _a.fetch, _b = _a.method, method = _b === void 0 ? 'POST' : _b, fetchOptions = _a.fetchOptions, middleware = _a.middleware;
     return __awaiter(this, void 0, void 0, function () {
         var fetcher, isBathchingQuery, response, result, successfullyReceivedData, successfullyPassedErrorPolicy, headers_1, status_1, errors, rest, data, errorResult;
         return __generator(this, function (_c) {
@@ -5707,6 +5750,7 @@ function makeRequest(_a) {
                             headers: headers,
                             fetch: fetch,
                             fetchOptions: fetchOptions,
+                            middleware: middleware,
                         })];
                 case 1:
                     response = _c.sent();
@@ -5744,10 +5788,15 @@ function rawRequest(urlOrOptions, query, variables, requestHeaders) {
     });
 }
 exports.rawRequest = rawRequest;
-function request(urlOrOptions, document, variables, requestHeaders) {
+function request(urlOrOptions, document) {
+    var variablesAndRequestHeaders = [];
+    for (var _i = 2; _i < arguments.length; _i++) {
+        variablesAndRequestHeaders[_i - 2] = arguments[_i];
+    }
     return __awaiter(this, void 0, void 0, function () {
-        var requestOptions, client;
+        var variables, requestHeaders, requestOptions, client;
         return __generator(this, function (_a) {
+            variables = variablesAndRequestHeaders[0], requestHeaders = variablesAndRequestHeaders[1];
             requestOptions = parseArgs_1.parseRequestExtendedArgs(urlOrOptions, document, variables, requestHeaders);
             client = new GraphQLClient(requestOptions.url);
             return [2 /*return*/, client.request(__assign({}, requestOptions))];

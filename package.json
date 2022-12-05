@@ -39,7 +39,7 @@
     "@graphql-codegen/typescript-resolvers": "2.6.6",
     "@octokit/graphql-schema": "10.74.1",
     "@types/node": "18.11.10",
-    "@typescript-eslint/parser": "5.45.0",
+    "@typescript-eslint/parser": "5.45.1",
     "@vercel/ncc": "0.34.0",
     "eslint": "8.29.0",
     "eslint-plugin-github": "4.4.1",

@@ -8,7 +8,7 @@ async function run(): Promise<void> {
     const teams = core.getMultilineInput('teams').map(t => t.trim())
     const githubToken = core.getInput('token')
     const organization = core.getInput('organization')
-    const failIfuserNotBelongs = core.getBooleanInput('failIfuserNotBelongs')
+    const failIfUserNotBelongs = core.getBooleanInput('failIfUserNotBelongs')
 
     core.info(
       `Starting to check if ${username} belongs to ${teams} in ${organization} ...`
@@ -29,7 +29,7 @@ async function run(): Promise<void> {
     }
 
     core.setOutput('userBelongsToGivenTeams', false)
-    if (failIfuserNotBelongs) {
+    if (failIfUserNotBelongs) {
       core.setFailed(`${username} doesn't belong to ${teams}`)
     }
   } catch (error) {

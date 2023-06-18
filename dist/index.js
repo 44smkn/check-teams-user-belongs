@@ -1983,7 +1983,7 @@ function run() {
             const teams = core.getMultilineInput('teams').map(t => t.trim());
             const githubToken = core.getInput('token');
             const organization = core.getInput('organization');
-            const failIfuserNotBelongs = core.getBooleanInput('failIfuserNotBelongs');
+            const failIfUserNotBelongs = core.getBooleanInput('failIfUserNotBelongs');
             core.info(`Starting to check if ${username} belongs to ${teams} in ${organization} ...`);
             const githubClient = new github_client_1.GithubClient(githubToken);
             const userBelongs = yield githubClient.isUserBelongsToTeams(username, organization, teams);
@@ -1993,7 +1993,7 @@ function run() {
                 return;
             }
             core.setOutput('userBelongsToGivenTeams', false);
-            if (failIfuserNotBelongs) {
+            if (failIfUserNotBelongs) {
                 core.setFailed(`${username} doesn't belong to ${teams}`);
             }
         }

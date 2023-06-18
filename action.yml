@@ -15,7 +15,7 @@ inputs:
     description: 'Organization name to which the team belongs. Since there is a default, this is typically not supplied by the user'
     required: false
     default: ${{ github.repository_owner }}
-  failIfuserNotBelongs:
+  failIfUserNotBelongs:
     description: 'If given user does not belong to given teams, set fail status to this action'
     required: false
     default: false

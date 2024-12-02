@@ -26535,7 +26535,8 @@ export type ResolversParentTypes = {
 
 export type AcceptEnterpriseAdministratorInvitationPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AcceptEnterpriseAdministratorInvitationPayload'] = ResolversParentTypes['AcceptEnterpriseAdministratorInvitationPayload']
+  ParentType extends
+    ResolversParentTypes['AcceptEnterpriseAdministratorInvitationPayload'] = ResolversParentTypes['AcceptEnterpriseAdministratorInvitationPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26553,7 +26554,8 @@ export type AcceptEnterpriseAdministratorInvitationPayloadResolvers<
 
 export type AcceptTopicSuggestionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AcceptTopicSuggestionPayload'] = ResolversParentTypes['AcceptTopicSuggestionPayload']
+  ParentType extends
+    ResolversParentTypes['AcceptTopicSuggestionPayload'] = ResolversParentTypes['AcceptTopicSuggestionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26566,7 +26568,8 @@ export type AcceptTopicSuggestionPayloadResolvers<
 
 export type ActorResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Actor'] = ResolversParentTypes['Actor']
+  ParentType extends
+    ResolversParentTypes['Actor'] = ResolversParentTypes['Actor']
 > = {
   __resolveType: TypeResolveFn<
     'Bot' | 'EnterpriseUserAccount' | 'Mannequin' | 'Organization' | 'User',
@@ -26586,7 +26589,8 @@ export type ActorResolvers<
 
 export type ActorLocationResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ActorLocation'] = ResolversParentTypes['ActorLocation']
+  ParentType extends
+    ResolversParentTypes['ActorLocation'] = ResolversParentTypes['ActorLocation']
 > = {
   city?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
   country?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
@@ -26606,7 +26610,8 @@ export type ActorLocationResolvers<
 
 export type AddAssigneesToAssignablePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddAssigneesToAssignablePayload'] = ResolversParentTypes['AddAssigneesToAssignablePayload']
+  ParentType extends
+    ResolversParentTypes['AddAssigneesToAssignablePayload'] = ResolversParentTypes['AddAssigneesToAssignablePayload']
 > = {
   assignable?: Resolver<
     Maybe<ResolversTypes['Assignable']>,
@@ -26623,7 +26628,8 @@ export type AddAssigneesToAssignablePayloadResolvers<
 
 export type AddCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddCommentPayload'] = ResolversParentTypes['AddCommentPayload']
+  ParentType extends
+    ResolversParentTypes['AddCommentPayload'] = ResolversParentTypes['AddCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26646,7 +26652,8 @@ export type AddCommentPayloadResolvers<
 
 export type AddDiscussionCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddDiscussionCommentPayload'] = ResolversParentTypes['AddDiscussionCommentPayload']
+  ParentType extends
+    ResolversParentTypes['AddDiscussionCommentPayload'] = ResolversParentTypes['AddDiscussionCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26663,7 +26670,8 @@ export type AddDiscussionCommentPayloadResolvers<
 
 export type AddEnterpriseSupportEntitlementPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddEnterpriseSupportEntitlementPayload'] = ResolversParentTypes['AddEnterpriseSupportEntitlementPayload']
+  ParentType extends
+    ResolversParentTypes['AddEnterpriseSupportEntitlementPayload'] = ResolversParentTypes['AddEnterpriseSupportEntitlementPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26676,7 +26684,8 @@ export type AddEnterpriseSupportEntitlementPayloadResolvers<
 
 export type AddLabelsToLabelablePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddLabelsToLabelablePayload'] = ResolversParentTypes['AddLabelsToLabelablePayload']
+  ParentType extends
+    ResolversParentTypes['AddLabelsToLabelablePayload'] = ResolversParentTypes['AddLabelsToLabelablePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26693,7 +26702,8 @@ export type AddLabelsToLabelablePayloadResolvers<
 
 export type AddProjectCardPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddProjectCardPayload'] = ResolversParentTypes['AddProjectCardPayload']
+  ParentType extends
+    ResolversParentTypes['AddProjectCardPayload'] = ResolversParentTypes['AddProjectCardPayload']
 > = {
   cardEdge?: Resolver<
     Maybe<ResolversTypes['ProjectCardEdge']>,
@@ -26715,7 +26725,8 @@ export type AddProjectCardPayloadResolvers<
 
 export type AddProjectColumnPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddProjectColumnPayload'] = ResolversParentTypes['AddProjectColumnPayload']
+  ParentType extends
+    ResolversParentTypes['AddProjectColumnPayload'] = ResolversParentTypes['AddProjectColumnPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26733,7 +26744,8 @@ export type AddProjectColumnPayloadResolvers<
 
 export type AddPullRequestReviewCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddPullRequestReviewCommentPayload'] = ResolversParentTypes['AddPullRequestReviewCommentPayload']
+  ParentType extends
+    ResolversParentTypes['AddPullRequestReviewCommentPayload'] = ResolversParentTypes['AddPullRequestReviewCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26755,7 +26767,8 @@ export type AddPullRequestReviewCommentPayloadResolvers<
 
 export type AddPullRequestReviewPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddPullRequestReviewPayload'] = ResolversParentTypes['AddPullRequestReviewPayload']
+  ParentType extends
+    ResolversParentTypes['AddPullRequestReviewPayload'] = ResolversParentTypes['AddPullRequestReviewPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26777,7 +26790,8 @@ export type AddPullRequestReviewPayloadResolvers<
 
 export type AddPullRequestReviewThreadPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddPullRequestReviewThreadPayload'] = ResolversParentTypes['AddPullRequestReviewThreadPayload']
+  ParentType extends
+    ResolversParentTypes['AddPullRequestReviewThreadPayload'] = ResolversParentTypes['AddPullRequestReviewThreadPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26794,7 +26808,8 @@ export type AddPullRequestReviewThreadPayloadResolvers<
 
 export type AddReactionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddReactionPayload'] = ResolversParentTypes['AddReactionPayload']
+  ParentType extends
+    ResolversParentTypes['AddReactionPayload'] = ResolversParentTypes['AddReactionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26816,7 +26831,8 @@ export type AddReactionPayloadResolvers<
 
 export type AddStarPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddStarPayload'] = ResolversParentTypes['AddStarPayload']
+  ParentType extends
+    ResolversParentTypes['AddStarPayload'] = ResolversParentTypes['AddStarPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26833,7 +26849,8 @@ export type AddStarPayloadResolvers<
 
 export type AddUpvotePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddUpvotePayload'] = ResolversParentTypes['AddUpvotePayload']
+  ParentType extends
+    ResolversParentTypes['AddUpvotePayload'] = ResolversParentTypes['AddUpvotePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26846,7 +26863,8 @@ export type AddUpvotePayloadResolvers<
 
 export type AddVerifiableDomainPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddVerifiableDomainPayload'] = ResolversParentTypes['AddVerifiableDomainPayload']
+  ParentType extends
+    ResolversParentTypes['AddVerifiableDomainPayload'] = ResolversParentTypes['AddVerifiableDomainPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26863,7 +26881,8 @@ export type AddVerifiableDomainPayloadResolvers<
 
 export type AddedToProjectEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AddedToProjectEvent'] = ResolversParentTypes['AddedToProjectEvent']
+  ParentType extends
+    ResolversParentTypes['AddedToProjectEvent'] = ResolversParentTypes['AddedToProjectEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -26910,7 +26929,8 @@ export type AppResolvers<
 
 export type ApproveDeploymentsPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ApproveDeploymentsPayload'] = ResolversParentTypes['ApproveDeploymentsPayload']
+  ParentType extends
+    ResolversParentTypes['ApproveDeploymentsPayload'] = ResolversParentTypes['ApproveDeploymentsPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26927,7 +26947,8 @@ export type ApproveDeploymentsPayloadResolvers<
 
 export type ApproveVerifiableDomainPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ApproveVerifiableDomainPayload'] = ResolversParentTypes['ApproveVerifiableDomainPayload']
+  ParentType extends
+    ResolversParentTypes['ApproveVerifiableDomainPayload'] = ResolversParentTypes['ApproveVerifiableDomainPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26944,7 +26965,8 @@ export type ApproveVerifiableDomainPayloadResolvers<
 
 export type ArchiveRepositoryPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ArchiveRepositoryPayload'] = ResolversParentTypes['ArchiveRepositoryPayload']
+  ParentType extends
+    ResolversParentTypes['ArchiveRepositoryPayload'] = ResolversParentTypes['ArchiveRepositoryPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -26961,7 +26983,8 @@ export type ArchiveRepositoryPayloadResolvers<
 
 export type AssignableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Assignable'] = ResolversParentTypes['Assignable']
+  ParentType extends
+    ResolversParentTypes['Assignable'] = ResolversParentTypes['Assignable']
 > = {
   __resolveType: TypeResolveFn<'Issue' | 'PullRequest', ParentType, ContextType>
   assignees?: Resolver<
@@ -26974,7 +26997,8 @@ export type AssignableResolvers<
 
 export type AssignedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AssignedEvent'] = ResolversParentTypes['AssignedEvent']
+  ParentType extends
+    ResolversParentTypes['AssignedEvent'] = ResolversParentTypes['AssignedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   assignable?: Resolver<ResolversTypes['Assignable'], ParentType, ContextType>
@@ -26991,7 +27015,8 @@ export type AssignedEventResolvers<
 
 export type AssigneeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Assignee'] = ResolversParentTypes['Assignee']
+  ParentType extends
+    ResolversParentTypes['Assignee'] = ResolversParentTypes['Assignee']
 > = {
   __resolveType: TypeResolveFn<
     'Bot' | 'Mannequin' | 'Organization' | 'User',
@@ -27002,7 +27027,8 @@ export type AssigneeResolvers<
 
 export type AuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AuditEntry'] = ResolversParentTypes['AuditEntry']
+  ParentType extends
+    ResolversParentTypes['AuditEntry'] = ResolversParentTypes['AuditEntry']
 > = {
   __resolveType: TypeResolveFn<
     | 'MembersCanDeleteReposClearAuditEntry'
@@ -27111,7 +27137,8 @@ export type AuditEntryResolvers<
 
 export type AuditEntryActorResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AuditEntryActor'] = ResolversParentTypes['AuditEntryActor']
+  ParentType extends
+    ResolversParentTypes['AuditEntryActor'] = ResolversParentTypes['AuditEntryActor']
 > = {
   __resolveType: TypeResolveFn<
     'Bot' | 'Organization' | 'User',
@@ -27122,7 +27149,8 @@ export type AuditEntryActorResolvers<
 
 export type AutoMergeDisabledEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AutoMergeDisabledEvent'] = ResolversParentTypes['AutoMergeDisabledEvent']
+  ParentType extends
+    ResolversParentTypes['AutoMergeDisabledEvent'] = ResolversParentTypes['AutoMergeDisabledEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -27144,7 +27172,8 @@ export type AutoMergeDisabledEventResolvers<
 
 export type AutoMergeEnabledEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AutoMergeEnabledEvent'] = ResolversParentTypes['AutoMergeEnabledEvent']
+  ParentType extends
+    ResolversParentTypes['AutoMergeEnabledEvent'] = ResolversParentTypes['AutoMergeEnabledEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -27160,7 +27189,8 @@ export type AutoMergeEnabledEventResolvers<
 
 export type AutoMergeRequestResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AutoMergeRequest'] = ResolversParentTypes['AutoMergeRequest']
+  ParentType extends
+    ResolversParentTypes['AutoMergeRequest'] = ResolversParentTypes['AutoMergeRequest']
 > = {
   authorEmail?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -27194,7 +27224,8 @@ export type AutoMergeRequestResolvers<
 
 export type AutoRebaseEnabledEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AutoRebaseEnabledEvent'] = ResolversParentTypes['AutoRebaseEnabledEvent']
+  ParentType extends
+    ResolversParentTypes['AutoRebaseEnabledEvent'] = ResolversParentTypes['AutoRebaseEnabledEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -27210,7 +27241,8 @@ export type AutoRebaseEnabledEventResolvers<
 
 export type AutoSquashEnabledEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AutoSquashEnabledEvent'] = ResolversParentTypes['AutoSquashEnabledEvent']
+  ParentType extends
+    ResolversParentTypes['AutoSquashEnabledEvent'] = ResolversParentTypes['AutoSquashEnabledEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -27226,7 +27258,8 @@ export type AutoSquashEnabledEventResolvers<
 
 export type AutomaticBaseChangeFailedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AutomaticBaseChangeFailedEvent'] = ResolversParentTypes['AutomaticBaseChangeFailedEvent']
+  ParentType extends
+    ResolversParentTypes['AutomaticBaseChangeFailedEvent'] = ResolversParentTypes['AutomaticBaseChangeFailedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -27239,7 +27272,8 @@ export type AutomaticBaseChangeFailedEventResolvers<
 
 export type AutomaticBaseChangeSucceededEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['AutomaticBaseChangeSucceededEvent'] = ResolversParentTypes['AutomaticBaseChangeSucceededEvent']
+  ParentType extends
+    ResolversParentTypes['AutomaticBaseChangeSucceededEvent'] = ResolversParentTypes['AutomaticBaseChangeSucceededEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -27257,7 +27291,8 @@ export interface Base64StringScalarConfig
 
 export type BaseRefChangedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['BaseRefChangedEvent'] = ResolversParentTypes['BaseRefChangedEvent']
+  ParentType extends
+    ResolversParentTypes['BaseRefChangedEvent'] = ResolversParentTypes['BaseRefChangedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -27271,7 +27306,8 @@ export type BaseRefChangedEventResolvers<
 
 export type BaseRefDeletedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['BaseRefDeletedEvent'] = ResolversParentTypes['BaseRefDeletedEvent']
+  ParentType extends
+    ResolversParentTypes['BaseRefDeletedEvent'] = ResolversParentTypes['BaseRefDeletedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   baseRefName?: Resolver<
@@ -27291,7 +27327,8 @@ export type BaseRefDeletedEventResolvers<
 
 export type BaseRefForcePushedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['BaseRefForcePushedEvent'] = ResolversParentTypes['BaseRefForcePushedEvent']
+  ParentType extends
+    ResolversParentTypes['BaseRefForcePushedEvent'] = ResolversParentTypes['BaseRefForcePushedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   afterCommit?: Resolver<
@@ -27313,7 +27350,8 @@ export type BaseRefForcePushedEventResolvers<
 
 export type BlameResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Blame'] = ResolversParentTypes['Blame']
+  ParentType extends
+    ResolversParentTypes['Blame'] = ResolversParentTypes['Blame']
 > = {
   ranges?: Resolver<
     Array<ResolversTypes['BlameRange']>,
@@ -27325,7 +27363,8 @@ export type BlameResolvers<
 
 export type BlameRangeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['BlameRange'] = ResolversParentTypes['BlameRange']
+  ParentType extends
+    ResolversParentTypes['BlameRange'] = ResolversParentTypes['BlameRange']
 > = {
   age?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
   commit?: Resolver<ResolversTypes['Commit'], ParentType, ContextType>
@@ -27373,7 +27412,8 @@ export type BotResolvers<
 
 export type BranchProtectionRuleResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['BranchProtectionRule'] = ResolversParentTypes['BranchProtectionRule']
+  ParentType extends
+    ResolversParentTypes['BranchProtectionRule'] = ResolversParentTypes['BranchProtectionRule']
 > = {
   allowsDeletions?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   allowsForcePushes?: Resolver<
@@ -27476,7 +27516,8 @@ export type BranchProtectionRuleResolvers<
 
 export type BranchProtectionRuleConflictResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['BranchProtectionRuleConflict'] = ResolversParentTypes['BranchProtectionRuleConflict']
+  ParentType extends
+    ResolversParentTypes['BranchProtectionRuleConflict'] = ResolversParentTypes['BranchProtectionRuleConflict']
 > = {
   branchProtectionRule?: Resolver<
     Maybe<ResolversTypes['BranchProtectionRule']>,
@@ -27494,7 +27535,8 @@ export type BranchProtectionRuleConflictResolvers<
 
 export type BranchProtectionRuleConflictConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['BranchProtectionRuleConflictConnection'] = ResolversParentTypes['BranchProtectionRuleConflictConnection']
+  ParentType extends
+    ResolversParentTypes['BranchProtectionRuleConflictConnection'] = ResolversParentTypes['BranchProtectionRuleConflictConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['BranchProtectionRuleConflictEdge']>>>,
@@ -27513,7 +27555,8 @@ export type BranchProtectionRuleConflictConnectionResolvers<
 
 export type BranchProtectionRuleConflictEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['BranchProtectionRuleConflictEdge'] = ResolversParentTypes['BranchProtectionRuleConflictEdge']
+  ParentType extends
+    ResolversParentTypes['BranchProtectionRuleConflictEdge'] = ResolversParentTypes['BranchProtectionRuleConflictEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -27526,7 +27569,8 @@ export type BranchProtectionRuleConflictEdgeResolvers<
 
 export type BranchProtectionRuleConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['BranchProtectionRuleConnection'] = ResolversParentTypes['BranchProtectionRuleConnection']
+  ParentType extends
+    ResolversParentTypes['BranchProtectionRuleConnection'] = ResolversParentTypes['BranchProtectionRuleConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['BranchProtectionRuleEdge']>>>,
@@ -27545,7 +27589,8 @@ export type BranchProtectionRuleConnectionResolvers<
 
 export type BranchProtectionRuleEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['BranchProtectionRuleEdge'] = ResolversParentTypes['BranchProtectionRuleEdge']
+  ParentType extends
+    ResolversParentTypes['BranchProtectionRuleEdge'] = ResolversParentTypes['BranchProtectionRuleEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -27582,7 +27627,8 @@ export type CweResolvers<
 
 export type CweConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CWEConnection'] = ResolversParentTypes['CWEConnection']
+  ParentType extends
+    ResolversParentTypes['CWEConnection'] = ResolversParentTypes['CWEConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CWEEdge']>>>,
@@ -27601,7 +27647,8 @@ export type CweConnectionResolvers<
 
 export type CweEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CWEEdge'] = ResolversParentTypes['CWEEdge']
+  ParentType extends
+    ResolversParentTypes['CWEEdge'] = ResolversParentTypes['CWEEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['CWE']>, ParentType, ContextType>
@@ -27610,7 +27657,8 @@ export type CweEdgeResolvers<
 
 export type CancelEnterpriseAdminInvitationPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CancelEnterpriseAdminInvitationPayload'] = ResolversParentTypes['CancelEnterpriseAdminInvitationPayload']
+  ParentType extends
+    ResolversParentTypes['CancelEnterpriseAdminInvitationPayload'] = ResolversParentTypes['CancelEnterpriseAdminInvitationPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -27628,7 +27676,8 @@ export type CancelEnterpriseAdminInvitationPayloadResolvers<
 
 export type CancelSponsorshipPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CancelSponsorshipPayload'] = ResolversParentTypes['CancelSponsorshipPayload']
+  ParentType extends
+    ResolversParentTypes['CancelSponsorshipPayload'] = ResolversParentTypes['CancelSponsorshipPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -27645,7 +27694,8 @@ export type CancelSponsorshipPayloadResolvers<
 
 export type ChangeUserStatusPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ChangeUserStatusPayload'] = ResolversParentTypes['ChangeUserStatusPayload']
+  ParentType extends
+    ResolversParentTypes['ChangeUserStatusPayload'] = ResolversParentTypes['ChangeUserStatusPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -27662,7 +27712,8 @@ export type ChangeUserStatusPayloadResolvers<
 
 export type CheckAnnotationResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckAnnotation'] = ResolversParentTypes['CheckAnnotation']
+  ParentType extends
+    ResolversParentTypes['CheckAnnotation'] = ResolversParentTypes['CheckAnnotation']
 > = {
   annotationLevel?: Resolver<
     Maybe<ResolversTypes['CheckAnnotationLevel']>,
@@ -27689,7 +27740,8 @@ export type CheckAnnotationResolvers<
 
 export type CheckAnnotationConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckAnnotationConnection'] = ResolversParentTypes['CheckAnnotationConnection']
+  ParentType extends
+    ResolversParentTypes['CheckAnnotationConnection'] = ResolversParentTypes['CheckAnnotationConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CheckAnnotationEdge']>>>,
@@ -27708,7 +27760,8 @@ export type CheckAnnotationConnectionResolvers<
 
 export type CheckAnnotationEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckAnnotationEdge'] = ResolversParentTypes['CheckAnnotationEdge']
+  ParentType extends
+    ResolversParentTypes['CheckAnnotationEdge'] = ResolversParentTypes['CheckAnnotationEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -27721,7 +27774,8 @@ export type CheckAnnotationEdgeResolvers<
 
 export type CheckAnnotationPositionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckAnnotationPosition'] = ResolversParentTypes['CheckAnnotationPosition']
+  ParentType extends
+    ResolversParentTypes['CheckAnnotationPosition'] = ResolversParentTypes['CheckAnnotationPosition']
 > = {
   column?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>
   line?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
@@ -27730,7 +27784,8 @@ export type CheckAnnotationPositionResolvers<
 
 export type CheckAnnotationSpanResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckAnnotationSpan'] = ResolversParentTypes['CheckAnnotationSpan']
+  ParentType extends
+    ResolversParentTypes['CheckAnnotationSpan'] = ResolversParentTypes['CheckAnnotationSpan']
 > = {
   end?: Resolver<
     ResolversTypes['CheckAnnotationPosition'],
@@ -27747,7 +27802,8 @@ export type CheckAnnotationSpanResolvers<
 
 export type CheckRunResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckRun'] = ResolversParentTypes['CheckRun']
+  ParentType extends
+    ResolversParentTypes['CheckRun'] = ResolversParentTypes['CheckRun']
 > = {
   annotations?: Resolver<
     Maybe<ResolversTypes['CheckAnnotationConnection']>,
@@ -27815,7 +27871,8 @@ export type CheckRunResolvers<
 
 export type CheckRunConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckRunConnection'] = ResolversParentTypes['CheckRunConnection']
+  ParentType extends
+    ResolversParentTypes['CheckRunConnection'] = ResolversParentTypes['CheckRunConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CheckRunEdge']>>>,
@@ -27834,7 +27891,8 @@ export type CheckRunConnectionResolvers<
 
 export type CheckRunEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckRunEdge'] = ResolversParentTypes['CheckRunEdge']
+  ParentType extends
+    ResolversParentTypes['CheckRunEdge'] = ResolversParentTypes['CheckRunEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['CheckRun']>, ParentType, ContextType>
@@ -27843,7 +27901,8 @@ export type CheckRunEdgeResolvers<
 
 export type CheckStepResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckStep'] = ResolversParentTypes['CheckStep']
+  ParentType extends
+    ResolversParentTypes['CheckStep'] = ResolversParentTypes['CheckStep']
 > = {
   completedAt?: Resolver<
     Maybe<ResolversTypes['DateTime']>,
@@ -27878,7 +27937,8 @@ export type CheckStepResolvers<
 
 export type CheckStepConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckStepConnection'] = ResolversParentTypes['CheckStepConnection']
+  ParentType extends
+    ResolversParentTypes['CheckStepConnection'] = ResolversParentTypes['CheckStepConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CheckStepEdge']>>>,
@@ -27897,7 +27957,8 @@ export type CheckStepConnectionResolvers<
 
 export type CheckStepEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckStepEdge'] = ResolversParentTypes['CheckStepEdge']
+  ParentType extends
+    ResolversParentTypes['CheckStepEdge'] = ResolversParentTypes['CheckStepEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['CheckStep']>, ParentType, ContextType>
@@ -27906,7 +27967,8 @@ export type CheckStepEdgeResolvers<
 
 export type CheckSuiteResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckSuite'] = ResolversParentTypes['CheckSuite']
+  ParentType extends
+    ResolversParentTypes['CheckSuite'] = ResolversParentTypes['CheckSuite']
 > = {
   app?: Resolver<Maybe<ResolversTypes['App']>, ParentType, ContextType>
   branch?: Resolver<Maybe<ResolversTypes['Ref']>, ParentType, ContextType>
@@ -27948,7 +28010,8 @@ export type CheckSuiteResolvers<
 
 export type CheckSuiteConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckSuiteConnection'] = ResolversParentTypes['CheckSuiteConnection']
+  ParentType extends
+    ResolversParentTypes['CheckSuiteConnection'] = ResolversParentTypes['CheckSuiteConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CheckSuiteEdge']>>>,
@@ -27967,7 +28030,8 @@ export type CheckSuiteConnectionResolvers<
 
 export type CheckSuiteEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CheckSuiteEdge'] = ResolversParentTypes['CheckSuiteEdge']
+  ParentType extends
+    ResolversParentTypes['CheckSuiteEdge'] = ResolversParentTypes['CheckSuiteEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['CheckSuite']>, ParentType, ContextType>
@@ -27976,7 +28040,8 @@ export type CheckSuiteEdgeResolvers<
 
 export type ClearLabelsFromLabelablePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ClearLabelsFromLabelablePayload'] = ResolversParentTypes['ClearLabelsFromLabelablePayload']
+  ParentType extends
+    ResolversParentTypes['ClearLabelsFromLabelablePayload'] = ResolversParentTypes['ClearLabelsFromLabelablePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -27993,7 +28058,8 @@ export type ClearLabelsFromLabelablePayloadResolvers<
 
 export type CloneProjectPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CloneProjectPayload'] = ResolversParentTypes['CloneProjectPayload']
+  ParentType extends
+    ResolversParentTypes['CloneProjectPayload'] = ResolversParentTypes['CloneProjectPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -28011,7 +28077,8 @@ export type CloneProjectPayloadResolvers<
 
 export type CloneTemplateRepositoryPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CloneTemplateRepositoryPayload'] = ResolversParentTypes['CloneTemplateRepositoryPayload']
+  ParentType extends
+    ResolversParentTypes['CloneTemplateRepositoryPayload'] = ResolversParentTypes['CloneTemplateRepositoryPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -28028,7 +28095,8 @@ export type CloneTemplateRepositoryPayloadResolvers<
 
 export type ClosableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Closable'] = ResolversParentTypes['Closable']
+  ParentType extends
+    ResolversParentTypes['Closable'] = ResolversParentTypes['Closable']
 > = {
   __resolveType: TypeResolveFn<
     'Issue' | 'Milestone' | 'Project' | 'PullRequest',
@@ -28045,7 +28113,8 @@ export type ClosableResolvers<
 
 export type CloseIssuePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CloseIssuePayload'] = ResolversParentTypes['CloseIssuePayload']
+  ParentType extends
+    ResolversParentTypes['CloseIssuePayload'] = ResolversParentTypes['CloseIssuePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -28058,7 +28127,8 @@ export type CloseIssuePayloadResolvers<
 
 export type ClosePullRequestPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ClosePullRequestPayload'] = ResolversParentTypes['ClosePullRequestPayload']
+  ParentType extends
+    ResolversParentTypes['ClosePullRequestPayload'] = ResolversParentTypes['ClosePullRequestPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -28075,7 +28145,8 @@ export type ClosePullRequestPayloadResolvers<
 
 export type ClosedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ClosedEvent'] = ResolversParentTypes['ClosedEvent']
+  ParentType extends
+    ResolversParentTypes['ClosedEvent'] = ResolversParentTypes['ClosedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   closable?: Resolver<ResolversTypes['Closable'], ParentType, ContextType>
@@ -28089,7 +28160,8 @@ export type ClosedEventResolvers<
 
 export type CloserResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Closer'] = ResolversParentTypes['Closer']
+  ParentType extends
+    ResolversParentTypes['Closer'] = ResolversParentTypes['Closer']
 > = {
   __resolveType: TypeResolveFn<
     'Commit' | 'PullRequest',
@@ -28100,7 +28172,8 @@ export type CloserResolvers<
 
 export type CodeOfConductResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CodeOfConduct'] = ResolversParentTypes['CodeOfConduct']
+  ParentType extends
+    ResolversParentTypes['CodeOfConduct'] = ResolversParentTypes['CodeOfConduct']
 > = {
   body?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
@@ -28113,7 +28186,8 @@ export type CodeOfConductResolvers<
 
 export type CommentResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Comment'] = ResolversParentTypes['Comment']
+  ParentType extends
+    ResolversParentTypes['Comment'] = ResolversParentTypes['Comment']
 > = {
   __resolveType: TypeResolveFn<
     | 'CommitComment'
@@ -28170,7 +28244,8 @@ export type CommentResolvers<
 
 export type CommentDeletedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CommentDeletedEvent'] = ResolversParentTypes['CommentDeletedEvent']
+  ParentType extends
+    ResolversParentTypes['CommentDeletedEvent'] = ResolversParentTypes['CommentDeletedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -28186,7 +28261,8 @@ export type CommentDeletedEventResolvers<
 
 export type CommitResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Commit'] = ResolversParentTypes['Commit']
+  ParentType extends
+    ResolversParentTypes['Commit'] = ResolversParentTypes['Commit']
 > = {
   abbreviatedOid?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   additions?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
@@ -28323,7 +28399,8 @@ export type CommitResolvers<
 
 export type CommitCommentResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CommitComment'] = ResolversParentTypes['CommitComment']
+  ParentType extends
+    ResolversParentTypes['CommitComment'] = ResolversParentTypes['CommitComment']
 > = {
   author?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   authorAssociation?: Resolver<
@@ -28403,7 +28480,8 @@ export type CommitCommentResolvers<
 
 export type CommitCommentConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CommitCommentConnection'] = ResolversParentTypes['CommitCommentConnection']
+  ParentType extends
+    ResolversParentTypes['CommitCommentConnection'] = ResolversParentTypes['CommitCommentConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CommitCommentEdge']>>>,
@@ -28422,7 +28500,8 @@ export type CommitCommentConnectionResolvers<
 
 export type CommitCommentEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CommitCommentEdge'] = ResolversParentTypes['CommitCommentEdge']
+  ParentType extends
+    ResolversParentTypes['CommitCommentEdge'] = ResolversParentTypes['CommitCommentEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -28435,7 +28514,8 @@ export type CommitCommentEdgeResolvers<
 
 export type CommitCommentThreadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CommitCommentThread'] = ResolversParentTypes['CommitCommentThread']
+  ParentType extends
+    ResolversParentTypes['CommitCommentThread'] = ResolversParentTypes['CommitCommentThread']
 > = {
   comments?: Resolver<
     ResolversTypes['CommitCommentConnection'],
@@ -28453,7 +28533,8 @@ export type CommitCommentThreadResolvers<
 
 export type CommitConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CommitConnection'] = ResolversParentTypes['CommitConnection']
+  ParentType extends
+    ResolversParentTypes['CommitConnection'] = ResolversParentTypes['CommitConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CommitEdge']>>>,
@@ -28472,7 +28553,8 @@ export type CommitConnectionResolvers<
 
 export type CommitContributionsByRepositoryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CommitContributionsByRepository'] = ResolversParentTypes['CommitContributionsByRepository']
+  ParentType extends
+    ResolversParentTypes['CommitContributionsByRepository'] = ResolversParentTypes['CommitContributionsByRepository']
 > = {
   contributions?: Resolver<
     ResolversTypes['CreatedCommitContributionConnection'],
@@ -28488,7 +28570,8 @@ export type CommitContributionsByRepositoryResolvers<
 
 export type CommitEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CommitEdge'] = ResolversParentTypes['CommitEdge']
+  ParentType extends
+    ResolversParentTypes['CommitEdge'] = ResolversParentTypes['CommitEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Commit']>, ParentType, ContextType>
@@ -28497,7 +28580,8 @@ export type CommitEdgeResolvers<
 
 export type CommitHistoryConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CommitHistoryConnection'] = ResolversParentTypes['CommitHistoryConnection']
+  ParentType extends
+    ResolversParentTypes['CommitHistoryConnection'] = ResolversParentTypes['CommitHistoryConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CommitEdge']>>>,
@@ -28516,7 +28600,8 @@ export type CommitHistoryConnectionResolvers<
 
 export type ConnectedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ConnectedEvent'] = ResolversParentTypes['ConnectedEvent']
+  ParentType extends
+    ResolversParentTypes['ConnectedEvent'] = ResolversParentTypes['ConnectedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -28541,7 +28626,8 @@ export type ConnectedEventResolvers<
 
 export type ContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Contribution'] = ResolversParentTypes['Contribution']
+  ParentType extends
+    ResolversParentTypes['Contribution'] = ResolversParentTypes['Contribution']
 > = {
   __resolveType: TypeResolveFn<
     | 'CreatedCommitContribution'
@@ -28563,7 +28649,8 @@ export type ContributionResolvers<
 
 export type ContributionCalendarResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ContributionCalendar'] = ResolversParentTypes['ContributionCalendar']
+  ParentType extends
+    ResolversParentTypes['ContributionCalendar'] = ResolversParentTypes['ContributionCalendar']
 > = {
   colors?: Resolver<Array<ResolversTypes['String']>, ParentType, ContextType>
   isHalloween?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -28583,7 +28670,8 @@ export type ContributionCalendarResolvers<
 
 export type ContributionCalendarDayResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ContributionCalendarDay'] = ResolversParentTypes['ContributionCalendarDay']
+  ParentType extends
+    ResolversParentTypes['ContributionCalendarDay'] = ResolversParentTypes['ContributionCalendarDay']
 > = {
   color?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   contributionCount?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
@@ -28599,7 +28687,8 @@ export type ContributionCalendarDayResolvers<
 
 export type ContributionCalendarMonthResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ContributionCalendarMonth'] = ResolversParentTypes['ContributionCalendarMonth']
+  ParentType extends
+    ResolversParentTypes['ContributionCalendarMonth'] = ResolversParentTypes['ContributionCalendarMonth']
 > = {
   firstDay?: Resolver<ResolversTypes['Date'], ParentType, ContextType>
   name?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -28610,7 +28699,8 @@ export type ContributionCalendarMonthResolvers<
 
 export type ContributionCalendarWeekResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ContributionCalendarWeek'] = ResolversParentTypes['ContributionCalendarWeek']
+  ParentType extends
+    ResolversParentTypes['ContributionCalendarWeek'] = ResolversParentTypes['ContributionCalendarWeek']
 > = {
   contributionDays?: Resolver<
     Array<ResolversTypes['ContributionCalendarDay']>,
@@ -28623,7 +28713,8 @@ export type ContributionCalendarWeekResolvers<
 
 export type ContributionsCollectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ContributionsCollection'] = ResolversParentTypes['ContributionsCollection']
+  ParentType extends
+    ResolversParentTypes['ContributionsCollection'] = ResolversParentTypes['ContributionsCollection']
 > = {
   commitContributionsByRepository?: Resolver<
     Array<ResolversTypes['CommitContributionsByRepository']>,
@@ -28856,7 +28947,8 @@ export type ContributionsCollectionResolvers<
 
 export type ConvertProjectCardNoteToIssuePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ConvertProjectCardNoteToIssuePayload'] = ResolversParentTypes['ConvertProjectCardNoteToIssuePayload']
+  ParentType extends
+    ResolversParentTypes['ConvertProjectCardNoteToIssuePayload'] = ResolversParentTypes['ConvertProjectCardNoteToIssuePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -28873,7 +28965,8 @@ export type ConvertProjectCardNoteToIssuePayloadResolvers<
 
 export type ConvertPullRequestToDraftPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ConvertPullRequestToDraftPayload'] = ResolversParentTypes['ConvertPullRequestToDraftPayload']
+  ParentType extends
+    ResolversParentTypes['ConvertPullRequestToDraftPayload'] = ResolversParentTypes['ConvertPullRequestToDraftPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -28890,7 +28983,8 @@ export type ConvertPullRequestToDraftPayloadResolvers<
 
 export type ConvertToDraftEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ConvertToDraftEvent'] = ResolversParentTypes['ConvertToDraftEvent']
+  ParentType extends
+    ResolversParentTypes['ConvertToDraftEvent'] = ResolversParentTypes['ConvertToDraftEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -28903,7 +28997,8 @@ export type ConvertToDraftEventResolvers<
 
 export type ConvertedNoteToIssueEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ConvertedNoteToIssueEvent'] = ResolversParentTypes['ConvertedNoteToIssueEvent']
+  ParentType extends
+    ResolversParentTypes['ConvertedNoteToIssueEvent'] = ResolversParentTypes['ConvertedNoteToIssueEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -28914,7 +29009,8 @@ export type ConvertedNoteToIssueEventResolvers<
 
 export type CreateBranchProtectionRulePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateBranchProtectionRulePayload'] = ResolversParentTypes['CreateBranchProtectionRulePayload']
+  ParentType extends
+    ResolversParentTypes['CreateBranchProtectionRulePayload'] = ResolversParentTypes['CreateBranchProtectionRulePayload']
 > = {
   branchProtectionRule?: Resolver<
     Maybe<ResolversTypes['BranchProtectionRule']>,
@@ -28931,7 +29027,8 @@ export type CreateBranchProtectionRulePayloadResolvers<
 
 export type CreateCheckRunPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateCheckRunPayload'] = ResolversParentTypes['CreateCheckRunPayload']
+  ParentType extends
+    ResolversParentTypes['CreateCheckRunPayload'] = ResolversParentTypes['CreateCheckRunPayload']
 > = {
   checkRun?: Resolver<
     Maybe<ResolversTypes['CheckRun']>,
@@ -28948,7 +29045,8 @@ export type CreateCheckRunPayloadResolvers<
 
 export type CreateCheckSuitePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateCheckSuitePayload'] = ResolversParentTypes['CreateCheckSuitePayload']
+  ParentType extends
+    ResolversParentTypes['CreateCheckSuitePayload'] = ResolversParentTypes['CreateCheckSuitePayload']
 > = {
   checkSuite?: Resolver<
     Maybe<ResolversTypes['CheckSuite']>,
@@ -28965,7 +29063,8 @@ export type CreateCheckSuitePayloadResolvers<
 
 export type CreateCommitOnBranchPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateCommitOnBranchPayload'] = ResolversParentTypes['CreateCommitOnBranchPayload']
+  ParentType extends
+    ResolversParentTypes['CreateCommitOnBranchPayload'] = ResolversParentTypes['CreateCommitOnBranchPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -28979,7 +29078,8 @@ export type CreateCommitOnBranchPayloadResolvers<
 
 export type CreateDiscussionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateDiscussionPayload'] = ResolversParentTypes['CreateDiscussionPayload']
+  ParentType extends
+    ResolversParentTypes['CreateDiscussionPayload'] = ResolversParentTypes['CreateDiscussionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -28996,7 +29096,8 @@ export type CreateDiscussionPayloadResolvers<
 
 export type CreateEnterpriseOrganizationPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateEnterpriseOrganizationPayload'] = ResolversParentTypes['CreateEnterpriseOrganizationPayload']
+  ParentType extends
+    ResolversParentTypes['CreateEnterpriseOrganizationPayload'] = ResolversParentTypes['CreateEnterpriseOrganizationPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29018,7 +29119,8 @@ export type CreateEnterpriseOrganizationPayloadResolvers<
 
 export type CreateEnvironmentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateEnvironmentPayload'] = ResolversParentTypes['CreateEnvironmentPayload']
+  ParentType extends
+    ResolversParentTypes['CreateEnvironmentPayload'] = ResolversParentTypes['CreateEnvironmentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29035,7 +29137,8 @@ export type CreateEnvironmentPayloadResolvers<
 
 export type CreateIpAllowListEntryPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateIpAllowListEntryPayload'] = ResolversParentTypes['CreateIpAllowListEntryPayload']
+  ParentType extends
+    ResolversParentTypes['CreateIpAllowListEntryPayload'] = ResolversParentTypes['CreateIpAllowListEntryPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29052,7 +29155,8 @@ export type CreateIpAllowListEntryPayloadResolvers<
 
 export type CreateIssuePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateIssuePayload'] = ResolversParentTypes['CreateIssuePayload']
+  ParentType extends
+    ResolversParentTypes['CreateIssuePayload'] = ResolversParentTypes['CreateIssuePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29065,7 +29169,8 @@ export type CreateIssuePayloadResolvers<
 
 export type CreateProjectPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateProjectPayload'] = ResolversParentTypes['CreateProjectPayload']
+  ParentType extends
+    ResolversParentTypes['CreateProjectPayload'] = ResolversParentTypes['CreateProjectPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29078,7 +29183,8 @@ export type CreateProjectPayloadResolvers<
 
 export type CreatePullRequestPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatePullRequestPayload'] = ResolversParentTypes['CreatePullRequestPayload']
+  ParentType extends
+    ResolversParentTypes['CreatePullRequestPayload'] = ResolversParentTypes['CreatePullRequestPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29095,7 +29201,8 @@ export type CreatePullRequestPayloadResolvers<
 
 export type CreateRefPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateRefPayload'] = ResolversParentTypes['CreateRefPayload']
+  ParentType extends
+    ResolversParentTypes['CreateRefPayload'] = ResolversParentTypes['CreateRefPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29108,7 +29215,8 @@ export type CreateRefPayloadResolvers<
 
 export type CreateRepositoryPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateRepositoryPayload'] = ResolversParentTypes['CreateRepositoryPayload']
+  ParentType extends
+    ResolversParentTypes['CreateRepositoryPayload'] = ResolversParentTypes['CreateRepositoryPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29125,7 +29233,8 @@ export type CreateRepositoryPayloadResolvers<
 
 export type CreateSponsorshipPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateSponsorshipPayload'] = ResolversParentTypes['CreateSponsorshipPayload']
+  ParentType extends
+    ResolversParentTypes['CreateSponsorshipPayload'] = ResolversParentTypes['CreateSponsorshipPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29142,7 +29251,8 @@ export type CreateSponsorshipPayloadResolvers<
 
 export type CreateTeamDiscussionCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateTeamDiscussionCommentPayload'] = ResolversParentTypes['CreateTeamDiscussionCommentPayload']
+  ParentType extends
+    ResolversParentTypes['CreateTeamDiscussionCommentPayload'] = ResolversParentTypes['CreateTeamDiscussionCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29159,7 +29269,8 @@ export type CreateTeamDiscussionCommentPayloadResolvers<
 
 export type CreateTeamDiscussionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreateTeamDiscussionPayload'] = ResolversParentTypes['CreateTeamDiscussionPayload']
+  ParentType extends
+    ResolversParentTypes['CreateTeamDiscussionPayload'] = ResolversParentTypes['CreateTeamDiscussionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29176,7 +29287,8 @@ export type CreateTeamDiscussionPayloadResolvers<
 
 export type CreatedCommitContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedCommitContribution'] = ResolversParentTypes['CreatedCommitContribution']
+  ParentType extends
+    ResolversParentTypes['CreatedCommitContribution'] = ResolversParentTypes['CreatedCommitContribution']
 > = {
   commitCount?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
   isRestricted?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -29190,7 +29302,8 @@ export type CreatedCommitContributionResolvers<
 
 export type CreatedCommitContributionConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedCommitContributionConnection'] = ResolversParentTypes['CreatedCommitContributionConnection']
+  ParentType extends
+    ResolversParentTypes['CreatedCommitContributionConnection'] = ResolversParentTypes['CreatedCommitContributionConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CreatedCommitContributionEdge']>>>,
@@ -29209,7 +29322,8 @@ export type CreatedCommitContributionConnectionResolvers<
 
 export type CreatedCommitContributionEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedCommitContributionEdge'] = ResolversParentTypes['CreatedCommitContributionEdge']
+  ParentType extends
+    ResolversParentTypes['CreatedCommitContributionEdge'] = ResolversParentTypes['CreatedCommitContributionEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -29222,7 +29336,8 @@ export type CreatedCommitContributionEdgeResolvers<
 
 export type CreatedIssueContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedIssueContribution'] = ResolversParentTypes['CreatedIssueContribution']
+  ParentType extends
+    ResolversParentTypes['CreatedIssueContribution'] = ResolversParentTypes['CreatedIssueContribution']
 > = {
   isRestricted?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   issue?: Resolver<ResolversTypes['Issue'], ParentType, ContextType>
@@ -29235,7 +29350,8 @@ export type CreatedIssueContributionResolvers<
 
 export type CreatedIssueContributionConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedIssueContributionConnection'] = ResolversParentTypes['CreatedIssueContributionConnection']
+  ParentType extends
+    ResolversParentTypes['CreatedIssueContributionConnection'] = ResolversParentTypes['CreatedIssueContributionConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CreatedIssueContributionEdge']>>>,
@@ -29254,7 +29370,8 @@ export type CreatedIssueContributionConnectionResolvers<
 
 export type CreatedIssueContributionEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedIssueContributionEdge'] = ResolversParentTypes['CreatedIssueContributionEdge']
+  ParentType extends
+    ResolversParentTypes['CreatedIssueContributionEdge'] = ResolversParentTypes['CreatedIssueContributionEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -29267,7 +29384,8 @@ export type CreatedIssueContributionEdgeResolvers<
 
 export type CreatedIssueOrRestrictedContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedIssueOrRestrictedContribution'] = ResolversParentTypes['CreatedIssueOrRestrictedContribution']
+  ParentType extends
+    ResolversParentTypes['CreatedIssueOrRestrictedContribution'] = ResolversParentTypes['CreatedIssueOrRestrictedContribution']
 > = {
   __resolveType: TypeResolveFn<
     'CreatedIssueContribution' | 'RestrictedContribution',
@@ -29278,7 +29396,8 @@ export type CreatedIssueOrRestrictedContributionResolvers<
 
 export type CreatedPullRequestContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedPullRequestContribution'] = ResolversParentTypes['CreatedPullRequestContribution']
+  ParentType extends
+    ResolversParentTypes['CreatedPullRequestContribution'] = ResolversParentTypes['CreatedPullRequestContribution']
 > = {
   isRestricted?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   occurredAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -29291,7 +29410,8 @@ export type CreatedPullRequestContributionResolvers<
 
 export type CreatedPullRequestContributionConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedPullRequestContributionConnection'] = ResolversParentTypes['CreatedPullRequestContributionConnection']
+  ParentType extends
+    ResolversParentTypes['CreatedPullRequestContributionConnection'] = ResolversParentTypes['CreatedPullRequestContributionConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CreatedPullRequestContributionEdge']>>>,
@@ -29310,7 +29430,8 @@ export type CreatedPullRequestContributionConnectionResolvers<
 
 export type CreatedPullRequestContributionEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedPullRequestContributionEdge'] = ResolversParentTypes['CreatedPullRequestContributionEdge']
+  ParentType extends
+    ResolversParentTypes['CreatedPullRequestContributionEdge'] = ResolversParentTypes['CreatedPullRequestContributionEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -29323,7 +29444,8 @@ export type CreatedPullRequestContributionEdgeResolvers<
 
 export type CreatedPullRequestOrRestrictedContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedPullRequestOrRestrictedContribution'] = ResolversParentTypes['CreatedPullRequestOrRestrictedContribution']
+  ParentType extends
+    ResolversParentTypes['CreatedPullRequestOrRestrictedContribution'] = ResolversParentTypes['CreatedPullRequestOrRestrictedContribution']
 > = {
   __resolveType: TypeResolveFn<
     'CreatedPullRequestContribution' | 'RestrictedContribution',
@@ -29334,7 +29456,8 @@ export type CreatedPullRequestOrRestrictedContributionResolvers<
 
 export type CreatedPullRequestReviewContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedPullRequestReviewContribution'] = ResolversParentTypes['CreatedPullRequestReviewContribution']
+  ParentType extends
+    ResolversParentTypes['CreatedPullRequestReviewContribution'] = ResolversParentTypes['CreatedPullRequestReviewContribution']
 > = {
   isRestricted?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   occurredAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -29353,7 +29476,8 @@ export type CreatedPullRequestReviewContributionResolvers<
 
 export type CreatedPullRequestReviewContributionConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedPullRequestReviewContributionConnection'] = ResolversParentTypes['CreatedPullRequestReviewContributionConnection']
+  ParentType extends
+    ResolversParentTypes['CreatedPullRequestReviewContributionConnection'] = ResolversParentTypes['CreatedPullRequestReviewContributionConnection']
 > = {
   edges?: Resolver<
     Maybe<
@@ -29374,7 +29498,8 @@ export type CreatedPullRequestReviewContributionConnectionResolvers<
 
 export type CreatedPullRequestReviewContributionEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedPullRequestReviewContributionEdge'] = ResolversParentTypes['CreatedPullRequestReviewContributionEdge']
+  ParentType extends
+    ResolversParentTypes['CreatedPullRequestReviewContributionEdge'] = ResolversParentTypes['CreatedPullRequestReviewContributionEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -29387,7 +29512,8 @@ export type CreatedPullRequestReviewContributionEdgeResolvers<
 
 export type CreatedRepositoryContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedRepositoryContribution'] = ResolversParentTypes['CreatedRepositoryContribution']
+  ParentType extends
+    ResolversParentTypes['CreatedRepositoryContribution'] = ResolversParentTypes['CreatedRepositoryContribution']
 > = {
   isRestricted?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   occurredAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -29400,7 +29526,8 @@ export type CreatedRepositoryContributionResolvers<
 
 export type CreatedRepositoryContributionConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedRepositoryContributionConnection'] = ResolversParentTypes['CreatedRepositoryContributionConnection']
+  ParentType extends
+    ResolversParentTypes['CreatedRepositoryContributionConnection'] = ResolversParentTypes['CreatedRepositoryContributionConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['CreatedRepositoryContributionEdge']>>>,
@@ -29419,7 +29546,8 @@ export type CreatedRepositoryContributionConnectionResolvers<
 
 export type CreatedRepositoryContributionEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedRepositoryContributionEdge'] = ResolversParentTypes['CreatedRepositoryContributionEdge']
+  ParentType extends
+    ResolversParentTypes['CreatedRepositoryContributionEdge'] = ResolversParentTypes['CreatedRepositoryContributionEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -29432,7 +29560,8 @@ export type CreatedRepositoryContributionEdgeResolvers<
 
 export type CreatedRepositoryOrRestrictedContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CreatedRepositoryOrRestrictedContribution'] = ResolversParentTypes['CreatedRepositoryOrRestrictedContribution']
+  ParentType extends
+    ResolversParentTypes['CreatedRepositoryOrRestrictedContribution'] = ResolversParentTypes['CreatedRepositoryOrRestrictedContribution']
 > = {
   __resolveType: TypeResolveFn<
     'CreatedRepositoryContribution' | 'RestrictedContribution',
@@ -29443,7 +29572,8 @@ export type CreatedRepositoryOrRestrictedContributionResolvers<
 
 export type CrossReferencedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['CrossReferencedEvent'] = ResolversParentTypes['CrossReferencedEvent']
+  ParentType extends
+    ResolversParentTypes['CrossReferencedEvent'] = ResolversParentTypes['CrossReferencedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -29482,7 +29612,8 @@ export interface DateTimeScalarConfig
 
 export type DeclineTopicSuggestionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeclineTopicSuggestionPayload'] = ResolversParentTypes['DeclineTopicSuggestionPayload']
+  ParentType extends
+    ResolversParentTypes['DeclineTopicSuggestionPayload'] = ResolversParentTypes['DeclineTopicSuggestionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29495,7 +29626,8 @@ export type DeclineTopicSuggestionPayloadResolvers<
 
 export type DeletableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Deletable'] = ResolversParentTypes['Deletable']
+  ParentType extends
+    ResolversParentTypes['Deletable'] = ResolversParentTypes['Deletable']
 > = {
   __resolveType: TypeResolveFn<
     | 'CommitComment'
@@ -29515,7 +29647,8 @@ export type DeletableResolvers<
 
 export type DeleteBranchProtectionRulePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteBranchProtectionRulePayload'] = ResolversParentTypes['DeleteBranchProtectionRulePayload']
+  ParentType extends
+    ResolversParentTypes['DeleteBranchProtectionRulePayload'] = ResolversParentTypes['DeleteBranchProtectionRulePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29527,7 +29660,8 @@ export type DeleteBranchProtectionRulePayloadResolvers<
 
 export type DeleteDeploymentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteDeploymentPayload'] = ResolversParentTypes['DeleteDeploymentPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteDeploymentPayload'] = ResolversParentTypes['DeleteDeploymentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29539,7 +29673,8 @@ export type DeleteDeploymentPayloadResolvers<
 
 export type DeleteDiscussionCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteDiscussionCommentPayload'] = ResolversParentTypes['DeleteDiscussionCommentPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteDiscussionCommentPayload'] = ResolversParentTypes['DeleteDiscussionCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29556,7 +29691,8 @@ export type DeleteDiscussionCommentPayloadResolvers<
 
 export type DeleteDiscussionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteDiscussionPayload'] = ResolversParentTypes['DeleteDiscussionPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteDiscussionPayload'] = ResolversParentTypes['DeleteDiscussionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29573,7 +29709,8 @@ export type DeleteDiscussionPayloadResolvers<
 
 export type DeleteEnvironmentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteEnvironmentPayload'] = ResolversParentTypes['DeleteEnvironmentPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteEnvironmentPayload'] = ResolversParentTypes['DeleteEnvironmentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29585,7 +29722,8 @@ export type DeleteEnvironmentPayloadResolvers<
 
 export type DeleteIpAllowListEntryPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteIpAllowListEntryPayload'] = ResolversParentTypes['DeleteIpAllowListEntryPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteIpAllowListEntryPayload'] = ResolversParentTypes['DeleteIpAllowListEntryPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29602,7 +29740,8 @@ export type DeleteIpAllowListEntryPayloadResolvers<
 
 export type DeleteIssueCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteIssueCommentPayload'] = ResolversParentTypes['DeleteIssueCommentPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteIssueCommentPayload'] = ResolversParentTypes['DeleteIssueCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29614,7 +29753,8 @@ export type DeleteIssueCommentPayloadResolvers<
 
 export type DeleteIssuePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteIssuePayload'] = ResolversParentTypes['DeleteIssuePayload']
+  ParentType extends
+    ResolversParentTypes['DeleteIssuePayload'] = ResolversParentTypes['DeleteIssuePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29631,7 +29771,8 @@ export type DeleteIssuePayloadResolvers<
 
 export type DeleteProjectCardPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteProjectCardPayload'] = ResolversParentTypes['DeleteProjectCardPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteProjectCardPayload'] = ResolversParentTypes['DeleteProjectCardPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29649,7 +29790,8 @@ export type DeleteProjectCardPayloadResolvers<
 
 export type DeleteProjectColumnPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteProjectColumnPayload'] = ResolversParentTypes['DeleteProjectColumnPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteProjectColumnPayload'] = ResolversParentTypes['DeleteProjectColumnPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29667,7 +29809,8 @@ export type DeleteProjectColumnPayloadResolvers<
 
 export type DeleteProjectPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteProjectPayload'] = ResolversParentTypes['DeleteProjectPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteProjectPayload'] = ResolversParentTypes['DeleteProjectPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29684,7 +29827,8 @@ export type DeleteProjectPayloadResolvers<
 
 export type DeletePullRequestReviewCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeletePullRequestReviewCommentPayload'] = ResolversParentTypes['DeletePullRequestReviewCommentPayload']
+  ParentType extends
+    ResolversParentTypes['DeletePullRequestReviewCommentPayload'] = ResolversParentTypes['DeletePullRequestReviewCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29701,7 +29845,8 @@ export type DeletePullRequestReviewCommentPayloadResolvers<
 
 export type DeletePullRequestReviewPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeletePullRequestReviewPayload'] = ResolversParentTypes['DeletePullRequestReviewPayload']
+  ParentType extends
+    ResolversParentTypes['DeletePullRequestReviewPayload'] = ResolversParentTypes['DeletePullRequestReviewPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29718,7 +29863,8 @@ export type DeletePullRequestReviewPayloadResolvers<
 
 export type DeleteRefPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteRefPayload'] = ResolversParentTypes['DeleteRefPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteRefPayload'] = ResolversParentTypes['DeleteRefPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29730,7 +29876,8 @@ export type DeleteRefPayloadResolvers<
 
 export type DeleteTeamDiscussionCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteTeamDiscussionCommentPayload'] = ResolversParentTypes['DeleteTeamDiscussionCommentPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteTeamDiscussionCommentPayload'] = ResolversParentTypes['DeleteTeamDiscussionCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29742,7 +29889,8 @@ export type DeleteTeamDiscussionCommentPayloadResolvers<
 
 export type DeleteTeamDiscussionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteTeamDiscussionPayload'] = ResolversParentTypes['DeleteTeamDiscussionPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteTeamDiscussionPayload'] = ResolversParentTypes['DeleteTeamDiscussionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29754,7 +29902,8 @@ export type DeleteTeamDiscussionPayloadResolvers<
 
 export type DeleteVerifiableDomainPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeleteVerifiableDomainPayload'] = ResolversParentTypes['DeleteVerifiableDomainPayload']
+  ParentType extends
+    ResolversParentTypes['DeleteVerifiableDomainPayload'] = ResolversParentTypes['DeleteVerifiableDomainPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -29771,7 +29920,8 @@ export type DeleteVerifiableDomainPayloadResolvers<
 
 export type DemilestonedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DemilestonedEvent'] = ResolversParentTypes['DemilestonedEvent']
+  ParentType extends
+    ResolversParentTypes['DemilestonedEvent'] = ResolversParentTypes['DemilestonedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -29783,7 +29933,8 @@ export type DemilestonedEventResolvers<
 
 export type DeployKeyResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeployKey'] = ResolversParentTypes['DeployKey']
+  ParentType extends
+    ResolversParentTypes['DeployKey'] = ResolversParentTypes['DeployKey']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
@@ -29796,7 +29947,8 @@ export type DeployKeyResolvers<
 
 export type DeployKeyConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeployKeyConnection'] = ResolversParentTypes['DeployKeyConnection']
+  ParentType extends
+    ResolversParentTypes['DeployKeyConnection'] = ResolversParentTypes['DeployKeyConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['DeployKeyEdge']>>>,
@@ -29815,7 +29967,8 @@ export type DeployKeyConnectionResolvers<
 
 export type DeployKeyEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeployKeyEdge'] = ResolversParentTypes['DeployKeyEdge']
+  ParentType extends
+    ResolversParentTypes['DeployKeyEdge'] = ResolversParentTypes['DeployKeyEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['DeployKey']>, ParentType, ContextType>
@@ -29824,7 +29977,8 @@ export type DeployKeyEdgeResolvers<
 
 export type DeployedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeployedEvent'] = ResolversParentTypes['DeployedEvent']
+  ParentType extends
+    ResolversParentTypes['DeployedEvent'] = ResolversParentTypes['DeployedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -29838,7 +29992,8 @@ export type DeployedEventResolvers<
 
 export type DeploymentResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Deployment'] = ResolversParentTypes['Deployment']
+  ParentType extends
+    ResolversParentTypes['Deployment'] = ResolversParentTypes['Deployment']
 > = {
   commit?: Resolver<Maybe<ResolversTypes['Commit']>, ParentType, ContextType>
   commitOid?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -29892,7 +30047,8 @@ export type DeploymentResolvers<
 
 export type DeploymentConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentConnection'] = ResolversParentTypes['DeploymentConnection']
+  ParentType extends
+    ResolversParentTypes['DeploymentConnection'] = ResolversParentTypes['DeploymentConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['DeploymentEdge']>>>,
@@ -29911,7 +30067,8 @@ export type DeploymentConnectionResolvers<
 
 export type DeploymentEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentEdge'] = ResolversParentTypes['DeploymentEdge']
+  ParentType extends
+    ResolversParentTypes['DeploymentEdge'] = ResolversParentTypes['DeploymentEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Deployment']>, ParentType, ContextType>
@@ -29920,7 +30077,8 @@ export type DeploymentEdgeResolvers<
 
 export type DeploymentEnvironmentChangedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentEnvironmentChangedEvent'] = ResolversParentTypes['DeploymentEnvironmentChangedEvent']
+  ParentType extends
+    ResolversParentTypes['DeploymentEnvironmentChangedEvent'] = ResolversParentTypes['DeploymentEnvironmentChangedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -29936,7 +30094,8 @@ export type DeploymentEnvironmentChangedEventResolvers<
 
 export type DeploymentProtectionRuleResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentProtectionRule'] = ResolversParentTypes['DeploymentProtectionRule']
+  ParentType extends
+    ResolversParentTypes['DeploymentProtectionRule'] = ResolversParentTypes['DeploymentProtectionRule']
 > = {
   databaseId?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>
   reviewers?: Resolver<
@@ -29956,7 +30115,8 @@ export type DeploymentProtectionRuleResolvers<
 
 export type DeploymentProtectionRuleConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentProtectionRuleConnection'] = ResolversParentTypes['DeploymentProtectionRuleConnection']
+  ParentType extends
+    ResolversParentTypes['DeploymentProtectionRuleConnection'] = ResolversParentTypes['DeploymentProtectionRuleConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['DeploymentProtectionRuleEdge']>>>,
@@ -29975,7 +30135,8 @@ export type DeploymentProtectionRuleConnectionResolvers<
 
 export type DeploymentProtectionRuleEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentProtectionRuleEdge'] = ResolversParentTypes['DeploymentProtectionRuleEdge']
+  ParentType extends
+    ResolversParentTypes['DeploymentProtectionRuleEdge'] = ResolversParentTypes['DeploymentProtectionRuleEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -29988,7 +30149,8 @@ export type DeploymentProtectionRuleEdgeResolvers<
 
 export type DeploymentRequestResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentRequest'] = ResolversParentTypes['DeploymentRequest']
+  ParentType extends
+    ResolversParentTypes['DeploymentRequest'] = ResolversParentTypes['DeploymentRequest']
 > = {
   currentUserCanApprove?: Resolver<
     ResolversTypes['Boolean'],
@@ -30013,7 +30175,8 @@ export type DeploymentRequestResolvers<
 
 export type DeploymentRequestConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentRequestConnection'] = ResolversParentTypes['DeploymentRequestConnection']
+  ParentType extends
+    ResolversParentTypes['DeploymentRequestConnection'] = ResolversParentTypes['DeploymentRequestConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['DeploymentRequestEdge']>>>,
@@ -30032,7 +30195,8 @@ export type DeploymentRequestConnectionResolvers<
 
 export type DeploymentRequestEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentRequestEdge'] = ResolversParentTypes['DeploymentRequestEdge']
+  ParentType extends
+    ResolversParentTypes['DeploymentRequestEdge'] = ResolversParentTypes['DeploymentRequestEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -30045,7 +30209,8 @@ export type DeploymentRequestEdgeResolvers<
 
 export type DeploymentReviewResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentReview'] = ResolversParentTypes['DeploymentReview']
+  ParentType extends
+    ResolversParentTypes['DeploymentReview'] = ResolversParentTypes['DeploymentReview']
 > = {
   comment?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   databaseId?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>
@@ -30067,7 +30232,8 @@ export type DeploymentReviewResolvers<
 
 export type DeploymentReviewConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentReviewConnection'] = ResolversParentTypes['DeploymentReviewConnection']
+  ParentType extends
+    ResolversParentTypes['DeploymentReviewConnection'] = ResolversParentTypes['DeploymentReviewConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['DeploymentReviewEdge']>>>,
@@ -30086,7 +30252,8 @@ export type DeploymentReviewConnectionResolvers<
 
 export type DeploymentReviewEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentReviewEdge'] = ResolversParentTypes['DeploymentReviewEdge']
+  ParentType extends
+    ResolversParentTypes['DeploymentReviewEdge'] = ResolversParentTypes['DeploymentReviewEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -30099,14 +30266,16 @@ export type DeploymentReviewEdgeResolvers<
 
 export type DeploymentReviewerResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentReviewer'] = ResolversParentTypes['DeploymentReviewer']
+  ParentType extends
+    ResolversParentTypes['DeploymentReviewer'] = ResolversParentTypes['DeploymentReviewer']
 > = {
   __resolveType: TypeResolveFn<'Team' | 'User', ParentType, ContextType>
 }
 
 export type DeploymentReviewerConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentReviewerConnection'] = ResolversParentTypes['DeploymentReviewerConnection']
+  ParentType extends
+    ResolversParentTypes['DeploymentReviewerConnection'] = ResolversParentTypes['DeploymentReviewerConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['DeploymentReviewerEdge']>>>,
@@ -30125,7 +30294,8 @@ export type DeploymentReviewerConnectionResolvers<
 
 export type DeploymentReviewerEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentReviewerEdge'] = ResolversParentTypes['DeploymentReviewerEdge']
+  ParentType extends
+    ResolversParentTypes['DeploymentReviewerEdge'] = ResolversParentTypes['DeploymentReviewerEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -30138,7 +30308,8 @@ export type DeploymentReviewerEdgeResolvers<
 
 export type DeploymentStatusResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentStatus'] = ResolversParentTypes['DeploymentStatus']
+  ParentType extends
+    ResolversParentTypes['DeploymentStatus'] = ResolversParentTypes['DeploymentStatus']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   creator?: Resolver<ResolversTypes['Actor'], ParentType, ContextType>
@@ -30166,7 +30337,8 @@ export type DeploymentStatusResolvers<
 
 export type DeploymentStatusConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentStatusConnection'] = ResolversParentTypes['DeploymentStatusConnection']
+  ParentType extends
+    ResolversParentTypes['DeploymentStatusConnection'] = ResolversParentTypes['DeploymentStatusConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['DeploymentStatusEdge']>>>,
@@ -30185,7 +30357,8 @@ export type DeploymentStatusConnectionResolvers<
 
 export type DeploymentStatusEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DeploymentStatusEdge'] = ResolversParentTypes['DeploymentStatusEdge']
+  ParentType extends
+    ResolversParentTypes['DeploymentStatusEdge'] = ResolversParentTypes['DeploymentStatusEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -30198,7 +30371,8 @@ export type DeploymentStatusEdgeResolvers<
 
 export type DisablePullRequestAutoMergePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DisablePullRequestAutoMergePayload'] = ResolversParentTypes['DisablePullRequestAutoMergePayload']
+  ParentType extends
+    ResolversParentTypes['DisablePullRequestAutoMergePayload'] = ResolversParentTypes['DisablePullRequestAutoMergePayload']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   clientMutationId?: Resolver<
@@ -30216,7 +30390,8 @@ export type DisablePullRequestAutoMergePayloadResolvers<
 
 export type DisconnectedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DisconnectedEvent'] = ResolversParentTypes['DisconnectedEvent']
+  ParentType extends
+    ResolversParentTypes['DisconnectedEvent'] = ResolversParentTypes['DisconnectedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -30241,7 +30416,8 @@ export type DisconnectedEventResolvers<
 
 export type DiscussionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Discussion'] = ResolversParentTypes['Discussion']
+  ParentType extends
+    ResolversParentTypes['Discussion'] = ResolversParentTypes['Discussion']
 > = {
   activeLockReason?: Resolver<
     Maybe<ResolversTypes['LockReason']>,
@@ -30359,7 +30535,8 @@ export type DiscussionResolvers<
 
 export type DiscussionCategoryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DiscussionCategory'] = ResolversParentTypes['DiscussionCategory']
+  ParentType extends
+    ResolversParentTypes['DiscussionCategory'] = ResolversParentTypes['DiscussionCategory']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   description?: Resolver<
@@ -30379,7 +30556,8 @@ export type DiscussionCategoryResolvers<
 
 export type DiscussionCategoryConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DiscussionCategoryConnection'] = ResolversParentTypes['DiscussionCategoryConnection']
+  ParentType extends
+    ResolversParentTypes['DiscussionCategoryConnection'] = ResolversParentTypes['DiscussionCategoryConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['DiscussionCategoryEdge']>>>,
@@ -30398,7 +30576,8 @@ export type DiscussionCategoryConnectionResolvers<
 
 export type DiscussionCategoryEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DiscussionCategoryEdge'] = ResolversParentTypes['DiscussionCategoryEdge']
+  ParentType extends
+    ResolversParentTypes['DiscussionCategoryEdge'] = ResolversParentTypes['DiscussionCategoryEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -30411,7 +30590,8 @@ export type DiscussionCategoryEdgeResolvers<
 
 export type DiscussionCommentResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DiscussionComment'] = ResolversParentTypes['DiscussionComment']
+  ParentType extends
+    ResolversParentTypes['DiscussionComment'] = ResolversParentTypes['DiscussionComment']
 > = {
   author?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   authorAssociation?: Resolver<
@@ -30526,7 +30706,8 @@ export type DiscussionCommentResolvers<
 
 export type DiscussionCommentConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DiscussionCommentConnection'] = ResolversParentTypes['DiscussionCommentConnection']
+  ParentType extends
+    ResolversParentTypes['DiscussionCommentConnection'] = ResolversParentTypes['DiscussionCommentConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['DiscussionCommentEdge']>>>,
@@ -30545,7 +30726,8 @@ export type DiscussionCommentConnectionResolvers<
 
 export type DiscussionCommentEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DiscussionCommentEdge'] = ResolversParentTypes['DiscussionCommentEdge']
+  ParentType extends
+    ResolversParentTypes['DiscussionCommentEdge'] = ResolversParentTypes['DiscussionCommentEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -30558,7 +30740,8 @@ export type DiscussionCommentEdgeResolvers<
 
 export type DiscussionConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DiscussionConnection'] = ResolversParentTypes['DiscussionConnection']
+  ParentType extends
+    ResolversParentTypes['DiscussionConnection'] = ResolversParentTypes['DiscussionConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['DiscussionEdge']>>>,
@@ -30577,7 +30760,8 @@ export type DiscussionConnectionResolvers<
 
 export type DiscussionEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DiscussionEdge'] = ResolversParentTypes['DiscussionEdge']
+  ParentType extends
+    ResolversParentTypes['DiscussionEdge'] = ResolversParentTypes['DiscussionEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Discussion']>, ParentType, ContextType>
@@ -30586,7 +30770,8 @@ export type DiscussionEdgeResolvers<
 
 export type DismissPullRequestReviewPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['DismissPullRequestReviewPayload'] = ResolversParentTypes['DismissPullRequestReviewPayload']
+  ParentType extends
+    ResolversParentTypes['DismissPullRequestReviewPayload'] = ResolversParentTypes['DismissPullRequestReviewPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -30603,7 +30788,8 @@ export type DismissPullRequestReviewPayloadResolvers<
 
 export type EnablePullRequestAutoMergePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnablePullRequestAutoMergePayload'] = ResolversParentTypes['EnablePullRequestAutoMergePayload']
+  ParentType extends
+    ResolversParentTypes['EnablePullRequestAutoMergePayload'] = ResolversParentTypes['EnablePullRequestAutoMergePayload']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   clientMutationId?: Resolver<
@@ -30621,7 +30807,8 @@ export type EnablePullRequestAutoMergePayloadResolvers<
 
 export type EnterpriseResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Enterprise'] = ResolversParentTypes['Enterprise']
+  ParentType extends
+    ResolversParentTypes['Enterprise'] = ResolversParentTypes['Enterprise']
 > = {
   avatarUrl?: Resolver<
     ResolversTypes['URI'],
@@ -30678,7 +30865,8 @@ export type EnterpriseResolvers<
 
 export type EnterpriseAdministratorConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseAdministratorConnection'] = ResolversParentTypes['EnterpriseAdministratorConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseAdministratorConnection'] = ResolversParentTypes['EnterpriseAdministratorConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnterpriseAdministratorEdge']>>>,
@@ -30697,7 +30885,8 @@ export type EnterpriseAdministratorConnectionResolvers<
 
 export type EnterpriseAdministratorEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseAdministratorEdge'] = ResolversParentTypes['EnterpriseAdministratorEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseAdministratorEdge'] = ResolversParentTypes['EnterpriseAdministratorEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['User']>, ParentType, ContextType>
@@ -30711,7 +30900,8 @@ export type EnterpriseAdministratorEdgeResolvers<
 
 export type EnterpriseAdministratorInvitationResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseAdministratorInvitation'] = ResolversParentTypes['EnterpriseAdministratorInvitation']
+  ParentType extends
+    ResolversParentTypes['EnterpriseAdministratorInvitation'] = ResolversParentTypes['EnterpriseAdministratorInvitation']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   email?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
@@ -30729,7 +30919,8 @@ export type EnterpriseAdministratorInvitationResolvers<
 
 export type EnterpriseAdministratorInvitationConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseAdministratorInvitationConnection'] = ResolversParentTypes['EnterpriseAdministratorInvitationConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseAdministratorInvitationConnection'] = ResolversParentTypes['EnterpriseAdministratorInvitationConnection']
 > = {
   edges?: Resolver<
     Maybe<
@@ -30750,7 +30941,8 @@ export type EnterpriseAdministratorInvitationConnectionResolvers<
 
 export type EnterpriseAdministratorInvitationEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseAdministratorInvitationEdge'] = ResolversParentTypes['EnterpriseAdministratorInvitationEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseAdministratorInvitationEdge'] = ResolversParentTypes['EnterpriseAdministratorInvitationEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -30763,7 +30955,8 @@ export type EnterpriseAdministratorInvitationEdgeResolvers<
 
 export type EnterpriseAuditEntryDataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseAuditEntryData'] = ResolversParentTypes['EnterpriseAuditEntryData']
+  ParentType extends
+    ResolversParentTypes['EnterpriseAuditEntryData'] = ResolversParentTypes['EnterpriseAuditEntryData']
 > = {
   __resolveType: TypeResolveFn<
     | 'MembersCanDeleteReposClearAuditEntry'
@@ -30796,7 +30989,8 @@ export type EnterpriseAuditEntryDataResolvers<
 
 export type EnterpriseBillingInfoResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseBillingInfo'] = ResolversParentTypes['EnterpriseBillingInfo']
+  ParentType extends
+    ResolversParentTypes['EnterpriseBillingInfo'] = ResolversParentTypes['EnterpriseBillingInfo']
 > = {
   allLicensableUsersCount?: Resolver<
     ResolversTypes['Int'],
@@ -30831,7 +31025,8 @@ export type EnterpriseBillingInfoResolvers<
 
 export type EnterpriseIdentityProviderResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseIdentityProvider'] = ResolversParentTypes['EnterpriseIdentityProvider']
+  ParentType extends
+    ResolversParentTypes['EnterpriseIdentityProvider'] = ResolversParentTypes['EnterpriseIdentityProvider']
 > = {
   digestMethod?: Resolver<
     Maybe<ResolversTypes['SamlDigestAlgorithm']>,
@@ -30872,7 +31067,8 @@ export type EnterpriseIdentityProviderResolvers<
 
 export type EnterpriseMemberResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseMember'] = ResolversParentTypes['EnterpriseMember']
+  ParentType extends
+    ResolversParentTypes['EnterpriseMember'] = ResolversParentTypes['EnterpriseMember']
 > = {
   __resolveType: TypeResolveFn<
     'EnterpriseUserAccount' | 'User',
@@ -30883,7 +31079,8 @@ export type EnterpriseMemberResolvers<
 
 export type EnterpriseMemberConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseMemberConnection'] = ResolversParentTypes['EnterpriseMemberConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseMemberConnection'] = ResolversParentTypes['EnterpriseMemberConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnterpriseMemberEdge']>>>,
@@ -30902,7 +31099,8 @@ export type EnterpriseMemberConnectionResolvers<
 
 export type EnterpriseMemberEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseMemberEdge'] = ResolversParentTypes['EnterpriseMemberEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseMemberEdge'] = ResolversParentTypes['EnterpriseMemberEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   isUnlicensed?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -30916,7 +31114,8 @@ export type EnterpriseMemberEdgeResolvers<
 
 export type EnterpriseOrganizationMembershipConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseOrganizationMembershipConnection'] = ResolversParentTypes['EnterpriseOrganizationMembershipConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseOrganizationMembershipConnection'] = ResolversParentTypes['EnterpriseOrganizationMembershipConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnterpriseOrganizationMembershipEdge']>>>,
@@ -30935,7 +31134,8 @@ export type EnterpriseOrganizationMembershipConnectionResolvers<
 
 export type EnterpriseOrganizationMembershipEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseOrganizationMembershipEdge'] = ResolversParentTypes['EnterpriseOrganizationMembershipEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseOrganizationMembershipEdge'] = ResolversParentTypes['EnterpriseOrganizationMembershipEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -30953,7 +31153,8 @@ export type EnterpriseOrganizationMembershipEdgeResolvers<
 
 export type EnterpriseOutsideCollaboratorConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseOutsideCollaboratorConnection'] = ResolversParentTypes['EnterpriseOutsideCollaboratorConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseOutsideCollaboratorConnection'] = ResolversParentTypes['EnterpriseOutsideCollaboratorConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnterpriseOutsideCollaboratorEdge']>>>,
@@ -30972,7 +31173,8 @@ export type EnterpriseOutsideCollaboratorConnectionResolvers<
 
 export type EnterpriseOutsideCollaboratorEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseOutsideCollaboratorEdge'] = ResolversParentTypes['EnterpriseOutsideCollaboratorEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseOutsideCollaboratorEdge'] = ResolversParentTypes['EnterpriseOutsideCollaboratorEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   isUnlicensed?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -30988,7 +31190,8 @@ export type EnterpriseOutsideCollaboratorEdgeResolvers<
 
 export type EnterpriseOwnerInfoResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseOwnerInfo'] = ResolversParentTypes['EnterpriseOwnerInfo']
+  ParentType extends
+    ResolversParentTypes['EnterpriseOwnerInfo'] = ResolversParentTypes['EnterpriseOwnerInfo']
 > = {
   admins?: Resolver<
     ResolversTypes['EnterpriseAdministratorConnection'],
@@ -31316,7 +31519,8 @@ export type EnterpriseOwnerInfoResolvers<
 
 export type EnterprisePendingCollaboratorConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterprisePendingCollaboratorConnection'] = ResolversParentTypes['EnterprisePendingCollaboratorConnection']
+  ParentType extends
+    ResolversParentTypes['EnterprisePendingCollaboratorConnection'] = ResolversParentTypes['EnterprisePendingCollaboratorConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnterprisePendingCollaboratorEdge']>>>,
@@ -31335,7 +31539,8 @@ export type EnterprisePendingCollaboratorConnectionResolvers<
 
 export type EnterprisePendingCollaboratorEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterprisePendingCollaboratorEdge'] = ResolversParentTypes['EnterprisePendingCollaboratorEdge']
+  ParentType extends
+    ResolversParentTypes['EnterprisePendingCollaboratorEdge'] = ResolversParentTypes['EnterprisePendingCollaboratorEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   isUnlicensed?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -31351,7 +31556,8 @@ export type EnterprisePendingCollaboratorEdgeResolvers<
 
 export type EnterprisePendingMemberInvitationConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterprisePendingMemberInvitationConnection'] = ResolversParentTypes['EnterprisePendingMemberInvitationConnection']
+  ParentType extends
+    ResolversParentTypes['EnterprisePendingMemberInvitationConnection'] = ResolversParentTypes['EnterprisePendingMemberInvitationConnection']
 > = {
   edges?: Resolver<
     Maybe<
@@ -31377,7 +31583,8 @@ export type EnterprisePendingMemberInvitationConnectionResolvers<
 
 export type EnterprisePendingMemberInvitationEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterprisePendingMemberInvitationEdge'] = ResolversParentTypes['EnterprisePendingMemberInvitationEdge']
+  ParentType extends
+    ResolversParentTypes['EnterprisePendingMemberInvitationEdge'] = ResolversParentTypes['EnterprisePendingMemberInvitationEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   isUnlicensed?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -31391,7 +31598,8 @@ export type EnterprisePendingMemberInvitationEdgeResolvers<
 
 export type EnterpriseRepositoryInfoResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseRepositoryInfo'] = ResolversParentTypes['EnterpriseRepositoryInfo']
+  ParentType extends
+    ResolversParentTypes['EnterpriseRepositoryInfo'] = ResolversParentTypes['EnterpriseRepositoryInfo']
 > = {
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
   isPrivate?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -31402,7 +31610,8 @@ export type EnterpriseRepositoryInfoResolvers<
 
 export type EnterpriseRepositoryInfoConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseRepositoryInfoConnection'] = ResolversParentTypes['EnterpriseRepositoryInfoConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseRepositoryInfoConnection'] = ResolversParentTypes['EnterpriseRepositoryInfoConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnterpriseRepositoryInfoEdge']>>>,
@@ -31421,7 +31630,8 @@ export type EnterpriseRepositoryInfoConnectionResolvers<
 
 export type EnterpriseRepositoryInfoEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseRepositoryInfoEdge'] = ResolversParentTypes['EnterpriseRepositoryInfoEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseRepositoryInfoEdge'] = ResolversParentTypes['EnterpriseRepositoryInfoEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -31434,7 +31644,8 @@ export type EnterpriseRepositoryInfoEdgeResolvers<
 
 export type EnterpriseServerInstallationResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerInstallation'] = ResolversParentTypes['EnterpriseServerInstallation']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerInstallation'] = ResolversParentTypes['EnterpriseServerInstallation']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   customerName?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -31462,7 +31673,8 @@ export type EnterpriseServerInstallationResolvers<
 
 export type EnterpriseServerInstallationConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerInstallationConnection'] = ResolversParentTypes['EnterpriseServerInstallationConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerInstallationConnection'] = ResolversParentTypes['EnterpriseServerInstallationConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnterpriseServerInstallationEdge']>>>,
@@ -31481,7 +31693,8 @@ export type EnterpriseServerInstallationConnectionResolvers<
 
 export type EnterpriseServerInstallationEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerInstallationEdge'] = ResolversParentTypes['EnterpriseServerInstallationEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerInstallationEdge'] = ResolversParentTypes['EnterpriseServerInstallationEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -31494,7 +31707,8 @@ export type EnterpriseServerInstallationEdgeResolvers<
 
 export type EnterpriseServerUserAccountResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerUserAccount'] = ResolversParentTypes['EnterpriseServerUserAccount']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerUserAccount'] = ResolversParentTypes['EnterpriseServerUserAccount']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   emails?: Resolver<
@@ -31528,7 +31742,8 @@ export type EnterpriseServerUserAccountResolvers<
 
 export type EnterpriseServerUserAccountConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerUserAccountConnection'] = ResolversParentTypes['EnterpriseServerUserAccountConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerUserAccountConnection'] = ResolversParentTypes['EnterpriseServerUserAccountConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnterpriseServerUserAccountEdge']>>>,
@@ -31547,7 +31762,8 @@ export type EnterpriseServerUserAccountConnectionResolvers<
 
 export type EnterpriseServerUserAccountEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerUserAccountEdge'] = ResolversParentTypes['EnterpriseServerUserAccountEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerUserAccountEdge'] = ResolversParentTypes['EnterpriseServerUserAccountEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -31560,7 +31776,8 @@ export type EnterpriseServerUserAccountEdgeResolvers<
 
 export type EnterpriseServerUserAccountEmailResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerUserAccountEmail'] = ResolversParentTypes['EnterpriseServerUserAccountEmail']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerUserAccountEmail'] = ResolversParentTypes['EnterpriseServerUserAccountEmail']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   email?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -31577,7 +31794,8 @@ export type EnterpriseServerUserAccountEmailResolvers<
 
 export type EnterpriseServerUserAccountEmailConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerUserAccountEmailConnection'] = ResolversParentTypes['EnterpriseServerUserAccountEmailConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerUserAccountEmailConnection'] = ResolversParentTypes['EnterpriseServerUserAccountEmailConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnterpriseServerUserAccountEmailEdge']>>>,
@@ -31596,7 +31814,8 @@ export type EnterpriseServerUserAccountEmailConnectionResolvers<
 
 export type EnterpriseServerUserAccountEmailEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerUserAccountEmailEdge'] = ResolversParentTypes['EnterpriseServerUserAccountEmailEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerUserAccountEmailEdge'] = ResolversParentTypes['EnterpriseServerUserAccountEmailEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -31609,7 +31828,8 @@ export type EnterpriseServerUserAccountEmailEdgeResolvers<
 
 export type EnterpriseServerUserAccountsUploadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerUserAccountsUpload'] = ResolversParentTypes['EnterpriseServerUserAccountsUpload']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerUserAccountsUpload'] = ResolversParentTypes['EnterpriseServerUserAccountsUpload']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   enterprise?: Resolver<ResolversTypes['Enterprise'], ParentType, ContextType>
@@ -31631,7 +31851,8 @@ export type EnterpriseServerUserAccountsUploadResolvers<
 
 export type EnterpriseServerUserAccountsUploadConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerUserAccountsUploadConnection'] = ResolversParentTypes['EnterpriseServerUserAccountsUploadConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerUserAccountsUploadConnection'] = ResolversParentTypes['EnterpriseServerUserAccountsUploadConnection']
 > = {
   edges?: Resolver<
     Maybe<
@@ -31652,7 +31873,8 @@ export type EnterpriseServerUserAccountsUploadConnectionResolvers<
 
 export type EnterpriseServerUserAccountsUploadEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseServerUserAccountsUploadEdge'] = ResolversParentTypes['EnterpriseServerUserAccountsUploadEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseServerUserAccountsUploadEdge'] = ResolversParentTypes['EnterpriseServerUserAccountsUploadEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -31665,7 +31887,8 @@ export type EnterpriseServerUserAccountsUploadEdgeResolvers<
 
 export type EnterpriseUserAccountResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseUserAccount'] = ResolversParentTypes['EnterpriseUserAccount']
+  ParentType extends
+    ResolversParentTypes['EnterpriseUserAccount'] = ResolversParentTypes['EnterpriseUserAccount']
 > = {
   avatarUrl?: Resolver<
     ResolversTypes['URI'],
@@ -31693,7 +31916,8 @@ export type EnterpriseUserAccountResolvers<
 
 export type EnterpriseUserAccountConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseUserAccountConnection'] = ResolversParentTypes['EnterpriseUserAccountConnection']
+  ParentType extends
+    ResolversParentTypes['EnterpriseUserAccountConnection'] = ResolversParentTypes['EnterpriseUserAccountConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnterpriseUserAccountEdge']>>>,
@@ -31712,7 +31936,8 @@ export type EnterpriseUserAccountConnectionResolvers<
 
 export type EnterpriseUserAccountEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnterpriseUserAccountEdge'] = ResolversParentTypes['EnterpriseUserAccountEdge']
+  ParentType extends
+    ResolversParentTypes['EnterpriseUserAccountEdge'] = ResolversParentTypes['EnterpriseUserAccountEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -31725,7 +31950,8 @@ export type EnterpriseUserAccountEdgeResolvers<
 
 export type EnvironmentResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Environment'] = ResolversParentTypes['Environment']
+  ParentType extends
+    ResolversParentTypes['Environment'] = ResolversParentTypes['Environment']
 > = {
   databaseId?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
@@ -31741,7 +31967,8 @@ export type EnvironmentResolvers<
 
 export type EnvironmentConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnvironmentConnection'] = ResolversParentTypes['EnvironmentConnection']
+  ParentType extends
+    ResolversParentTypes['EnvironmentConnection'] = ResolversParentTypes['EnvironmentConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['EnvironmentEdge']>>>,
@@ -31760,7 +31987,8 @@ export type EnvironmentConnectionResolvers<
 
 export type EnvironmentEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['EnvironmentEdge'] = ResolversParentTypes['EnvironmentEdge']
+  ParentType extends
+    ResolversParentTypes['EnvironmentEdge'] = ResolversParentTypes['EnvironmentEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Environment']>, ParentType, ContextType>
@@ -31769,7 +31997,8 @@ export type EnvironmentEdgeResolvers<
 
 export type ExternalIdentityResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ExternalIdentity'] = ResolversParentTypes['ExternalIdentity']
+  ParentType extends
+    ResolversParentTypes['ExternalIdentity'] = ResolversParentTypes['ExternalIdentity']
 > = {
   guid?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
@@ -31794,7 +32023,8 @@ export type ExternalIdentityResolvers<
 
 export type ExternalIdentityConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ExternalIdentityConnection'] = ResolversParentTypes['ExternalIdentityConnection']
+  ParentType extends
+    ResolversParentTypes['ExternalIdentityConnection'] = ResolversParentTypes['ExternalIdentityConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ExternalIdentityEdge']>>>,
@@ -31813,7 +32043,8 @@ export type ExternalIdentityConnectionResolvers<
 
 export type ExternalIdentityEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ExternalIdentityEdge'] = ResolversParentTypes['ExternalIdentityEdge']
+  ParentType extends
+    ResolversParentTypes['ExternalIdentityEdge'] = ResolversParentTypes['ExternalIdentityEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -31826,7 +32057,8 @@ export type ExternalIdentityEdgeResolvers<
 
 export type ExternalIdentitySamlAttributesResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ExternalIdentitySamlAttributes'] = ResolversParentTypes['ExternalIdentitySamlAttributes']
+  ParentType extends
+    ResolversParentTypes['ExternalIdentitySamlAttributes'] = ResolversParentTypes['ExternalIdentitySamlAttributes']
 > = {
   emails?: Resolver<
     Maybe<Array<ResolversTypes['UserEmailMetadata']>>,
@@ -31851,7 +32083,8 @@ export type ExternalIdentitySamlAttributesResolvers<
 
 export type ExternalIdentityScimAttributesResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ExternalIdentityScimAttributes'] = ResolversParentTypes['ExternalIdentityScimAttributes']
+  ParentType extends
+    ResolversParentTypes['ExternalIdentityScimAttributes'] = ResolversParentTypes['ExternalIdentityScimAttributes']
 > = {
   emails?: Resolver<
     Maybe<Array<ResolversTypes['UserEmailMetadata']>>,
@@ -31875,7 +32108,8 @@ export type ExternalIdentityScimAttributesResolvers<
 
 export type FollowUserPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['FollowUserPayload'] = ResolversParentTypes['FollowUserPayload']
+  ParentType extends
+    ResolversParentTypes['FollowUserPayload'] = ResolversParentTypes['FollowUserPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -31888,7 +32122,8 @@ export type FollowUserPayloadResolvers<
 
 export type FollowerConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['FollowerConnection'] = ResolversParentTypes['FollowerConnection']
+  ParentType extends
+    ResolversParentTypes['FollowerConnection'] = ResolversParentTypes['FollowerConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['UserEdge']>>>,
@@ -31907,7 +32142,8 @@ export type FollowerConnectionResolvers<
 
 export type FollowingConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['FollowingConnection'] = ResolversParentTypes['FollowingConnection']
+  ParentType extends
+    ResolversParentTypes['FollowingConnection'] = ResolversParentTypes['FollowingConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['UserEdge']>>>,
@@ -31926,7 +32162,8 @@ export type FollowingConnectionResolvers<
 
 export type FundingLinkResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['FundingLink'] = ResolversParentTypes['FundingLink']
+  ParentType extends
+    ResolversParentTypes['FundingLink'] = ResolversParentTypes['FundingLink']
 > = {
   platform?: Resolver<
     ResolversTypes['FundingPlatform'],
@@ -31939,7 +32176,8 @@ export type FundingLinkResolvers<
 
 export type GenericHovercardContextResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GenericHovercardContext'] = ResolversParentTypes['GenericHovercardContext']
+  ParentType extends
+    ResolversParentTypes['GenericHovercardContext'] = ResolversParentTypes['GenericHovercardContext']
 > = {
   message?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   octicon?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -32008,7 +32246,8 @@ export type GistResolvers<
 
 export type GistCommentResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GistComment'] = ResolversParentTypes['GistComment']
+  ParentType extends
+    ResolversParentTypes['GistComment'] = ResolversParentTypes['GistComment']
 > = {
   author?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   authorAssociation?: Resolver<
@@ -32071,7 +32310,8 @@ export type GistCommentResolvers<
 
 export type GistCommentConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GistCommentConnection'] = ResolversParentTypes['GistCommentConnection']
+  ParentType extends
+    ResolversParentTypes['GistCommentConnection'] = ResolversParentTypes['GistCommentConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['GistCommentEdge']>>>,
@@ -32090,7 +32330,8 @@ export type GistCommentConnectionResolvers<
 
 export type GistCommentEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GistCommentEdge'] = ResolversParentTypes['GistCommentEdge']
+  ParentType extends
+    ResolversParentTypes['GistCommentEdge'] = ResolversParentTypes['GistCommentEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['GistComment']>, ParentType, ContextType>
@@ -32099,7 +32340,8 @@ export type GistCommentEdgeResolvers<
 
 export type GistConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GistConnection'] = ResolversParentTypes['GistConnection']
+  ParentType extends
+    ResolversParentTypes['GistConnection'] = ResolversParentTypes['GistConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['GistEdge']>>>,
@@ -32118,7 +32360,8 @@ export type GistConnectionResolvers<
 
 export type GistEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GistEdge'] = ResolversParentTypes['GistEdge']
+  ParentType extends
+    ResolversParentTypes['GistEdge'] = ResolversParentTypes['GistEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Gist']>, ParentType, ContextType>
@@ -32127,7 +32370,8 @@ export type GistEdgeResolvers<
 
 export type GistFileResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GistFile'] = ResolversParentTypes['GistFile']
+  ParentType extends
+    ResolversParentTypes['GistFile'] = ResolversParentTypes['GistFile']
 > = {
   encodedName?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -32156,7 +32400,8 @@ export type GistFileResolvers<
 
 export type GitActorResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GitActor'] = ResolversParentTypes['GitActor']
+  ParentType extends
+    ResolversParentTypes['GitActor'] = ResolversParentTypes['GitActor']
 > = {
   avatarUrl?: Resolver<
     ResolversTypes['URI'],
@@ -32177,7 +32422,8 @@ export type GitActorResolvers<
 
 export type GitActorConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GitActorConnection'] = ResolversParentTypes['GitActorConnection']
+  ParentType extends
+    ResolversParentTypes['GitActorConnection'] = ResolversParentTypes['GitActorConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['GitActorEdge']>>>,
@@ -32196,7 +32442,8 @@ export type GitActorConnectionResolvers<
 
 export type GitActorEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GitActorEdge'] = ResolversParentTypes['GitActorEdge']
+  ParentType extends
+    ResolversParentTypes['GitActorEdge'] = ResolversParentTypes['GitActorEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['GitActor']>, ParentType, ContextType>
@@ -32205,7 +32452,8 @@ export type GitActorEdgeResolvers<
 
 export type GitHubMetadataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GitHubMetadata'] = ResolversParentTypes['GitHubMetadata']
+  ParentType extends
+    ResolversParentTypes['GitHubMetadata'] = ResolversParentTypes['GitHubMetadata']
 > = {
   gitHubServicesSha?: Resolver<
     ResolversTypes['GitObjectID'],
@@ -32242,7 +32490,8 @@ export type GitHubMetadataResolvers<
 
 export type GitObjectResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GitObject'] = ResolversParentTypes['GitObject']
+  ParentType extends
+    ResolversParentTypes['GitObject'] = ResolversParentTypes['GitObject']
 > = {
   __resolveType: TypeResolveFn<
     'Blob' | 'Commit' | 'Tag' | 'Tree',
@@ -32269,7 +32518,8 @@ export interface GitSshRemoteScalarConfig
 
 export type GitSignatureResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GitSignature'] = ResolversParentTypes['GitSignature']
+  ParentType extends
+    ResolversParentTypes['GitSignature'] = ResolversParentTypes['GitSignature']
 > = {
   __resolveType: TypeResolveFn<
     'GpgSignature' | 'SmimeSignature' | 'UnknownSignature',
@@ -32296,7 +32546,8 @@ export interface GitTimestampScalarConfig
 
 export type GpgSignatureResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['GpgSignature'] = ResolversParentTypes['GpgSignature']
+  ParentType extends
+    ResolversParentTypes['GpgSignature'] = ResolversParentTypes['GpgSignature']
 > = {
   email?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   isValid?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -32320,7 +32571,8 @@ export interface HtmlScalarConfig
 
 export type HeadRefDeletedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['HeadRefDeletedEvent'] = ResolversParentTypes['HeadRefDeletedEvent']
+  ParentType extends
+    ResolversParentTypes['HeadRefDeletedEvent'] = ResolversParentTypes['HeadRefDeletedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -32333,7 +32585,8 @@ export type HeadRefDeletedEventResolvers<
 
 export type HeadRefForcePushedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['HeadRefForcePushedEvent'] = ResolversParentTypes['HeadRefForcePushedEvent']
+  ParentType extends
+    ResolversParentTypes['HeadRefForcePushedEvent'] = ResolversParentTypes['HeadRefForcePushedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   afterCommit?: Resolver<
@@ -32355,7 +32608,8 @@ export type HeadRefForcePushedEventResolvers<
 
 export type HeadRefRestoredEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['HeadRefRestoredEvent'] = ResolversParentTypes['HeadRefRestoredEvent']
+  ParentType extends
+    ResolversParentTypes['HeadRefRestoredEvent'] = ResolversParentTypes['HeadRefRestoredEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -32366,7 +32620,8 @@ export type HeadRefRestoredEventResolvers<
 
 export type HovercardResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Hovercard'] = ResolversParentTypes['Hovercard']
+  ParentType extends
+    ResolversParentTypes['Hovercard'] = ResolversParentTypes['Hovercard']
 > = {
   contexts?: Resolver<
     Array<ResolversTypes['HovercardContext']>,
@@ -32378,7 +32633,8 @@ export type HovercardResolvers<
 
 export type HovercardContextResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['HovercardContext'] = ResolversParentTypes['HovercardContext']
+  ParentType extends
+    ResolversParentTypes['HovercardContext'] = ResolversParentTypes['HovercardContext']
 > = {
   __resolveType: TypeResolveFn<
     | 'GenericHovercardContext'
@@ -32395,7 +32651,8 @@ export type HovercardContextResolvers<
 
 export type InviteEnterpriseAdminPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['InviteEnterpriseAdminPayload'] = ResolversParentTypes['InviteEnterpriseAdminPayload']
+  ParentType extends
+    ResolversParentTypes['InviteEnterpriseAdminPayload'] = ResolversParentTypes['InviteEnterpriseAdminPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -32412,7 +32669,8 @@ export type InviteEnterpriseAdminPayloadResolvers<
 
 export type IpAllowListEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IpAllowListEntry'] = ResolversParentTypes['IpAllowListEntry']
+  ParentType extends
+    ResolversParentTypes['IpAllowListEntry'] = ResolversParentTypes['IpAllowListEntry']
 > = {
   allowListValue?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -32426,7 +32684,8 @@ export type IpAllowListEntryResolvers<
 
 export type IpAllowListEntryConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IpAllowListEntryConnection'] = ResolversParentTypes['IpAllowListEntryConnection']
+  ParentType extends
+    ResolversParentTypes['IpAllowListEntryConnection'] = ResolversParentTypes['IpAllowListEntryConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['IpAllowListEntryEdge']>>>,
@@ -32445,7 +32704,8 @@ export type IpAllowListEntryConnectionResolvers<
 
 export type IpAllowListEntryEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IpAllowListEntryEdge'] = ResolversParentTypes['IpAllowListEntryEdge']
+  ParentType extends
+    ResolversParentTypes['IpAllowListEntryEdge'] = ResolversParentTypes['IpAllowListEntryEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -32458,7 +32718,8 @@ export type IpAllowListEntryEdgeResolvers<
 
 export type IpAllowListOwnerResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IpAllowListOwner'] = ResolversParentTypes['IpAllowListOwner']
+  ParentType extends
+    ResolversParentTypes['IpAllowListOwner'] = ResolversParentTypes['IpAllowListOwner']
 > = {
   __resolveType: TypeResolveFn<
     'App' | 'Enterprise' | 'Organization',
@@ -32469,7 +32730,8 @@ export type IpAllowListOwnerResolvers<
 
 export type IssueResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Issue'] = ResolversParentTypes['Issue']
+  ParentType extends
+    ResolversParentTypes['Issue'] = ResolversParentTypes['Issue']
 > = {
   activeLockReason?: Resolver<
     Maybe<ResolversTypes['LockReason']>,
@@ -32621,7 +32883,8 @@ export type IssueResolvers<
 
 export type IssueCommentResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueComment'] = ResolversParentTypes['IssueComment']
+  ParentType extends
+    ResolversParentTypes['IssueComment'] = ResolversParentTypes['IssueComment']
 > = {
   author?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   authorAssociation?: Resolver<
@@ -32704,7 +32967,8 @@ export type IssueCommentResolvers<
 
 export type IssueCommentConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueCommentConnection'] = ResolversParentTypes['IssueCommentConnection']
+  ParentType extends
+    ResolversParentTypes['IssueCommentConnection'] = ResolversParentTypes['IssueCommentConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['IssueCommentEdge']>>>,
@@ -32723,7 +32987,8 @@ export type IssueCommentConnectionResolvers<
 
 export type IssueCommentEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueCommentEdge'] = ResolversParentTypes['IssueCommentEdge']
+  ParentType extends
+    ResolversParentTypes['IssueCommentEdge'] = ResolversParentTypes['IssueCommentEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -32736,7 +33001,8 @@ export type IssueCommentEdgeResolvers<
 
 export type IssueConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueConnection'] = ResolversParentTypes['IssueConnection']
+  ParentType extends
+    ResolversParentTypes['IssueConnection'] = ResolversParentTypes['IssueConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['IssueEdge']>>>,
@@ -32755,7 +33021,8 @@ export type IssueConnectionResolvers<
 
 export type IssueContributionsByRepositoryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueContributionsByRepository'] = ResolversParentTypes['IssueContributionsByRepository']
+  ParentType extends
+    ResolversParentTypes['IssueContributionsByRepository'] = ResolversParentTypes['IssueContributionsByRepository']
 > = {
   contributions?: Resolver<
     ResolversTypes['CreatedIssueContributionConnection'],
@@ -32769,7 +33036,8 @@ export type IssueContributionsByRepositoryResolvers<
 
 export type IssueEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueEdge'] = ResolversParentTypes['IssueEdge']
+  ParentType extends
+    ResolversParentTypes['IssueEdge'] = ResolversParentTypes['IssueEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Issue']>, ParentType, ContextType>
@@ -32778,14 +33046,16 @@ export type IssueEdgeResolvers<
 
 export type IssueOrPullRequestResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueOrPullRequest'] = ResolversParentTypes['IssueOrPullRequest']
+  ParentType extends
+    ResolversParentTypes['IssueOrPullRequest'] = ResolversParentTypes['IssueOrPullRequest']
 > = {
   __resolveType: TypeResolveFn<'Issue' | 'PullRequest', ParentType, ContextType>
 }
 
 export type IssueTemplateResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueTemplate'] = ResolversParentTypes['IssueTemplate']
+  ParentType extends
+    ResolversParentTypes['IssueTemplate'] = ResolversParentTypes['IssueTemplate']
 > = {
   about?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
   body?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
@@ -32796,7 +33066,8 @@ export type IssueTemplateResolvers<
 
 export type IssueTimelineConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueTimelineConnection'] = ResolversParentTypes['IssueTimelineConnection']
+  ParentType extends
+    ResolversParentTypes['IssueTimelineConnection'] = ResolversParentTypes['IssueTimelineConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['IssueTimelineItemEdge']>>>,
@@ -32815,7 +33086,8 @@ export type IssueTimelineConnectionResolvers<
 
 export type IssueTimelineItemResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueTimelineItem'] = ResolversParentTypes['IssueTimelineItem']
+  ParentType extends
+    ResolversParentTypes['IssueTimelineItem'] = ResolversParentTypes['IssueTimelineItem']
 > = {
   __resolveType: TypeResolveFn<
     | 'AssignedEvent'
@@ -32844,7 +33116,8 @@ export type IssueTimelineItemResolvers<
 
 export type IssueTimelineItemEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueTimelineItemEdge'] = ResolversParentTypes['IssueTimelineItemEdge']
+  ParentType extends
+    ResolversParentTypes['IssueTimelineItemEdge'] = ResolversParentTypes['IssueTimelineItemEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -32857,7 +33130,8 @@ export type IssueTimelineItemEdgeResolvers<
 
 export type IssueTimelineItemsResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueTimelineItems'] = ResolversParentTypes['IssueTimelineItems']
+  ParentType extends
+    ResolversParentTypes['IssueTimelineItems'] = ResolversParentTypes['IssueTimelineItems']
 > = {
   __resolveType: TypeResolveFn<
     | 'AddedToProjectEvent'
@@ -32897,7 +33171,8 @@ export type IssueTimelineItemsResolvers<
 
 export type IssueTimelineItemsConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueTimelineItemsConnection'] = ResolversParentTypes['IssueTimelineItemsConnection']
+  ParentType extends
+    ResolversParentTypes['IssueTimelineItemsConnection'] = ResolversParentTypes['IssueTimelineItemsConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['IssueTimelineItemsEdge']>>>,
@@ -32919,7 +33194,8 @@ export type IssueTimelineItemsConnectionResolvers<
 
 export type IssueTimelineItemsEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['IssueTimelineItemsEdge'] = ResolversParentTypes['IssueTimelineItemsEdge']
+  ParentType extends
+    ResolversParentTypes['IssueTimelineItemsEdge'] = ResolversParentTypes['IssueTimelineItemsEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -32932,7 +33208,8 @@ export type IssueTimelineItemsEdgeResolvers<
 
 export type JoinedGitHubContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['JoinedGitHubContribution'] = ResolversParentTypes['JoinedGitHubContribution']
+  ParentType extends
+    ResolversParentTypes['JoinedGitHubContribution'] = ResolversParentTypes['JoinedGitHubContribution']
 > = {
   isRestricted?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   occurredAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -32944,7 +33221,8 @@ export type JoinedGitHubContributionResolvers<
 
 export type LabelResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Label'] = ResolversParentTypes['Label']
+  ParentType extends
+    ResolversParentTypes['Label'] = ResolversParentTypes['Label']
 > = {
   color?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   createdAt?: Resolver<
@@ -32985,7 +33263,8 @@ export type LabelResolvers<
 
 export type LabelConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['LabelConnection'] = ResolversParentTypes['LabelConnection']
+  ParentType extends
+    ResolversParentTypes['LabelConnection'] = ResolversParentTypes['LabelConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['LabelEdge']>>>,
@@ -33004,7 +33283,8 @@ export type LabelConnectionResolvers<
 
 export type LabelEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['LabelEdge'] = ResolversParentTypes['LabelEdge']
+  ParentType extends
+    ResolversParentTypes['LabelEdge'] = ResolversParentTypes['LabelEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Label']>, ParentType, ContextType>
@@ -33013,7 +33293,8 @@ export type LabelEdgeResolvers<
 
 export type LabelableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Labelable'] = ResolversParentTypes['Labelable']
+  ParentType extends
+    ResolversParentTypes['Labelable'] = ResolversParentTypes['Labelable']
 > = {
   __resolveType: TypeResolveFn<
     'Discussion' | 'Issue' | 'PullRequest',
@@ -33030,7 +33311,8 @@ export type LabelableResolvers<
 
 export type LabeledEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['LabeledEvent'] = ResolversParentTypes['LabeledEvent']
+  ParentType extends
+    ResolversParentTypes['LabeledEvent'] = ResolversParentTypes['LabeledEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -33042,7 +33324,8 @@ export type LabeledEventResolvers<
 
 export type LanguageResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Language'] = ResolversParentTypes['Language']
+  ParentType extends
+    ResolversParentTypes['Language'] = ResolversParentTypes['Language']
 > = {
   color?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
@@ -33052,7 +33335,8 @@ export type LanguageResolvers<
 
 export type LanguageConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['LanguageConnection'] = ResolversParentTypes['LanguageConnection']
+  ParentType extends
+    ResolversParentTypes['LanguageConnection'] = ResolversParentTypes['LanguageConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['LanguageEdge']>>>,
@@ -33072,7 +33356,8 @@ export type LanguageConnectionResolvers<
 
 export type LanguageEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['LanguageEdge'] = ResolversParentTypes['LanguageEdge']
+  ParentType extends
+    ResolversParentTypes['LanguageEdge'] = ResolversParentTypes['LanguageEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<ResolversTypes['Language'], ParentType, ContextType>
@@ -33082,7 +33367,8 @@ export type LanguageEdgeResolvers<
 
 export type LicenseResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['License'] = ResolversParentTypes['License']
+  ParentType extends
+    ResolversParentTypes['License'] = ResolversParentTypes['License']
 > = {
   body?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   conditions?: Resolver<
@@ -33124,7 +33410,8 @@ export type LicenseResolvers<
 
 export type LicenseRuleResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['LicenseRule'] = ResolversParentTypes['LicenseRule']
+  ParentType extends
+    ResolversParentTypes['LicenseRule'] = ResolversParentTypes['LicenseRule']
 > = {
   description?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   key?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -33134,7 +33421,8 @@ export type LicenseRuleResolvers<
 
 export type LinkRepositoryToProjectPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['LinkRepositoryToProjectPayload'] = ResolversParentTypes['LinkRepositoryToProjectPayload']
+  ParentType extends
+    ResolversParentTypes['LinkRepositoryToProjectPayload'] = ResolversParentTypes['LinkRepositoryToProjectPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -33152,7 +33440,8 @@ export type LinkRepositoryToProjectPayloadResolvers<
 
 export type LockLockablePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['LockLockablePayload'] = ResolversParentTypes['LockLockablePayload']
+  ParentType extends
+    ResolversParentTypes['LockLockablePayload'] = ResolversParentTypes['LockLockablePayload']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   clientMutationId?: Resolver<
@@ -33170,7 +33459,8 @@ export type LockLockablePayloadResolvers<
 
 export type LockableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Lockable'] = ResolversParentTypes['Lockable']
+  ParentType extends
+    ResolversParentTypes['Lockable'] = ResolversParentTypes['Lockable']
 > = {
   __resolveType: TypeResolveFn<
     'Discussion' | 'Issue' | 'PullRequest',
@@ -33187,7 +33477,8 @@ export type LockableResolvers<
 
 export type LockedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['LockedEvent'] = ResolversParentTypes['LockedEvent']
+  ParentType extends
+    ResolversParentTypes['LockedEvent'] = ResolversParentTypes['LockedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -33203,7 +33494,8 @@ export type LockedEventResolvers<
 
 export type MannequinResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Mannequin'] = ResolversParentTypes['Mannequin']
+  ParentType extends
+    ResolversParentTypes['Mannequin'] = ResolversParentTypes['Mannequin']
 > = {
   avatarUrl?: Resolver<
     ResolversTypes['URI'],
@@ -33225,7 +33517,8 @@ export type MannequinResolvers<
 
 export type MarkDiscussionCommentAsAnswerPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MarkDiscussionCommentAsAnswerPayload'] = ResolversParentTypes['MarkDiscussionCommentAsAnswerPayload']
+  ParentType extends
+    ResolversParentTypes['MarkDiscussionCommentAsAnswerPayload'] = ResolversParentTypes['MarkDiscussionCommentAsAnswerPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -33242,7 +33535,8 @@ export type MarkDiscussionCommentAsAnswerPayloadResolvers<
 
 export type MarkFileAsViewedPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MarkFileAsViewedPayload'] = ResolversParentTypes['MarkFileAsViewedPayload']
+  ParentType extends
+    ResolversParentTypes['MarkFileAsViewedPayload'] = ResolversParentTypes['MarkFileAsViewedPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -33259,7 +33553,8 @@ export type MarkFileAsViewedPayloadResolvers<
 
 export type MarkPullRequestReadyForReviewPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MarkPullRequestReadyForReviewPayload'] = ResolversParentTypes['MarkPullRequestReadyForReviewPayload']
+  ParentType extends
+    ResolversParentTypes['MarkPullRequestReadyForReviewPayload'] = ResolversParentTypes['MarkPullRequestReadyForReviewPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -33276,7 +33571,8 @@ export type MarkPullRequestReadyForReviewPayloadResolvers<
 
 export type MarkedAsDuplicateEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MarkedAsDuplicateEvent'] = ResolversParentTypes['MarkedAsDuplicateEvent']
+  ParentType extends
+    ResolversParentTypes['MarkedAsDuplicateEvent'] = ResolversParentTypes['MarkedAsDuplicateEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   canonical?: Resolver<
@@ -33301,7 +33597,8 @@ export type MarkedAsDuplicateEventResolvers<
 
 export type MarketplaceCategoryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MarketplaceCategory'] = ResolversParentTypes['MarketplaceCategory']
+  ParentType extends
+    ResolversParentTypes['MarketplaceCategory'] = ResolversParentTypes['MarketplaceCategory']
 > = {
   description?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -33329,7 +33626,8 @@ export type MarketplaceCategoryResolvers<
 
 export type MarketplaceListingResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MarketplaceListing'] = ResolversParentTypes['MarketplaceListing']
+  ParentType extends
+    ResolversParentTypes['MarketplaceListing'] = ResolversParentTypes['MarketplaceListing']
 > = {
   app?: Resolver<Maybe<ResolversTypes['App']>, ParentType, ContextType>
   companyUrl?: Resolver<Maybe<ResolversTypes['URI']>, ParentType, ContextType>
@@ -33517,7 +33815,8 @@ export type MarketplaceListingResolvers<
 
 export type MarketplaceListingConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MarketplaceListingConnection'] = ResolversParentTypes['MarketplaceListingConnection']
+  ParentType extends
+    ResolversParentTypes['MarketplaceListingConnection'] = ResolversParentTypes['MarketplaceListingConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['MarketplaceListingEdge']>>>,
@@ -33536,7 +33835,8 @@ export type MarketplaceListingConnectionResolvers<
 
 export type MarketplaceListingEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MarketplaceListingEdge'] = ResolversParentTypes['MarketplaceListingEdge']
+  ParentType extends
+    ResolversParentTypes['MarketplaceListingEdge'] = ResolversParentTypes['MarketplaceListingEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -33549,7 +33849,8 @@ export type MarketplaceListingEdgeResolvers<
 
 export type MemberStatusableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MemberStatusable'] = ResolversParentTypes['MemberStatusable']
+  ParentType extends
+    ResolversParentTypes['MemberStatusable'] = ResolversParentTypes['MemberStatusable']
 > = {
   __resolveType: TypeResolveFn<'Organization' | 'Team', ParentType, ContextType>
   memberStatuses?: Resolver<
@@ -33562,7 +33863,8 @@ export type MemberStatusableResolvers<
 
 export type MembersCanDeleteReposClearAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MembersCanDeleteReposClearAuditEntry'] = ResolversParentTypes['MembersCanDeleteReposClearAuditEntry']
+  ParentType extends
+    ResolversParentTypes['MembersCanDeleteReposClearAuditEntry'] = ResolversParentTypes['MembersCanDeleteReposClearAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -33646,7 +33948,8 @@ export type MembersCanDeleteReposClearAuditEntryResolvers<
 
 export type MembersCanDeleteReposDisableAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MembersCanDeleteReposDisableAuditEntry'] = ResolversParentTypes['MembersCanDeleteReposDisableAuditEntry']
+  ParentType extends
+    ResolversParentTypes['MembersCanDeleteReposDisableAuditEntry'] = ResolversParentTypes['MembersCanDeleteReposDisableAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -33730,7 +34033,8 @@ export type MembersCanDeleteReposDisableAuditEntryResolvers<
 
 export type MembersCanDeleteReposEnableAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MembersCanDeleteReposEnableAuditEntry'] = ResolversParentTypes['MembersCanDeleteReposEnableAuditEntry']
+  ParentType extends
+    ResolversParentTypes['MembersCanDeleteReposEnableAuditEntry'] = ResolversParentTypes['MembersCanDeleteReposEnableAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -33814,7 +34118,8 @@ export type MembersCanDeleteReposEnableAuditEntryResolvers<
 
 export type MentionedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MentionedEvent'] = ResolversParentTypes['MentionedEvent']
+  ParentType extends
+    ResolversParentTypes['MentionedEvent'] = ResolversParentTypes['MentionedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -33825,7 +34130,8 @@ export type MentionedEventResolvers<
 
 export type MergeBranchPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MergeBranchPayload'] = ResolversParentTypes['MergeBranchPayload']
+  ParentType extends
+    ResolversParentTypes['MergeBranchPayload'] = ResolversParentTypes['MergeBranchPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -33842,7 +34148,8 @@ export type MergeBranchPayloadResolvers<
 
 export type MergePullRequestPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MergePullRequestPayload'] = ResolversParentTypes['MergePullRequestPayload']
+  ParentType extends
+    ResolversParentTypes['MergePullRequestPayload'] = ResolversParentTypes['MergePullRequestPayload']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   clientMutationId?: Resolver<
@@ -33860,7 +34167,8 @@ export type MergePullRequestPayloadResolvers<
 
 export type MergedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MergedEvent'] = ResolversParentTypes['MergedEvent']
+  ParentType extends
+    ResolversParentTypes['MergedEvent'] = ResolversParentTypes['MergedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   commit?: Resolver<Maybe<ResolversTypes['Commit']>, ParentType, ContextType>
@@ -33876,7 +34184,8 @@ export type MergedEventResolvers<
 
 export type MilestoneResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Milestone'] = ResolversParentTypes['Milestone']
+  ParentType extends
+    ResolversParentTypes['Milestone'] = ResolversParentTypes['Milestone']
 > = {
   closed?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   closedAt?: Resolver<
@@ -33922,7 +34231,8 @@ export type MilestoneResolvers<
 
 export type MilestoneConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MilestoneConnection'] = ResolversParentTypes['MilestoneConnection']
+  ParentType extends
+    ResolversParentTypes['MilestoneConnection'] = ResolversParentTypes['MilestoneConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['MilestoneEdge']>>>,
@@ -33941,7 +34251,8 @@ export type MilestoneConnectionResolvers<
 
 export type MilestoneEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MilestoneEdge'] = ResolversParentTypes['MilestoneEdge']
+  ParentType extends
+    ResolversParentTypes['MilestoneEdge'] = ResolversParentTypes['MilestoneEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Milestone']>, ParentType, ContextType>
@@ -33950,14 +34261,16 @@ export type MilestoneEdgeResolvers<
 
 export type MilestoneItemResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MilestoneItem'] = ResolversParentTypes['MilestoneItem']
+  ParentType extends
+    ResolversParentTypes['MilestoneItem'] = ResolversParentTypes['MilestoneItem']
 > = {
   __resolveType: TypeResolveFn<'Issue' | 'PullRequest', ParentType, ContextType>
 }
 
 export type MilestonedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MilestonedEvent'] = ResolversParentTypes['MilestonedEvent']
+  ParentType extends
+    ResolversParentTypes['MilestonedEvent'] = ResolversParentTypes['MilestonedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -33969,7 +34282,8 @@ export type MilestonedEventResolvers<
 
 export type MinimizableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Minimizable'] = ResolversParentTypes['Minimizable']
+  ParentType extends
+    ResolversParentTypes['Minimizable'] = ResolversParentTypes['Minimizable']
 > = {
   __resolveType: TypeResolveFn<
     | 'CommitComment'
@@ -33995,7 +34309,8 @@ export type MinimizableResolvers<
 
 export type MinimizeCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MinimizeCommentPayload'] = ResolversParentTypes['MinimizeCommentPayload']
+  ParentType extends
+    ResolversParentTypes['MinimizeCommentPayload'] = ResolversParentTypes['MinimizeCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -34012,7 +34327,8 @@ export type MinimizeCommentPayloadResolvers<
 
 export type MoveProjectCardPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MoveProjectCardPayload'] = ResolversParentTypes['MoveProjectCardPayload']
+  ParentType extends
+    ResolversParentTypes['MoveProjectCardPayload'] = ResolversParentTypes['MoveProjectCardPayload']
 > = {
   cardEdge?: Resolver<
     Maybe<ResolversTypes['ProjectCardEdge']>,
@@ -34029,7 +34345,8 @@ export type MoveProjectCardPayloadResolvers<
 
 export type MoveProjectColumnPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MoveProjectColumnPayload'] = ResolversParentTypes['MoveProjectColumnPayload']
+  ParentType extends
+    ResolversParentTypes['MoveProjectColumnPayload'] = ResolversParentTypes['MoveProjectColumnPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -34046,7 +34363,8 @@ export type MoveProjectColumnPayloadResolvers<
 
 export type MovedColumnsInProjectEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['MovedColumnsInProjectEvent'] = ResolversParentTypes['MovedColumnsInProjectEvent']
+  ParentType extends
+    ResolversParentTypes['MovedColumnsInProjectEvent'] = ResolversParentTypes['MovedColumnsInProjectEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -34057,7 +34375,8 @@ export type MovedColumnsInProjectEventResolvers<
 
 export type MutationResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Mutation'] = ResolversParentTypes['Mutation']
+  ParentType extends
+    ResolversParentTypes['Mutation'] = ResolversParentTypes['Mutation']
 > = {
   acceptEnterpriseAdministratorInvitation?: Resolver<
     Maybe<ResolversTypes['AcceptEnterpriseAdministratorInvitationPayload']>,
@@ -35276,7 +35595,8 @@ export type NodeResolvers<
 
 export type OauthApplicationAuditEntryDataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OauthApplicationAuditEntryData'] = ResolversParentTypes['OauthApplicationAuditEntryData']
+  ParentType extends
+    ResolversParentTypes['OauthApplicationAuditEntryData'] = ResolversParentTypes['OauthApplicationAuditEntryData']
 > = {
   __resolveType: TypeResolveFn<
     | 'OauthApplicationCreateAuditEntry'
@@ -35305,7 +35625,8 @@ export type OauthApplicationAuditEntryDataResolvers<
 
 export type OauthApplicationCreateAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OauthApplicationCreateAuditEntry'] = ResolversParentTypes['OauthApplicationCreateAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OauthApplicationCreateAuditEntry'] = ResolversParentTypes['OauthApplicationCreateAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -35401,7 +35722,8 @@ export type OauthApplicationCreateAuditEntryResolvers<
 
 export type OrgAddBillingManagerAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgAddBillingManagerAuditEntry'] = ResolversParentTypes['OrgAddBillingManagerAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgAddBillingManagerAuditEntry'] = ResolversParentTypes['OrgAddBillingManagerAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -35475,7 +35797,8 @@ export type OrgAddBillingManagerAuditEntryResolvers<
 
 export type OrgAddMemberAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgAddMemberAuditEntry'] = ResolversParentTypes['OrgAddMemberAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgAddMemberAuditEntry'] = ResolversParentTypes['OrgAddMemberAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -35549,7 +35872,8 @@ export type OrgAddMemberAuditEntryResolvers<
 
 export type OrgBlockUserAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgBlockUserAuditEntry'] = ResolversParentTypes['OrgBlockUserAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgBlockUserAuditEntry'] = ResolversParentTypes['OrgBlockUserAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -35634,7 +35958,8 @@ export type OrgBlockUserAuditEntryResolvers<
 
 export type OrgConfigDisableCollaboratorsOnlyAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgConfigDisableCollaboratorsOnlyAuditEntry'] = ResolversParentTypes['OrgConfigDisableCollaboratorsOnlyAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgConfigDisableCollaboratorsOnlyAuditEntry'] = ResolversParentTypes['OrgConfigDisableCollaboratorsOnlyAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -35703,7 +36028,8 @@ export type OrgConfigDisableCollaboratorsOnlyAuditEntryResolvers<
 
 export type OrgConfigEnableCollaboratorsOnlyAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgConfigEnableCollaboratorsOnlyAuditEntry'] = ResolversParentTypes['OrgConfigEnableCollaboratorsOnlyAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgConfigEnableCollaboratorsOnlyAuditEntry'] = ResolversParentTypes['OrgConfigEnableCollaboratorsOnlyAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -35772,7 +36098,8 @@ export type OrgConfigEnableCollaboratorsOnlyAuditEntryResolvers<
 
 export type OrgCreateAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgCreateAuditEntry'] = ResolversParentTypes['OrgCreateAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgCreateAuditEntry'] = ResolversParentTypes['OrgCreateAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -35846,7 +36173,8 @@ export type OrgCreateAuditEntryResolvers<
 
 export type OrgDisableOauthAppRestrictionsAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgDisableOauthAppRestrictionsAuditEntry'] = ResolversParentTypes['OrgDisableOauthAppRestrictionsAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgDisableOauthAppRestrictionsAuditEntry'] = ResolversParentTypes['OrgDisableOauthAppRestrictionsAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -35915,7 +36243,8 @@ export type OrgDisableOauthAppRestrictionsAuditEntryResolvers<
 
 export type OrgDisableSamlAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgDisableSamlAuditEntry'] = ResolversParentTypes['OrgDisableSamlAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgDisableSamlAuditEntry'] = ResolversParentTypes['OrgDisableSamlAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36000,7 +36329,8 @@ export type OrgDisableSamlAuditEntryResolvers<
 
 export type OrgDisableTwoFactorRequirementAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgDisableTwoFactorRequirementAuditEntry'] = ResolversParentTypes['OrgDisableTwoFactorRequirementAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgDisableTwoFactorRequirementAuditEntry'] = ResolversParentTypes['OrgDisableTwoFactorRequirementAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36069,7 +36399,8 @@ export type OrgDisableTwoFactorRequirementAuditEntryResolvers<
 
 export type OrgEnableOauthAppRestrictionsAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgEnableOauthAppRestrictionsAuditEntry'] = ResolversParentTypes['OrgEnableOauthAppRestrictionsAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgEnableOauthAppRestrictionsAuditEntry'] = ResolversParentTypes['OrgEnableOauthAppRestrictionsAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36138,7 +36469,8 @@ export type OrgEnableOauthAppRestrictionsAuditEntryResolvers<
 
 export type OrgEnableSamlAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgEnableSamlAuditEntry'] = ResolversParentTypes['OrgEnableSamlAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgEnableSamlAuditEntry'] = ResolversParentTypes['OrgEnableSamlAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36223,7 +36555,8 @@ export type OrgEnableSamlAuditEntryResolvers<
 
 export type OrgEnableTwoFactorRequirementAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgEnableTwoFactorRequirementAuditEntry'] = ResolversParentTypes['OrgEnableTwoFactorRequirementAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgEnableTwoFactorRequirementAuditEntry'] = ResolversParentTypes['OrgEnableTwoFactorRequirementAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36292,7 +36625,8 @@ export type OrgEnableTwoFactorRequirementAuditEntryResolvers<
 
 export type OrgInviteMemberAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgInviteMemberAuditEntry'] = ResolversParentTypes['OrgInviteMemberAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgInviteMemberAuditEntry'] = ResolversParentTypes['OrgInviteMemberAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36367,7 +36701,8 @@ export type OrgInviteMemberAuditEntryResolvers<
 
 export type OrgInviteToBusinessAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgInviteToBusinessAuditEntry'] = ResolversParentTypes['OrgInviteToBusinessAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgInviteToBusinessAuditEntry'] = ResolversParentTypes['OrgInviteToBusinessAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36451,7 +36786,8 @@ export type OrgInviteToBusinessAuditEntryResolvers<
 
 export type OrgOauthAppAccessApprovedAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgOauthAppAccessApprovedAuditEntry'] = ResolversParentTypes['OrgOauthAppAccessApprovedAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgOauthAppAccessApprovedAuditEntry'] = ResolversParentTypes['OrgOauthAppAccessApprovedAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36535,7 +36871,8 @@ export type OrgOauthAppAccessApprovedAuditEntryResolvers<
 
 export type OrgOauthAppAccessDeniedAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgOauthAppAccessDeniedAuditEntry'] = ResolversParentTypes['OrgOauthAppAccessDeniedAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgOauthAppAccessDeniedAuditEntry'] = ResolversParentTypes['OrgOauthAppAccessDeniedAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36619,7 +36956,8 @@ export type OrgOauthAppAccessDeniedAuditEntryResolvers<
 
 export type OrgOauthAppAccessRequestedAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgOauthAppAccessRequestedAuditEntry'] = ResolversParentTypes['OrgOauthAppAccessRequestedAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgOauthAppAccessRequestedAuditEntry'] = ResolversParentTypes['OrgOauthAppAccessRequestedAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36703,7 +37041,8 @@ export type OrgOauthAppAccessRequestedAuditEntryResolvers<
 
 export type OrgRemoveBillingManagerAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgRemoveBillingManagerAuditEntry'] = ResolversParentTypes['OrgRemoveBillingManagerAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgRemoveBillingManagerAuditEntry'] = ResolversParentTypes['OrgRemoveBillingManagerAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36777,7 +37116,8 @@ export type OrgRemoveBillingManagerAuditEntryResolvers<
 
 export type OrgRemoveMemberAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgRemoveMemberAuditEntry'] = ResolversParentTypes['OrgRemoveMemberAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgRemoveMemberAuditEntry'] = ResolversParentTypes['OrgRemoveMemberAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36856,7 +37196,8 @@ export type OrgRemoveMemberAuditEntryResolvers<
 
 export type OrgRemoveOutsideCollaboratorAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgRemoveOutsideCollaboratorAuditEntry'] = ResolversParentTypes['OrgRemoveOutsideCollaboratorAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgRemoveOutsideCollaboratorAuditEntry'] = ResolversParentTypes['OrgRemoveOutsideCollaboratorAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -36939,7 +37280,8 @@ export type OrgRemoveOutsideCollaboratorAuditEntryResolvers<
 
 export type OrgRestoreMemberAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgRestoreMemberAuditEntry'] = ResolversParentTypes['OrgRestoreMemberAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgRestoreMemberAuditEntry'] = ResolversParentTypes['OrgRestoreMemberAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -37043,7 +37385,8 @@ export type OrgRestoreMemberAuditEntryResolvers<
 
 export type OrgRestoreMemberAuditEntryMembershipResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgRestoreMemberAuditEntryMembership'] = ResolversParentTypes['OrgRestoreMemberAuditEntryMembership']
+  ParentType extends
+    ResolversParentTypes['OrgRestoreMemberAuditEntryMembership'] = ResolversParentTypes['OrgRestoreMemberAuditEntryMembership']
 > = {
   __resolveType: TypeResolveFn<
     | 'OrgRestoreMemberMembershipOrganizationAuditEntryData'
@@ -37056,7 +37399,8 @@ export type OrgRestoreMemberAuditEntryMembershipResolvers<
 
 export type OrgRestoreMemberMembershipOrganizationAuditEntryDataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgRestoreMemberMembershipOrganizationAuditEntryData'] = ResolversParentTypes['OrgRestoreMemberMembershipOrganizationAuditEntryData']
+  ParentType extends
+    ResolversParentTypes['OrgRestoreMemberMembershipOrganizationAuditEntryData'] = ResolversParentTypes['OrgRestoreMemberMembershipOrganizationAuditEntryData']
 > = {
   organization?: Resolver<
     Maybe<ResolversTypes['Organization']>,
@@ -37083,7 +37427,8 @@ export type OrgRestoreMemberMembershipOrganizationAuditEntryDataResolvers<
 
 export type OrgRestoreMemberMembershipRepositoryAuditEntryDataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgRestoreMemberMembershipRepositoryAuditEntryData'] = ResolversParentTypes['OrgRestoreMemberMembershipRepositoryAuditEntryData']
+  ParentType extends
+    ResolversParentTypes['OrgRestoreMemberMembershipRepositoryAuditEntryData'] = ResolversParentTypes['OrgRestoreMemberMembershipRepositoryAuditEntryData']
 > = {
   repository?: Resolver<
     Maybe<ResolversTypes['Repository']>,
@@ -37110,7 +37455,8 @@ export type OrgRestoreMemberMembershipRepositoryAuditEntryDataResolvers<
 
 export type OrgRestoreMemberMembershipTeamAuditEntryDataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgRestoreMemberMembershipTeamAuditEntryData'] = ResolversParentTypes['OrgRestoreMemberMembershipTeamAuditEntryData']
+  ParentType extends
+    ResolversParentTypes['OrgRestoreMemberMembershipTeamAuditEntryData'] = ResolversParentTypes['OrgRestoreMemberMembershipTeamAuditEntryData']
 > = {
   team?: Resolver<Maybe<ResolversTypes['Team']>, ParentType, ContextType>
   teamName?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
@@ -37125,7 +37471,8 @@ export type OrgRestoreMemberMembershipTeamAuditEntryDataResolvers<
 
 export type OrgUnblockUserAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgUnblockUserAuditEntry'] = ResolversParentTypes['OrgUnblockUserAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgUnblockUserAuditEntry'] = ResolversParentTypes['OrgUnblockUserAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -37210,7 +37557,8 @@ export type OrgUnblockUserAuditEntryResolvers<
 
 export type OrgUpdateDefaultRepositoryPermissionAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgUpdateDefaultRepositoryPermissionAuditEntry'] = ResolversParentTypes['OrgUpdateDefaultRepositoryPermissionAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgUpdateDefaultRepositoryPermissionAuditEntry'] = ResolversParentTypes['OrgUpdateDefaultRepositoryPermissionAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -37293,7 +37641,8 @@ export type OrgUpdateDefaultRepositoryPermissionAuditEntryResolvers<
 
 export type OrgUpdateMemberAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgUpdateMemberAuditEntry'] = ResolversParentTypes['OrgUpdateMemberAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgUpdateMemberAuditEntry'] = ResolversParentTypes['OrgUpdateMemberAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -37372,7 +37721,8 @@ export type OrgUpdateMemberAuditEntryResolvers<
 
 export type OrgUpdateMemberRepositoryCreationPermissionAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgUpdateMemberRepositoryCreationPermissionAuditEntry'] = ResolversParentTypes['OrgUpdateMemberRepositoryCreationPermissionAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgUpdateMemberRepositoryCreationPermissionAuditEntry'] = ResolversParentTypes['OrgUpdateMemberRepositoryCreationPermissionAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -37453,7 +37803,8 @@ export type OrgUpdateMemberRepositoryCreationPermissionAuditEntryResolvers<
 
 export type OrgUpdateMemberRepositoryInvitationPermissionAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrgUpdateMemberRepositoryInvitationPermissionAuditEntry'] = ResolversParentTypes['OrgUpdateMemberRepositoryInvitationPermissionAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrgUpdateMemberRepositoryInvitationPermissionAuditEntry'] = ResolversParentTypes['OrgUpdateMemberRepositoryInvitationPermissionAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -37527,7 +37878,8 @@ export type OrgUpdateMemberRepositoryInvitationPermissionAuditEntryResolvers<
 
 export type OrganizationResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Organization'] = ResolversParentTypes['Organization']
+  ParentType extends
+    ResolversParentTypes['Organization'] = ResolversParentTypes['Organization']
 > = {
   anyPinnableItems?: Resolver<
     ResolversTypes['Boolean'],
@@ -37846,7 +38198,8 @@ export type OrganizationResolvers<
 
 export type OrganizationAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationAuditEntry'] = ResolversParentTypes['OrganizationAuditEntry']
+  ParentType extends
+    ResolversParentTypes['OrganizationAuditEntry'] = ResolversParentTypes['OrganizationAuditEntry']
 > = {
   __resolveType: TypeResolveFn<
     | 'MembersCanDeleteReposClearAuditEntry'
@@ -37914,7 +38267,8 @@ export type OrganizationAuditEntryResolvers<
 
 export type OrganizationAuditEntryConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationAuditEntryConnection'] = ResolversParentTypes['OrganizationAuditEntryConnection']
+  ParentType extends
+    ResolversParentTypes['OrganizationAuditEntryConnection'] = ResolversParentTypes['OrganizationAuditEntryConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['OrganizationAuditEntryEdge']>>>,
@@ -37933,7 +38287,8 @@ export type OrganizationAuditEntryConnectionResolvers<
 
 export type OrganizationAuditEntryDataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationAuditEntryData'] = ResolversParentTypes['OrganizationAuditEntryData']
+  ParentType extends
+    ResolversParentTypes['OrganizationAuditEntryData'] = ResolversParentTypes['OrganizationAuditEntryData']
 > = {
   __resolveType: TypeResolveFn<
     | 'MembersCanDeleteReposClearAuditEntry'
@@ -38022,7 +38377,8 @@ export type OrganizationAuditEntryDataResolvers<
 
 export type OrganizationAuditEntryEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationAuditEntryEdge'] = ResolversParentTypes['OrganizationAuditEntryEdge']
+  ParentType extends
+    ResolversParentTypes['OrganizationAuditEntryEdge'] = ResolversParentTypes['OrganizationAuditEntryEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -38035,7 +38391,8 @@ export type OrganizationAuditEntryEdgeResolvers<
 
 export type OrganizationConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationConnection'] = ResolversParentTypes['OrganizationConnection']
+  ParentType extends
+    ResolversParentTypes['OrganizationConnection'] = ResolversParentTypes['OrganizationConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['OrganizationEdge']>>>,
@@ -38054,7 +38411,8 @@ export type OrganizationConnectionResolvers<
 
 export type OrganizationEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationEdge'] = ResolversParentTypes['OrganizationEdge']
+  ParentType extends
+    ResolversParentTypes['OrganizationEdge'] = ResolversParentTypes['OrganizationEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -38067,7 +38425,8 @@ export type OrganizationEdgeResolvers<
 
 export type OrganizationIdentityProviderResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationIdentityProvider'] = ResolversParentTypes['OrganizationIdentityProvider']
+  ParentType extends
+    ResolversParentTypes['OrganizationIdentityProvider'] = ResolversParentTypes['OrganizationIdentityProvider']
 > = {
   digestMethod?: Resolver<Maybe<ResolversTypes['URI']>, ParentType, ContextType>
   externalIdentities?: Resolver<
@@ -38099,7 +38458,8 @@ export type OrganizationIdentityProviderResolvers<
 
 export type OrganizationInvitationResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationInvitation'] = ResolversParentTypes['OrganizationInvitation']
+  ParentType extends
+    ResolversParentTypes['OrganizationInvitation'] = ResolversParentTypes['OrganizationInvitation']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   email?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
@@ -38126,7 +38486,8 @@ export type OrganizationInvitationResolvers<
 
 export type OrganizationInvitationConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationInvitationConnection'] = ResolversParentTypes['OrganizationInvitationConnection']
+  ParentType extends
+    ResolversParentTypes['OrganizationInvitationConnection'] = ResolversParentTypes['OrganizationInvitationConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['OrganizationInvitationEdge']>>>,
@@ -38145,7 +38506,8 @@ export type OrganizationInvitationConnectionResolvers<
 
 export type OrganizationInvitationEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationInvitationEdge'] = ResolversParentTypes['OrganizationInvitationEdge']
+  ParentType extends
+    ResolversParentTypes['OrganizationInvitationEdge'] = ResolversParentTypes['OrganizationInvitationEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -38158,7 +38520,8 @@ export type OrganizationInvitationEdgeResolvers<
 
 export type OrganizationMemberConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationMemberConnection'] = ResolversParentTypes['OrganizationMemberConnection']
+  ParentType extends
+    ResolversParentTypes['OrganizationMemberConnection'] = ResolversParentTypes['OrganizationMemberConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['OrganizationMemberEdge']>>>,
@@ -38177,7 +38540,8 @@ export type OrganizationMemberConnectionResolvers<
 
 export type OrganizationMemberEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationMemberEdge'] = ResolversParentTypes['OrganizationMemberEdge']
+  ParentType extends
+    ResolversParentTypes['OrganizationMemberEdge'] = ResolversParentTypes['OrganizationMemberEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   hasTwoFactorEnabled?: Resolver<
@@ -38196,7 +38560,8 @@ export type OrganizationMemberEdgeResolvers<
 
 export type OrganizationTeamsHovercardContextResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationTeamsHovercardContext'] = ResolversParentTypes['OrganizationTeamsHovercardContext']
+  ParentType extends
+    ResolversParentTypes['OrganizationTeamsHovercardContext'] = ResolversParentTypes['OrganizationTeamsHovercardContext']
 > = {
   message?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   octicon?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -38214,7 +38579,8 @@ export type OrganizationTeamsHovercardContextResolvers<
 
 export type OrganizationsHovercardContextResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['OrganizationsHovercardContext'] = ResolversParentTypes['OrganizationsHovercardContext']
+  ParentType extends
+    ResolversParentTypes['OrganizationsHovercardContext'] = ResolversParentTypes['OrganizationsHovercardContext']
 > = {
   message?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   octicon?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -38234,7 +38600,8 @@ export type OrganizationsHovercardContextResolvers<
 
 export type PackageResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Package'] = ResolversParentTypes['Package']
+  ParentType extends
+    ResolversParentTypes['Package'] = ResolversParentTypes['Package']
 > = {
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
   latestVersion?: Resolver<
@@ -38271,7 +38638,8 @@ export type PackageResolvers<
 
 export type PackageConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageConnection'] = ResolversParentTypes['PackageConnection']
+  ParentType extends
+    ResolversParentTypes['PackageConnection'] = ResolversParentTypes['PackageConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PackageEdge']>>>,
@@ -38290,7 +38658,8 @@ export type PackageConnectionResolvers<
 
 export type PackageEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageEdge'] = ResolversParentTypes['PackageEdge']
+  ParentType extends
+    ResolversParentTypes['PackageEdge'] = ResolversParentTypes['PackageEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Package']>, ParentType, ContextType>
@@ -38299,7 +38668,8 @@ export type PackageEdgeResolvers<
 
 export type PackageFileResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageFile'] = ResolversParentTypes['PackageFile']
+  ParentType extends
+    ResolversParentTypes['PackageFile'] = ResolversParentTypes['PackageFile']
 > = {
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
   md5?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
@@ -38319,7 +38689,8 @@ export type PackageFileResolvers<
 
 export type PackageFileConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageFileConnection'] = ResolversParentTypes['PackageFileConnection']
+  ParentType extends
+    ResolversParentTypes['PackageFileConnection'] = ResolversParentTypes['PackageFileConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PackageFileEdge']>>>,
@@ -38338,7 +38709,8 @@ export type PackageFileConnectionResolvers<
 
 export type PackageFileEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageFileEdge'] = ResolversParentTypes['PackageFileEdge']
+  ParentType extends
+    ResolversParentTypes['PackageFileEdge'] = ResolversParentTypes['PackageFileEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['PackageFile']>, ParentType, ContextType>
@@ -38347,7 +38719,8 @@ export type PackageFileEdgeResolvers<
 
 export type PackageOwnerResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageOwner'] = ResolversParentTypes['PackageOwner']
+  ParentType extends
+    ResolversParentTypes['PackageOwner'] = ResolversParentTypes['PackageOwner']
 > = {
   __resolveType: TypeResolveFn<
     'Organization' | 'Repository' | 'User',
@@ -38365,7 +38738,8 @@ export type PackageOwnerResolvers<
 
 export type PackageStatisticsResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageStatistics'] = ResolversParentTypes['PackageStatistics']
+  ParentType extends
+    ResolversParentTypes['PackageStatistics'] = ResolversParentTypes['PackageStatistics']
 > = {
   downloadsTotalCount?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>
@@ -38373,7 +38747,8 @@ export type PackageStatisticsResolvers<
 
 export type PackageTagResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageTag'] = ResolversParentTypes['PackageTag']
+  ParentType extends
+    ResolversParentTypes['PackageTag'] = ResolversParentTypes['PackageTag']
 > = {
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
   name?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -38387,7 +38762,8 @@ export type PackageTagResolvers<
 
 export type PackageVersionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageVersion'] = ResolversParentTypes['PackageVersion']
+  ParentType extends
+    ResolversParentTypes['PackageVersion'] = ResolversParentTypes['PackageVersion']
 > = {
   files?: Resolver<
     ResolversTypes['PackageFileConnection'],
@@ -38413,7 +38789,8 @@ export type PackageVersionResolvers<
 
 export type PackageVersionConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageVersionConnection'] = ResolversParentTypes['PackageVersionConnection']
+  ParentType extends
+    ResolversParentTypes['PackageVersionConnection'] = ResolversParentTypes['PackageVersionConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PackageVersionEdge']>>>,
@@ -38432,7 +38809,8 @@ export type PackageVersionConnectionResolvers<
 
 export type PackageVersionEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageVersionEdge'] = ResolversParentTypes['PackageVersionEdge']
+  ParentType extends
+    ResolversParentTypes['PackageVersionEdge'] = ResolversParentTypes['PackageVersionEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -38445,7 +38823,8 @@ export type PackageVersionEdgeResolvers<
 
 export type PackageVersionStatisticsResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PackageVersionStatistics'] = ResolversParentTypes['PackageVersionStatistics']
+  ParentType extends
+    ResolversParentTypes['PackageVersionStatistics'] = ResolversParentTypes['PackageVersionStatistics']
 > = {
   downloadsTotalCount?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>
@@ -38453,7 +38832,8 @@ export type PackageVersionStatisticsResolvers<
 
 export type PageInfoResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PageInfo'] = ResolversParentTypes['PageInfo']
+  ParentType extends
+    ResolversParentTypes['PageInfo'] = ResolversParentTypes['PageInfo']
 > = {
   endCursor?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
   hasNextPage?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -38468,7 +38848,8 @@ export type PageInfoResolvers<
 
 export type PermissionGranterResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PermissionGranter'] = ResolversParentTypes['PermissionGranter']
+  ParentType extends
+    ResolversParentTypes['PermissionGranter'] = ResolversParentTypes['PermissionGranter']
 > = {
   __resolveType: TypeResolveFn<
     'Organization' | 'Repository' | 'Team',
@@ -38479,7 +38860,8 @@ export type PermissionGranterResolvers<
 
 export type PermissionSourceResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PermissionSource'] = ResolversParentTypes['PermissionSource']
+  ParentType extends
+    ResolversParentTypes['PermissionSource'] = ResolversParentTypes['PermissionSource']
 > = {
   organization?: Resolver<
     ResolversTypes['Organization'],
@@ -38501,7 +38883,8 @@ export type PermissionSourceResolvers<
 
 export type PinIssuePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinIssuePayload'] = ResolversParentTypes['PinIssuePayload']
+  ParentType extends
+    ResolversParentTypes['PinIssuePayload'] = ResolversParentTypes['PinIssuePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -38514,14 +38897,16 @@ export type PinIssuePayloadResolvers<
 
 export type PinnableItemResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinnableItem'] = ResolversParentTypes['PinnableItem']
+  ParentType extends
+    ResolversParentTypes['PinnableItem'] = ResolversParentTypes['PinnableItem']
 > = {
   __resolveType: TypeResolveFn<'Gist' | 'Repository', ParentType, ContextType>
 }
 
 export type PinnableItemConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinnableItemConnection'] = ResolversParentTypes['PinnableItemConnection']
+  ParentType extends
+    ResolversParentTypes['PinnableItemConnection'] = ResolversParentTypes['PinnableItemConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PinnableItemEdge']>>>,
@@ -38540,7 +38925,8 @@ export type PinnableItemConnectionResolvers<
 
 export type PinnableItemEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinnableItemEdge'] = ResolversParentTypes['PinnableItemEdge']
+  ParentType extends
+    ResolversParentTypes['PinnableItemEdge'] = ResolversParentTypes['PinnableItemEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -38553,7 +38939,8 @@ export type PinnableItemEdgeResolvers<
 
 export type PinnedDiscussionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinnedDiscussion'] = ResolversParentTypes['PinnedDiscussion']
+  ParentType extends
+    ResolversParentTypes['PinnedDiscussion'] = ResolversParentTypes['PinnedDiscussion']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   databaseId?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>
@@ -38582,7 +38969,8 @@ export type PinnedDiscussionResolvers<
 
 export type PinnedDiscussionConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinnedDiscussionConnection'] = ResolversParentTypes['PinnedDiscussionConnection']
+  ParentType extends
+    ResolversParentTypes['PinnedDiscussionConnection'] = ResolversParentTypes['PinnedDiscussionConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PinnedDiscussionEdge']>>>,
@@ -38601,7 +38989,8 @@ export type PinnedDiscussionConnectionResolvers<
 
 export type PinnedDiscussionEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinnedDiscussionEdge'] = ResolversParentTypes['PinnedDiscussionEdge']
+  ParentType extends
+    ResolversParentTypes['PinnedDiscussionEdge'] = ResolversParentTypes['PinnedDiscussionEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -38614,7 +39003,8 @@ export type PinnedDiscussionEdgeResolvers<
 
 export type PinnedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinnedEvent'] = ResolversParentTypes['PinnedEvent']
+  ParentType extends
+    ResolversParentTypes['PinnedEvent'] = ResolversParentTypes['PinnedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -38625,7 +39015,8 @@ export type PinnedEventResolvers<
 
 export type PinnedIssueResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinnedIssue'] = ResolversParentTypes['PinnedIssue']
+  ParentType extends
+    ResolversParentTypes['PinnedIssue'] = ResolversParentTypes['PinnedIssue']
 > = {
   databaseId?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
@@ -38637,7 +39028,8 @@ export type PinnedIssueResolvers<
 
 export type PinnedIssueConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinnedIssueConnection'] = ResolversParentTypes['PinnedIssueConnection']
+  ParentType extends
+    ResolversParentTypes['PinnedIssueConnection'] = ResolversParentTypes['PinnedIssueConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PinnedIssueEdge']>>>,
@@ -38656,7 +39048,8 @@ export type PinnedIssueConnectionResolvers<
 
 export type PinnedIssueEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PinnedIssueEdge'] = ResolversParentTypes['PinnedIssueEdge']
+  ParentType extends
+    ResolversParentTypes['PinnedIssueEdge'] = ResolversParentTypes['PinnedIssueEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['PinnedIssue']>, ParentType, ContextType>
@@ -38670,7 +39063,8 @@ export interface PreciseDateTimeScalarConfig
 
 export type PrivateRepositoryForkingDisableAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PrivateRepositoryForkingDisableAuditEntry'] = ResolversParentTypes['PrivateRepositoryForkingDisableAuditEntry']
+  ParentType extends
+    ResolversParentTypes['PrivateRepositoryForkingDisableAuditEntry'] = ResolversParentTypes['PrivateRepositoryForkingDisableAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -38774,7 +39168,8 @@ export type PrivateRepositoryForkingDisableAuditEntryResolvers<
 
 export type PrivateRepositoryForkingEnableAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PrivateRepositoryForkingEnableAuditEntry'] = ResolversParentTypes['PrivateRepositoryForkingEnableAuditEntry']
+  ParentType extends
+    ResolversParentTypes['PrivateRepositoryForkingEnableAuditEntry'] = ResolversParentTypes['PrivateRepositoryForkingEnableAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -38878,7 +39273,8 @@ export type PrivateRepositoryForkingEnableAuditEntryResolvers<
 
 export type ProfileItemShowcaseResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProfileItemShowcase'] = ResolversParentTypes['ProfileItemShowcase']
+  ParentType extends
+    ResolversParentTypes['ProfileItemShowcase'] = ResolversParentTypes['ProfileItemShowcase']
 > = {
   hasPinnedItems?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   items?: Resolver<
@@ -38892,7 +39288,8 @@ export type ProfileItemShowcaseResolvers<
 
 export type ProfileOwnerResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProfileOwner'] = ResolversParentTypes['ProfileOwner']
+  ParentType extends
+    ResolversParentTypes['ProfileOwner'] = ResolversParentTypes['ProfileOwner']
 > = {
   __resolveType: TypeResolveFn<'Organization' | 'User', ParentType, ContextType>
   anyPinnableItems?: Resolver<
@@ -38938,7 +39335,8 @@ export type ProfileOwnerResolvers<
 
 export type ProjectResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Project'] = ResolversParentTypes['Project']
+  ParentType extends
+    ResolversParentTypes['Project'] = ResolversParentTypes['Project']
 > = {
   body?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
   bodyHTML?: Resolver<ResolversTypes['HTML'], ParentType, ContextType>
@@ -38982,7 +39380,8 @@ export type ProjectResolvers<
 
 export type ProjectCardResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectCard'] = ResolversParentTypes['ProjectCard']
+  ParentType extends
+    ResolversParentTypes['ProjectCard'] = ResolversParentTypes['ProjectCard']
 > = {
   column?: Resolver<
     Maybe<ResolversTypes['ProjectColumn']>,
@@ -39014,7 +39413,8 @@ export type ProjectCardResolvers<
 
 export type ProjectCardConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectCardConnection'] = ResolversParentTypes['ProjectCardConnection']
+  ParentType extends
+    ResolversParentTypes['ProjectCardConnection'] = ResolversParentTypes['ProjectCardConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ProjectCardEdge']>>>,
@@ -39033,7 +39433,8 @@ export type ProjectCardConnectionResolvers<
 
 export type ProjectCardEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectCardEdge'] = ResolversParentTypes['ProjectCardEdge']
+  ParentType extends
+    ResolversParentTypes['ProjectCardEdge'] = ResolversParentTypes['ProjectCardEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['ProjectCard']>, ParentType, ContextType>
@@ -39042,14 +39443,16 @@ export type ProjectCardEdgeResolvers<
 
 export type ProjectCardItemResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectCardItem'] = ResolversParentTypes['ProjectCardItem']
+  ParentType extends
+    ResolversParentTypes['ProjectCardItem'] = ResolversParentTypes['ProjectCardItem']
 > = {
   __resolveType: TypeResolveFn<'Issue' | 'PullRequest', ParentType, ContextType>
 }
 
 export type ProjectColumnResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectColumn'] = ResolversParentTypes['ProjectColumn']
+  ParentType extends
+    ResolversParentTypes['ProjectColumn'] = ResolversParentTypes['ProjectColumn']
 > = {
   cards?: Resolver<
     ResolversTypes['ProjectCardConnection'],
@@ -39075,7 +39478,8 @@ export type ProjectColumnResolvers<
 
 export type ProjectColumnConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectColumnConnection'] = ResolversParentTypes['ProjectColumnConnection']
+  ParentType extends
+    ResolversParentTypes['ProjectColumnConnection'] = ResolversParentTypes['ProjectColumnConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ProjectColumnEdge']>>>,
@@ -39094,7 +39498,8 @@ export type ProjectColumnConnectionResolvers<
 
 export type ProjectColumnEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectColumnEdge'] = ResolversParentTypes['ProjectColumnEdge']
+  ParentType extends
+    ResolversParentTypes['ProjectColumnEdge'] = ResolversParentTypes['ProjectColumnEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -39107,7 +39512,8 @@ export type ProjectColumnEdgeResolvers<
 
 export type ProjectConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectConnection'] = ResolversParentTypes['ProjectConnection']
+  ParentType extends
+    ResolversParentTypes['ProjectConnection'] = ResolversParentTypes['ProjectConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ProjectEdge']>>>,
@@ -39126,7 +39532,8 @@ export type ProjectConnectionResolvers<
 
 export type ProjectEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectEdge'] = ResolversParentTypes['ProjectEdge']
+  ParentType extends
+    ResolversParentTypes['ProjectEdge'] = ResolversParentTypes['ProjectEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Project']>, ParentType, ContextType>
@@ -39135,7 +39542,8 @@ export type ProjectEdgeResolvers<
 
 export type ProjectOwnerResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectOwner'] = ResolversParentTypes['ProjectOwner']
+  ParentType extends
+    ResolversParentTypes['ProjectOwner'] = ResolversParentTypes['ProjectOwner']
 > = {
   __resolveType: TypeResolveFn<
     'Organization' | 'Repository' | 'User',
@@ -39170,7 +39578,8 @@ export type ProjectOwnerResolvers<
 
 export type ProjectProgressResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ProjectProgress'] = ResolversParentTypes['ProjectProgress']
+  ParentType extends
+    ResolversParentTypes['ProjectProgress'] = ResolversParentTypes['ProjectProgress']
 > = {
   doneCount?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
   donePercentage?: Resolver<ResolversTypes['Float'], ParentType, ContextType>
@@ -39188,7 +39597,8 @@ export type ProjectProgressResolvers<
 
 export type PublicKeyResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PublicKey'] = ResolversParentTypes['PublicKey']
+  ParentType extends
+    ResolversParentTypes['PublicKey'] = ResolversParentTypes['PublicKey']
 > = {
   accessedAt?: Resolver<
     Maybe<ResolversTypes['DateTime']>,
@@ -39218,7 +39628,8 @@ export type PublicKeyResolvers<
 
 export type PublicKeyConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PublicKeyConnection'] = ResolversParentTypes['PublicKeyConnection']
+  ParentType extends
+    ResolversParentTypes['PublicKeyConnection'] = ResolversParentTypes['PublicKeyConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PublicKeyEdge']>>>,
@@ -39237,7 +39648,8 @@ export type PublicKeyConnectionResolvers<
 
 export type PublicKeyEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PublicKeyEdge'] = ResolversParentTypes['PublicKeyEdge']
+  ParentType extends
+    ResolversParentTypes['PublicKeyEdge'] = ResolversParentTypes['PublicKeyEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['PublicKey']>, ParentType, ContextType>
@@ -39246,7 +39658,8 @@ export type PublicKeyEdgeResolvers<
 
 export type PullRequestResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequest'] = ResolversParentTypes['PullRequest']
+  ParentType extends
+    ResolversParentTypes['PullRequest'] = ResolversParentTypes['PullRequest']
 > = {
   activeLockReason?: Resolver<
     Maybe<ResolversTypes['LockReason']>,
@@ -39562,7 +39975,8 @@ export type PullRequestResolvers<
 
 export type PullRequestChangedFileResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestChangedFile'] = ResolversParentTypes['PullRequestChangedFile']
+  ParentType extends
+    ResolversParentTypes['PullRequestChangedFile'] = ResolversParentTypes['PullRequestChangedFile']
 > = {
   additions?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
   deletions?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
@@ -39577,7 +39991,8 @@ export type PullRequestChangedFileResolvers<
 
 export type PullRequestChangedFileConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestChangedFileConnection'] = ResolversParentTypes['PullRequestChangedFileConnection']
+  ParentType extends
+    ResolversParentTypes['PullRequestChangedFileConnection'] = ResolversParentTypes['PullRequestChangedFileConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PullRequestChangedFileEdge']>>>,
@@ -39596,7 +40011,8 @@ export type PullRequestChangedFileConnectionResolvers<
 
 export type PullRequestChangedFileEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestChangedFileEdge'] = ResolversParentTypes['PullRequestChangedFileEdge']
+  ParentType extends
+    ResolversParentTypes['PullRequestChangedFileEdge'] = ResolversParentTypes['PullRequestChangedFileEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -39609,7 +40025,8 @@ export type PullRequestChangedFileEdgeResolvers<
 
 export type PullRequestCommitResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestCommit'] = ResolversParentTypes['PullRequestCommit']
+  ParentType extends
+    ResolversParentTypes['PullRequestCommit'] = ResolversParentTypes['PullRequestCommit']
 > = {
   commit?: Resolver<ResolversTypes['Commit'], ParentType, ContextType>
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
@@ -39621,7 +40038,8 @@ export type PullRequestCommitResolvers<
 
 export type PullRequestCommitCommentThreadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestCommitCommentThread'] = ResolversParentTypes['PullRequestCommitCommentThread']
+  ParentType extends
+    ResolversParentTypes['PullRequestCommitCommentThread'] = ResolversParentTypes['PullRequestCommitCommentThread']
 > = {
   comments?: Resolver<
     ResolversTypes['CommitCommentConnection'],
@@ -39640,7 +40058,8 @@ export type PullRequestCommitCommentThreadResolvers<
 
 export type PullRequestCommitConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestCommitConnection'] = ResolversParentTypes['PullRequestCommitConnection']
+  ParentType extends
+    ResolversParentTypes['PullRequestCommitConnection'] = ResolversParentTypes['PullRequestCommitConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PullRequestCommitEdge']>>>,
@@ -39659,7 +40078,8 @@ export type PullRequestCommitConnectionResolvers<
 
 export type PullRequestCommitEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestCommitEdge'] = ResolversParentTypes['PullRequestCommitEdge']
+  ParentType extends
+    ResolversParentTypes['PullRequestCommitEdge'] = ResolversParentTypes['PullRequestCommitEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -39672,7 +40092,8 @@ export type PullRequestCommitEdgeResolvers<
 
 export type PullRequestConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestConnection'] = ResolversParentTypes['PullRequestConnection']
+  ParentType extends
+    ResolversParentTypes['PullRequestConnection'] = ResolversParentTypes['PullRequestConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PullRequestEdge']>>>,
@@ -39691,7 +40112,8 @@ export type PullRequestConnectionResolvers<
 
 export type PullRequestContributionsByRepositoryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestContributionsByRepository'] = ResolversParentTypes['PullRequestContributionsByRepository']
+  ParentType extends
+    ResolversParentTypes['PullRequestContributionsByRepository'] = ResolversParentTypes['PullRequestContributionsByRepository']
 > = {
   contributions?: Resolver<
     ResolversTypes['CreatedPullRequestContributionConnection'],
@@ -39708,7 +40130,8 @@ export type PullRequestContributionsByRepositoryResolvers<
 
 export type PullRequestEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestEdge'] = ResolversParentTypes['PullRequestEdge']
+  ParentType extends
+    ResolversParentTypes['PullRequestEdge'] = ResolversParentTypes['PullRequestEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['PullRequest']>, ParentType, ContextType>
@@ -39717,7 +40140,8 @@ export type PullRequestEdgeResolvers<
 
 export type PullRequestReviewResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestReview'] = ResolversParentTypes['PullRequestReview']
+  ParentType extends
+    ResolversParentTypes['PullRequestReview'] = ResolversParentTypes['PullRequestReview']
 > = {
   author?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   authorAssociation?: Resolver<
@@ -39812,7 +40236,8 @@ export type PullRequestReviewResolvers<
 
 export type PullRequestReviewCommentResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestReviewComment'] = ResolversParentTypes['PullRequestReviewComment']
+  ParentType extends
+    ResolversParentTypes['PullRequestReviewComment'] = ResolversParentTypes['PullRequestReviewComment']
 > = {
   author?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   authorAssociation?: Resolver<
@@ -39917,7 +40342,8 @@ export type PullRequestReviewCommentResolvers<
 
 export type PullRequestReviewCommentConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestReviewCommentConnection'] = ResolversParentTypes['PullRequestReviewCommentConnection']
+  ParentType extends
+    ResolversParentTypes['PullRequestReviewCommentConnection'] = ResolversParentTypes['PullRequestReviewCommentConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PullRequestReviewCommentEdge']>>>,
@@ -39936,7 +40362,8 @@ export type PullRequestReviewCommentConnectionResolvers<
 
 export type PullRequestReviewCommentEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestReviewCommentEdge'] = ResolversParentTypes['PullRequestReviewCommentEdge']
+  ParentType extends
+    ResolversParentTypes['PullRequestReviewCommentEdge'] = ResolversParentTypes['PullRequestReviewCommentEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -39949,7 +40376,8 @@ export type PullRequestReviewCommentEdgeResolvers<
 
 export type PullRequestReviewConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestReviewConnection'] = ResolversParentTypes['PullRequestReviewConnection']
+  ParentType extends
+    ResolversParentTypes['PullRequestReviewConnection'] = ResolversParentTypes['PullRequestReviewConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PullRequestReviewEdge']>>>,
@@ -39968,7 +40396,8 @@ export type PullRequestReviewConnectionResolvers<
 
 export type PullRequestReviewContributionsByRepositoryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestReviewContributionsByRepository'] = ResolversParentTypes['PullRequestReviewContributionsByRepository']
+  ParentType extends
+    ResolversParentTypes['PullRequestReviewContributionsByRepository'] = ResolversParentTypes['PullRequestReviewContributionsByRepository']
 > = {
   contributions?: Resolver<
     ResolversTypes['CreatedPullRequestReviewContributionConnection'],
@@ -39985,7 +40414,8 @@ export type PullRequestReviewContributionsByRepositoryResolvers<
 
 export type PullRequestReviewEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestReviewEdge'] = ResolversParentTypes['PullRequestReviewEdge']
+  ParentType extends
+    ResolversParentTypes['PullRequestReviewEdge'] = ResolversParentTypes['PullRequestReviewEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -39998,7 +40428,8 @@ export type PullRequestReviewEdgeResolvers<
 
 export type PullRequestReviewThreadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestReviewThread'] = ResolversParentTypes['PullRequestReviewThread']
+  ParentType extends
+    ResolversParentTypes['PullRequestReviewThread'] = ResolversParentTypes['PullRequestReviewThread']
 > = {
   comments?: Resolver<
     ResolversTypes['PullRequestReviewCommentConnection'],
@@ -40044,7 +40475,8 @@ export type PullRequestReviewThreadResolvers<
 
 export type PullRequestReviewThreadConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestReviewThreadConnection'] = ResolversParentTypes['PullRequestReviewThreadConnection']
+  ParentType extends
+    ResolversParentTypes['PullRequestReviewThreadConnection'] = ResolversParentTypes['PullRequestReviewThreadConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PullRequestReviewThreadEdge']>>>,
@@ -40063,7 +40495,8 @@ export type PullRequestReviewThreadConnectionResolvers<
 
 export type PullRequestReviewThreadEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestReviewThreadEdge'] = ResolversParentTypes['PullRequestReviewThreadEdge']
+  ParentType extends
+    ResolversParentTypes['PullRequestReviewThreadEdge'] = ResolversParentTypes['PullRequestReviewThreadEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -40076,7 +40509,8 @@ export type PullRequestReviewThreadEdgeResolvers<
 
 export type PullRequestRevisionMarkerResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestRevisionMarker'] = ResolversParentTypes['PullRequestRevisionMarker']
+  ParentType extends
+    ResolversParentTypes['PullRequestRevisionMarker'] = ResolversParentTypes['PullRequestRevisionMarker']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   lastSeenCommit?: Resolver<ResolversTypes['Commit'], ParentType, ContextType>
@@ -40086,7 +40520,8 @@ export type PullRequestRevisionMarkerResolvers<
 
 export type PullRequestTemplateResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestTemplate'] = ResolversParentTypes['PullRequestTemplate']
+  ParentType extends
+    ResolversParentTypes['PullRequestTemplate'] = ResolversParentTypes['PullRequestTemplate']
 > = {
   body?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
   filename?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
@@ -40096,7 +40531,8 @@ export type PullRequestTemplateResolvers<
 
 export type PullRequestTimelineConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestTimelineConnection'] = ResolversParentTypes['PullRequestTimelineConnection']
+  ParentType extends
+    ResolversParentTypes['PullRequestTimelineConnection'] = ResolversParentTypes['PullRequestTimelineConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PullRequestTimelineItemEdge']>>>,
@@ -40115,7 +40551,8 @@ export type PullRequestTimelineConnectionResolvers<
 
 export type PullRequestTimelineItemResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestTimelineItem'] = ResolversParentTypes['PullRequestTimelineItem']
+  ParentType extends
+    ResolversParentTypes['PullRequestTimelineItem'] = ResolversParentTypes['PullRequestTimelineItem']
 > = {
   __resolveType: TypeResolveFn<
     | 'AssignedEvent'
@@ -40158,7 +40595,8 @@ export type PullRequestTimelineItemResolvers<
 
 export type PullRequestTimelineItemEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestTimelineItemEdge'] = ResolversParentTypes['PullRequestTimelineItemEdge']
+  ParentType extends
+    ResolversParentTypes['PullRequestTimelineItemEdge'] = ResolversParentTypes['PullRequestTimelineItemEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -40171,7 +40609,8 @@ export type PullRequestTimelineItemEdgeResolvers<
 
 export type PullRequestTimelineItemsResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestTimelineItems'] = ResolversParentTypes['PullRequestTimelineItems']
+  ParentType extends
+    ResolversParentTypes['PullRequestTimelineItems'] = ResolversParentTypes['PullRequestTimelineItems']
 > = {
   __resolveType: TypeResolveFn<
     | 'AddedToProjectEvent'
@@ -40236,7 +40675,8 @@ export type PullRequestTimelineItemsResolvers<
 
 export type PullRequestTimelineItemsConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestTimelineItemsConnection'] = ResolversParentTypes['PullRequestTimelineItemsConnection']
+  ParentType extends
+    ResolversParentTypes['PullRequestTimelineItemsConnection'] = ResolversParentTypes['PullRequestTimelineItemsConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PullRequestTimelineItemsEdge']>>>,
@@ -40258,7 +40698,8 @@ export type PullRequestTimelineItemsConnectionResolvers<
 
 export type PullRequestTimelineItemsEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PullRequestTimelineItemsEdge'] = ResolversParentTypes['PullRequestTimelineItemsEdge']
+  ParentType extends
+    ResolversParentTypes['PullRequestTimelineItemsEdge'] = ResolversParentTypes['PullRequestTimelineItemsEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -40292,7 +40733,8 @@ export type PushResolvers<
 
 export type PushAllowanceResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PushAllowance'] = ResolversParentTypes['PushAllowance']
+  ParentType extends
+    ResolversParentTypes['PushAllowance'] = ResolversParentTypes['PushAllowance']
 > = {
   actor?: Resolver<
     Maybe<ResolversTypes['PushAllowanceActor']>,
@@ -40310,14 +40752,16 @@ export type PushAllowanceResolvers<
 
 export type PushAllowanceActorResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PushAllowanceActor'] = ResolversParentTypes['PushAllowanceActor']
+  ParentType extends
+    ResolversParentTypes['PushAllowanceActor'] = ResolversParentTypes['PushAllowanceActor']
 > = {
   __resolveType: TypeResolveFn<'App' | 'Team' | 'User', ParentType, ContextType>
 }
 
 export type PushAllowanceConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PushAllowanceConnection'] = ResolversParentTypes['PushAllowanceConnection']
+  ParentType extends
+    ResolversParentTypes['PushAllowanceConnection'] = ResolversParentTypes['PushAllowanceConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['PushAllowanceEdge']>>>,
@@ -40336,7 +40780,8 @@ export type PushAllowanceConnectionResolvers<
 
 export type PushAllowanceEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['PushAllowanceEdge'] = ResolversParentTypes['PushAllowanceEdge']
+  ParentType extends
+    ResolversParentTypes['PushAllowanceEdge'] = ResolversParentTypes['PushAllowanceEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -40349,7 +40794,8 @@ export type PushAllowanceEdgeResolvers<
 
 export type QueryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Query'] = ResolversParentTypes['Query']
+  ParentType extends
+    ResolversParentTypes['Query'] = ResolversParentTypes['Query']
 > = {
   codeOfConduct?: Resolver<
     Maybe<ResolversTypes['CodeOfConduct']>,
@@ -40515,7 +40961,8 @@ export type QueryResolvers<
 
 export type RateLimitResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RateLimit'] = ResolversParentTypes['RateLimit']
+  ParentType extends
+    ResolversParentTypes['RateLimit'] = ResolversParentTypes['RateLimit']
 > = {
   cost?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
   limit?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
@@ -40528,7 +40975,8 @@ export type RateLimitResolvers<
 
 export type ReactableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Reactable'] = ResolversParentTypes['Reactable']
+  ParentType extends
+    ResolversParentTypes['Reactable'] = ResolversParentTypes['Reactable']
 > = {
   __resolveType: TypeResolveFn<
     | 'CommitComment'
@@ -40563,7 +41011,8 @@ export type ReactableResolvers<
 
 export type ReactingUserConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReactingUserConnection'] = ResolversParentTypes['ReactingUserConnection']
+  ParentType extends
+    ResolversParentTypes['ReactingUserConnection'] = ResolversParentTypes['ReactingUserConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ReactingUserEdge']>>>,
@@ -40582,7 +41031,8 @@ export type ReactingUserConnectionResolvers<
 
 export type ReactingUserEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReactingUserEdge'] = ResolversParentTypes['ReactingUserEdge']
+  ParentType extends
+    ResolversParentTypes['ReactingUserEdge'] = ResolversParentTypes['ReactingUserEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<ResolversTypes['User'], ParentType, ContextType>
@@ -40592,7 +41042,8 @@ export type ReactingUserEdgeResolvers<
 
 export type ReactionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Reaction'] = ResolversParentTypes['Reaction']
+  ParentType extends
+    ResolversParentTypes['Reaction'] = ResolversParentTypes['Reaction']
 > = {
   content?: Resolver<ResolversTypes['ReactionContent'], ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -40605,7 +41056,8 @@ export type ReactionResolvers<
 
 export type ReactionConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReactionConnection'] = ResolversParentTypes['ReactionConnection']
+  ParentType extends
+    ResolversParentTypes['ReactionConnection'] = ResolversParentTypes['ReactionConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ReactionEdge']>>>,
@@ -40629,7 +41081,8 @@ export type ReactionConnectionResolvers<
 
 export type ReactionEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReactionEdge'] = ResolversParentTypes['ReactionEdge']
+  ParentType extends
+    ResolversParentTypes['ReactionEdge'] = ResolversParentTypes['ReactionEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Reaction']>, ParentType, ContextType>
@@ -40638,7 +41091,8 @@ export type ReactionEdgeResolvers<
 
 export type ReactionGroupResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReactionGroup'] = ResolversParentTypes['ReactionGroup']
+  ParentType extends
+    ResolversParentTypes['ReactionGroup'] = ResolversParentTypes['ReactionGroup']
 > = {
   content?: Resolver<ResolversTypes['ReactionContent'], ParentType, ContextType>
   createdAt?: Resolver<
@@ -40669,7 +41123,8 @@ export type ReactionGroupResolvers<
 
 export type ReactorResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Reactor'] = ResolversParentTypes['Reactor']
+  ParentType extends
+    ResolversParentTypes['Reactor'] = ResolversParentTypes['Reactor']
 > = {
   __resolveType: TypeResolveFn<
     'Bot' | 'Mannequin' | 'Organization' | 'User',
@@ -40680,7 +41135,8 @@ export type ReactorResolvers<
 
 export type ReactorConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReactorConnection'] = ResolversParentTypes['ReactorConnection']
+  ParentType extends
+    ResolversParentTypes['ReactorConnection'] = ResolversParentTypes['ReactorConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ReactorEdge']>>>,
@@ -40699,7 +41155,8 @@ export type ReactorConnectionResolvers<
 
 export type ReactorEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReactorEdge'] = ResolversParentTypes['ReactorEdge']
+  ParentType extends
+    ResolversParentTypes['ReactorEdge'] = ResolversParentTypes['ReactorEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<ResolversTypes['Reactor'], ParentType, ContextType>
@@ -40709,7 +41166,8 @@ export type ReactorEdgeResolvers<
 
 export type ReadyForReviewEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReadyForReviewEvent'] = ResolversParentTypes['ReadyForReviewEvent']
+  ParentType extends
+    ResolversParentTypes['ReadyForReviewEvent'] = ResolversParentTypes['ReadyForReviewEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -40750,7 +41208,8 @@ export type RefResolvers<
 
 export type RefConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RefConnection'] = ResolversParentTypes['RefConnection']
+  ParentType extends
+    ResolversParentTypes['RefConnection'] = ResolversParentTypes['RefConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['RefEdge']>>>,
@@ -40769,7 +41228,8 @@ export type RefConnectionResolvers<
 
 export type RefEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RefEdge'] = ResolversParentTypes['RefEdge']
+  ParentType extends
+    ResolversParentTypes['RefEdge'] = ResolversParentTypes['RefEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Ref']>, ParentType, ContextType>
@@ -40778,7 +41238,8 @@ export type RefEdgeResolvers<
 
 export type RefUpdateRuleResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RefUpdateRule'] = ResolversParentTypes['RefUpdateRule']
+  ParentType extends
+    ResolversParentTypes['RefUpdateRule'] = ResolversParentTypes['RefUpdateRule']
 > = {
   allowsDeletions?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   allowsForcePushes?: Resolver<
@@ -40828,7 +41289,8 @@ export type RefUpdateRuleResolvers<
 
 export type ReferencedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReferencedEvent'] = ResolversParentTypes['ReferencedEvent']
+  ParentType extends
+    ResolversParentTypes['ReferencedEvent'] = ResolversParentTypes['ReferencedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   commit?: Resolver<Maybe<ResolversTypes['Commit']>, ParentType, ContextType>
@@ -40859,14 +41321,16 @@ export type ReferencedEventResolvers<
 
 export type ReferencedSubjectResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReferencedSubject'] = ResolversParentTypes['ReferencedSubject']
+  ParentType extends
+    ResolversParentTypes['ReferencedSubject'] = ResolversParentTypes['ReferencedSubject']
 > = {
   __resolveType: TypeResolveFn<'Issue' | 'PullRequest', ParentType, ContextType>
 }
 
 export type RegenerateEnterpriseIdentityProviderRecoveryCodesPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RegenerateEnterpriseIdentityProviderRecoveryCodesPayload'] = ResolversParentTypes['RegenerateEnterpriseIdentityProviderRecoveryCodesPayload']
+  ParentType extends
+    ResolversParentTypes['RegenerateEnterpriseIdentityProviderRecoveryCodesPayload'] = ResolversParentTypes['RegenerateEnterpriseIdentityProviderRecoveryCodesPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -40883,7 +41347,8 @@ export type RegenerateEnterpriseIdentityProviderRecoveryCodesPayloadResolvers<
 
 export type RegenerateVerifiableDomainTokenPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RegenerateVerifiableDomainTokenPayload'] = ResolversParentTypes['RegenerateVerifiableDomainTokenPayload']
+  ParentType extends
+    ResolversParentTypes['RegenerateVerifiableDomainTokenPayload'] = ResolversParentTypes['RegenerateVerifiableDomainTokenPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -40900,7 +41365,8 @@ export type RegenerateVerifiableDomainTokenPayloadResolvers<
 
 export type RejectDeploymentsPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RejectDeploymentsPayload'] = ResolversParentTypes['RejectDeploymentsPayload']
+  ParentType extends
+    ResolversParentTypes['RejectDeploymentsPayload'] = ResolversParentTypes['RejectDeploymentsPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -40917,7 +41383,8 @@ export type RejectDeploymentsPayloadResolvers<
 
 export type ReleaseResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Release'] = ResolversParentTypes['Release']
+  ParentType extends
+    ResolversParentTypes['Release'] = ResolversParentTypes['Release']
 > = {
   author?: Resolver<Maybe<ResolversTypes['User']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -40984,7 +41451,8 @@ export type ReleaseResolvers<
 
 export type ReleaseAssetResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReleaseAsset'] = ResolversParentTypes['ReleaseAsset']
+  ParentType extends
+    ResolversParentTypes['ReleaseAsset'] = ResolversParentTypes['ReleaseAsset']
 > = {
   contentType?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -41002,7 +41470,8 @@ export type ReleaseAssetResolvers<
 
 export type ReleaseAssetConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReleaseAssetConnection'] = ResolversParentTypes['ReleaseAssetConnection']
+  ParentType extends
+    ResolversParentTypes['ReleaseAssetConnection'] = ResolversParentTypes['ReleaseAssetConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ReleaseAssetEdge']>>>,
@@ -41021,7 +41490,8 @@ export type ReleaseAssetConnectionResolvers<
 
 export type ReleaseAssetEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReleaseAssetEdge'] = ResolversParentTypes['ReleaseAssetEdge']
+  ParentType extends
+    ResolversParentTypes['ReleaseAssetEdge'] = ResolversParentTypes['ReleaseAssetEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -41034,7 +41504,8 @@ export type ReleaseAssetEdgeResolvers<
 
 export type ReleaseConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReleaseConnection'] = ResolversParentTypes['ReleaseConnection']
+  ParentType extends
+    ResolversParentTypes['ReleaseConnection'] = ResolversParentTypes['ReleaseConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ReleaseEdge']>>>,
@@ -41053,7 +41524,8 @@ export type ReleaseConnectionResolvers<
 
 export type ReleaseEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReleaseEdge'] = ResolversParentTypes['ReleaseEdge']
+  ParentType extends
+    ResolversParentTypes['ReleaseEdge'] = ResolversParentTypes['ReleaseEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Release']>, ParentType, ContextType>
@@ -41062,7 +41534,8 @@ export type ReleaseEdgeResolvers<
 
 export type RemoveAssigneesFromAssignablePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemoveAssigneesFromAssignablePayload'] = ResolversParentTypes['RemoveAssigneesFromAssignablePayload']
+  ParentType extends
+    ResolversParentTypes['RemoveAssigneesFromAssignablePayload'] = ResolversParentTypes['RemoveAssigneesFromAssignablePayload']
 > = {
   assignable?: Resolver<
     Maybe<ResolversTypes['Assignable']>,
@@ -41079,7 +41552,8 @@ export type RemoveAssigneesFromAssignablePayloadResolvers<
 
 export type RemoveEnterpriseAdminPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemoveEnterpriseAdminPayload'] = ResolversParentTypes['RemoveEnterpriseAdminPayload']
+  ParentType extends
+    ResolversParentTypes['RemoveEnterpriseAdminPayload'] = ResolversParentTypes['RemoveEnterpriseAdminPayload']
 > = {
   admin?: Resolver<Maybe<ResolversTypes['User']>, ParentType, ContextType>
   clientMutationId?: Resolver<
@@ -41099,7 +41573,8 @@ export type RemoveEnterpriseAdminPayloadResolvers<
 
 export type RemoveEnterpriseIdentityProviderPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemoveEnterpriseIdentityProviderPayload'] = ResolversParentTypes['RemoveEnterpriseIdentityProviderPayload']
+  ParentType extends
+    ResolversParentTypes['RemoveEnterpriseIdentityProviderPayload'] = ResolversParentTypes['RemoveEnterpriseIdentityProviderPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -41116,7 +41591,8 @@ export type RemoveEnterpriseIdentityProviderPayloadResolvers<
 
 export type RemoveEnterpriseOrganizationPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemoveEnterpriseOrganizationPayload'] = ResolversParentTypes['RemoveEnterpriseOrganizationPayload']
+  ParentType extends
+    ResolversParentTypes['RemoveEnterpriseOrganizationPayload'] = ResolversParentTypes['RemoveEnterpriseOrganizationPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -41139,7 +41615,8 @@ export type RemoveEnterpriseOrganizationPayloadResolvers<
 
 export type RemoveEnterpriseSupportEntitlementPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemoveEnterpriseSupportEntitlementPayload'] = ResolversParentTypes['RemoveEnterpriseSupportEntitlementPayload']
+  ParentType extends
+    ResolversParentTypes['RemoveEnterpriseSupportEntitlementPayload'] = ResolversParentTypes['RemoveEnterpriseSupportEntitlementPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -41152,7 +41629,8 @@ export type RemoveEnterpriseSupportEntitlementPayloadResolvers<
 
 export type RemoveLabelsFromLabelablePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemoveLabelsFromLabelablePayload'] = ResolversParentTypes['RemoveLabelsFromLabelablePayload']
+  ParentType extends
+    ResolversParentTypes['RemoveLabelsFromLabelablePayload'] = ResolversParentTypes['RemoveLabelsFromLabelablePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -41169,7 +41647,8 @@ export type RemoveLabelsFromLabelablePayloadResolvers<
 
 export type RemoveOutsideCollaboratorPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemoveOutsideCollaboratorPayload'] = ResolversParentTypes['RemoveOutsideCollaboratorPayload']
+  ParentType extends
+    ResolversParentTypes['RemoveOutsideCollaboratorPayload'] = ResolversParentTypes['RemoveOutsideCollaboratorPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -41182,7 +41661,8 @@ export type RemoveOutsideCollaboratorPayloadResolvers<
 
 export type RemoveReactionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemoveReactionPayload'] = ResolversParentTypes['RemoveReactionPayload']
+  ParentType extends
+    ResolversParentTypes['RemoveReactionPayload'] = ResolversParentTypes['RemoveReactionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -41204,7 +41684,8 @@ export type RemoveReactionPayloadResolvers<
 
 export type RemoveStarPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemoveStarPayload'] = ResolversParentTypes['RemoveStarPayload']
+  ParentType extends
+    ResolversParentTypes['RemoveStarPayload'] = ResolversParentTypes['RemoveStarPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -41221,7 +41702,8 @@ export type RemoveStarPayloadResolvers<
 
 export type RemoveUpvotePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemoveUpvotePayload'] = ResolversParentTypes['RemoveUpvotePayload']
+  ParentType extends
+    ResolversParentTypes['RemoveUpvotePayload'] = ResolversParentTypes['RemoveUpvotePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -41234,7 +41716,8 @@ export type RemoveUpvotePayloadResolvers<
 
 export type RemovedFromProjectEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RemovedFromProjectEvent'] = ResolversParentTypes['RemovedFromProjectEvent']
+  ParentType extends
+    ResolversParentTypes['RemovedFromProjectEvent'] = ResolversParentTypes['RemovedFromProjectEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -41245,7 +41728,8 @@ export type RemovedFromProjectEventResolvers<
 
 export type RenamedTitleEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RenamedTitleEvent'] = ResolversParentTypes['RenamedTitleEvent']
+  ParentType extends
+    ResolversParentTypes['RenamedTitleEvent'] = ResolversParentTypes['RenamedTitleEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -41262,14 +41746,16 @@ export type RenamedTitleEventResolvers<
 
 export type RenamedTitleSubjectResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RenamedTitleSubject'] = ResolversParentTypes['RenamedTitleSubject']
+  ParentType extends
+    ResolversParentTypes['RenamedTitleSubject'] = ResolversParentTypes['RenamedTitleSubject']
 > = {
   __resolveType: TypeResolveFn<'Issue' | 'PullRequest', ParentType, ContextType>
 }
 
 export type ReopenIssuePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReopenIssuePayload'] = ResolversParentTypes['ReopenIssuePayload']
+  ParentType extends
+    ResolversParentTypes['ReopenIssuePayload'] = ResolversParentTypes['ReopenIssuePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -41282,7 +41768,8 @@ export type ReopenIssuePayloadResolvers<
 
 export type ReopenPullRequestPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReopenPullRequestPayload'] = ResolversParentTypes['ReopenPullRequestPayload']
+  ParentType extends
+    ResolversParentTypes['ReopenPullRequestPayload'] = ResolversParentTypes['ReopenPullRequestPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -41299,7 +41786,8 @@ export type ReopenPullRequestPayloadResolvers<
 
 export type ReopenedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReopenedEvent'] = ResolversParentTypes['ReopenedEvent']
+  ParentType extends
+    ResolversParentTypes['ReopenedEvent'] = ResolversParentTypes['ReopenedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   closable?: Resolver<ResolversTypes['Closable'], ParentType, ContextType>
@@ -41310,7 +41798,8 @@ export type ReopenedEventResolvers<
 
 export type RepoAccessAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoAccessAuditEntry'] = ResolversParentTypes['RepoAccessAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoAccessAuditEntry'] = ResolversParentTypes['RepoAccessAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -41404,7 +41893,8 @@ export type RepoAccessAuditEntryResolvers<
 
 export type RepoAddMemberAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoAddMemberAuditEntry'] = ResolversParentTypes['RepoAddMemberAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoAddMemberAuditEntry'] = ResolversParentTypes['RepoAddMemberAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -41498,7 +41988,8 @@ export type RepoAddMemberAuditEntryResolvers<
 
 export type RepoAddTopicAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoAddTopicAuditEntry'] = ResolversParentTypes['RepoAddTopicAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoAddTopicAuditEntry'] = ResolversParentTypes['RepoAddTopicAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -41589,7 +42080,8 @@ export type RepoAddTopicAuditEntryResolvers<
 
 export type RepoArchivedAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoArchivedAuditEntry'] = ResolversParentTypes['RepoArchivedAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoArchivedAuditEntry'] = ResolversParentTypes['RepoArchivedAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -41683,7 +42175,8 @@ export type RepoArchivedAuditEntryResolvers<
 
 export type RepoChangeMergeSettingAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoChangeMergeSettingAuditEntry'] = ResolversParentTypes['RepoChangeMergeSettingAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoChangeMergeSettingAuditEntry'] = ResolversParentTypes['RepoChangeMergeSettingAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -41782,7 +42275,8 @@ export type RepoChangeMergeSettingAuditEntryResolvers<
 
 export type RepoConfigDisableAnonymousGitAccessAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoConfigDisableAnonymousGitAccessAuditEntry'] = ResolversParentTypes['RepoConfigDisableAnonymousGitAccessAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoConfigDisableAnonymousGitAccessAuditEntry'] = ResolversParentTypes['RepoConfigDisableAnonymousGitAccessAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -41871,7 +42365,8 @@ export type RepoConfigDisableAnonymousGitAccessAuditEntryResolvers<
 
 export type RepoConfigDisableCollaboratorsOnlyAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoConfigDisableCollaboratorsOnlyAuditEntry'] = ResolversParentTypes['RepoConfigDisableCollaboratorsOnlyAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoConfigDisableCollaboratorsOnlyAuditEntry'] = ResolversParentTypes['RepoConfigDisableCollaboratorsOnlyAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -41960,7 +42455,8 @@ export type RepoConfigDisableCollaboratorsOnlyAuditEntryResolvers<
 
 export type RepoConfigDisableContributorsOnlyAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoConfigDisableContributorsOnlyAuditEntry'] = ResolversParentTypes['RepoConfigDisableContributorsOnlyAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoConfigDisableContributorsOnlyAuditEntry'] = ResolversParentTypes['RepoConfigDisableContributorsOnlyAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42049,7 +42545,8 @@ export type RepoConfigDisableContributorsOnlyAuditEntryResolvers<
 
 export type RepoConfigDisableSockpuppetDisallowedAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoConfigDisableSockpuppetDisallowedAuditEntry'] = ResolversParentTypes['RepoConfigDisableSockpuppetDisallowedAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoConfigDisableSockpuppetDisallowedAuditEntry'] = ResolversParentTypes['RepoConfigDisableSockpuppetDisallowedAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42138,7 +42635,8 @@ export type RepoConfigDisableSockpuppetDisallowedAuditEntryResolvers<
 
 export type RepoConfigEnableAnonymousGitAccessAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoConfigEnableAnonymousGitAccessAuditEntry'] = ResolversParentTypes['RepoConfigEnableAnonymousGitAccessAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoConfigEnableAnonymousGitAccessAuditEntry'] = ResolversParentTypes['RepoConfigEnableAnonymousGitAccessAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42227,7 +42725,8 @@ export type RepoConfigEnableAnonymousGitAccessAuditEntryResolvers<
 
 export type RepoConfigEnableCollaboratorsOnlyAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoConfigEnableCollaboratorsOnlyAuditEntry'] = ResolversParentTypes['RepoConfigEnableCollaboratorsOnlyAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoConfigEnableCollaboratorsOnlyAuditEntry'] = ResolversParentTypes['RepoConfigEnableCollaboratorsOnlyAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42316,7 +42815,8 @@ export type RepoConfigEnableCollaboratorsOnlyAuditEntryResolvers<
 
 export type RepoConfigEnableContributorsOnlyAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoConfigEnableContributorsOnlyAuditEntry'] = ResolversParentTypes['RepoConfigEnableContributorsOnlyAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoConfigEnableContributorsOnlyAuditEntry'] = ResolversParentTypes['RepoConfigEnableContributorsOnlyAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42405,7 +42905,8 @@ export type RepoConfigEnableContributorsOnlyAuditEntryResolvers<
 
 export type RepoConfigEnableSockpuppetDisallowedAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoConfigEnableSockpuppetDisallowedAuditEntry'] = ResolversParentTypes['RepoConfigEnableSockpuppetDisallowedAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoConfigEnableSockpuppetDisallowedAuditEntry'] = ResolversParentTypes['RepoConfigEnableSockpuppetDisallowedAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42494,7 +42995,8 @@ export type RepoConfigEnableSockpuppetDisallowedAuditEntryResolvers<
 
 export type RepoConfigLockAnonymousGitAccessAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoConfigLockAnonymousGitAccessAuditEntry'] = ResolversParentTypes['RepoConfigLockAnonymousGitAccessAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoConfigLockAnonymousGitAccessAuditEntry'] = ResolversParentTypes['RepoConfigLockAnonymousGitAccessAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42583,7 +43085,8 @@ export type RepoConfigLockAnonymousGitAccessAuditEntryResolvers<
 
 export type RepoConfigUnlockAnonymousGitAccessAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoConfigUnlockAnonymousGitAccessAuditEntry'] = ResolversParentTypes['RepoConfigUnlockAnonymousGitAccessAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoConfigUnlockAnonymousGitAccessAuditEntry'] = ResolversParentTypes['RepoConfigUnlockAnonymousGitAccessAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42672,7 +43175,8 @@ export type RepoConfigUnlockAnonymousGitAccessAuditEntryResolvers<
 
 export type RepoCreateAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoCreateAuditEntry'] = ResolversParentTypes['RepoCreateAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoCreateAuditEntry'] = ResolversParentTypes['RepoCreateAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42776,7 +43280,8 @@ export type RepoCreateAuditEntryResolvers<
 
 export type RepoDestroyAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoDestroyAuditEntry'] = ResolversParentTypes['RepoDestroyAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoDestroyAuditEntry'] = ResolversParentTypes['RepoDestroyAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42870,7 +43375,8 @@ export type RepoDestroyAuditEntryResolvers<
 
 export type RepoRemoveMemberAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoRemoveMemberAuditEntry'] = ResolversParentTypes['RepoRemoveMemberAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoRemoveMemberAuditEntry'] = ResolversParentTypes['RepoRemoveMemberAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -42964,7 +43470,8 @@ export type RepoRemoveMemberAuditEntryResolvers<
 
 export type RepoRemoveTopicAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepoRemoveTopicAuditEntry'] = ResolversParentTypes['RepoRemoveTopicAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepoRemoveTopicAuditEntry'] = ResolversParentTypes['RepoRemoveTopicAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -43055,7 +43562,8 @@ export type RepoRemoveTopicAuditEntryResolvers<
 
 export type RepositoryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Repository'] = ResolversParentTypes['Repository']
+  ParentType extends
+    ResolversParentTypes['Repository'] = ResolversParentTypes['Repository']
 > = {
   assignableUsers?: Resolver<
     ResolversTypes['UserConnection'],
@@ -43529,7 +44037,8 @@ export type RepositoryResolvers<
 
 export type RepositoryAuditEntryDataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryAuditEntryData'] = ResolversParentTypes['RepositoryAuditEntryData']
+  ParentType extends
+    ResolversParentTypes['RepositoryAuditEntryData'] = ResolversParentTypes['RepositoryAuditEntryData']
 > = {
   __resolveType: TypeResolveFn<
     | 'OrgRestoreMemberMembershipRepositoryAuditEntryData'
@@ -43583,7 +44092,8 @@ export type RepositoryAuditEntryDataResolvers<
 
 export type RepositoryCollaboratorConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryCollaboratorConnection'] = ResolversParentTypes['RepositoryCollaboratorConnection']
+  ParentType extends
+    ResolversParentTypes['RepositoryCollaboratorConnection'] = ResolversParentTypes['RepositoryCollaboratorConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['RepositoryCollaboratorEdge']>>>,
@@ -43602,7 +44112,8 @@ export type RepositoryCollaboratorConnectionResolvers<
 
 export type RepositoryCollaboratorEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryCollaboratorEdge'] = ResolversParentTypes['RepositoryCollaboratorEdge']
+  ParentType extends
+    ResolversParentTypes['RepositoryCollaboratorEdge'] = ResolversParentTypes['RepositoryCollaboratorEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<ResolversTypes['User'], ParentType, ContextType>
@@ -43621,7 +44132,8 @@ export type RepositoryCollaboratorEdgeResolvers<
 
 export type RepositoryConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryConnection'] = ResolversParentTypes['RepositoryConnection']
+  ParentType extends
+    ResolversParentTypes['RepositoryConnection'] = ResolversParentTypes['RepositoryConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['RepositoryEdge']>>>,
@@ -43641,7 +44153,8 @@ export type RepositoryConnectionResolvers<
 
 export type RepositoryContactLinkResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryContactLink'] = ResolversParentTypes['RepositoryContactLink']
+  ParentType extends
+    ResolversParentTypes['RepositoryContactLink'] = ResolversParentTypes['RepositoryContactLink']
 > = {
   about?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   name?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -43651,7 +44164,8 @@ export type RepositoryContactLinkResolvers<
 
 export type RepositoryDiscussionAuthorResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryDiscussionAuthor'] = ResolversParentTypes['RepositoryDiscussionAuthor']
+  ParentType extends
+    ResolversParentTypes['RepositoryDiscussionAuthor'] = ResolversParentTypes['RepositoryDiscussionAuthor']
 > = {
   __resolveType: TypeResolveFn<'Organization' | 'User', ParentType, ContextType>
   repositoryDiscussions?: Resolver<
@@ -43667,7 +44181,8 @@ export type RepositoryDiscussionAuthorResolvers<
 
 export type RepositoryDiscussionCommentAuthorResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryDiscussionCommentAuthor'] = ResolversParentTypes['RepositoryDiscussionCommentAuthor']
+  ParentType extends
+    ResolversParentTypes['RepositoryDiscussionCommentAuthor'] = ResolversParentTypes['RepositoryDiscussionCommentAuthor']
 > = {
   __resolveType: TypeResolveFn<'Organization' | 'User', ParentType, ContextType>
   repositoryDiscussionComments?: Resolver<
@@ -43683,7 +44198,8 @@ export type RepositoryDiscussionCommentAuthorResolvers<
 
 export type RepositoryEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryEdge'] = ResolversParentTypes['RepositoryEdge']
+  ParentType extends
+    ResolversParentTypes['RepositoryEdge'] = ResolversParentTypes['RepositoryEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Repository']>, ParentType, ContextType>
@@ -43692,7 +44208,8 @@ export type RepositoryEdgeResolvers<
 
 export type RepositoryInfoResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryInfo'] = ResolversParentTypes['RepositoryInfo']
+  ParentType extends
+    ResolversParentTypes['RepositoryInfo'] = ResolversParentTypes['RepositoryInfo']
 > = {
   __resolveType: TypeResolveFn<'Repository', ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -43769,7 +44286,8 @@ export type RepositoryInfoResolvers<
 
 export type RepositoryInteractionAbilityResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryInteractionAbility'] = ResolversParentTypes['RepositoryInteractionAbility']
+  ParentType extends
+    ResolversParentTypes['RepositoryInteractionAbility'] = ResolversParentTypes['RepositoryInteractionAbility']
 > = {
   expiresAt?: Resolver<
     Maybe<ResolversTypes['DateTime']>,
@@ -43791,7 +44309,8 @@ export type RepositoryInteractionAbilityResolvers<
 
 export type RepositoryInvitationResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryInvitation'] = ResolversParentTypes['RepositoryInvitation']
+  ParentType extends
+    ResolversParentTypes['RepositoryInvitation'] = ResolversParentTypes['RepositoryInvitation']
 > = {
   email?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
@@ -43813,7 +44332,8 @@ export type RepositoryInvitationResolvers<
 
 export type RepositoryInvitationConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryInvitationConnection'] = ResolversParentTypes['RepositoryInvitationConnection']
+  ParentType extends
+    ResolversParentTypes['RepositoryInvitationConnection'] = ResolversParentTypes['RepositoryInvitationConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['RepositoryInvitationEdge']>>>,
@@ -43832,7 +44352,8 @@ export type RepositoryInvitationConnectionResolvers<
 
 export type RepositoryInvitationEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryInvitationEdge'] = ResolversParentTypes['RepositoryInvitationEdge']
+  ParentType extends
+    ResolversParentTypes['RepositoryInvitationEdge'] = ResolversParentTypes['RepositoryInvitationEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -43845,7 +44366,8 @@ export type RepositoryInvitationEdgeResolvers<
 
 export type RepositoryNodeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryNode'] = ResolversParentTypes['RepositoryNode']
+  ParentType extends
+    ResolversParentTypes['RepositoryNode'] = ResolversParentTypes['RepositoryNode']
 > = {
   __resolveType: TypeResolveFn<
     | 'CommitComment'
@@ -43868,7 +44390,8 @@ export type RepositoryNodeResolvers<
 
 export type RepositoryOwnerResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryOwner'] = ResolversParentTypes['RepositoryOwner']
+  ParentType extends
+    ResolversParentTypes['RepositoryOwner'] = ResolversParentTypes['RepositoryOwner']
 > = {
   __resolveType: TypeResolveFn<'Organization' | 'User', ParentType, ContextType>
   avatarUrl?: Resolver<
@@ -43897,7 +44420,8 @@ export type RepositoryOwnerResolvers<
 
 export type RepositoryTopicResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryTopic'] = ResolversParentTypes['RepositoryTopic']
+  ParentType extends
+    ResolversParentTypes['RepositoryTopic'] = ResolversParentTypes['RepositoryTopic']
 > = {
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
   resourcePath?: Resolver<ResolversTypes['URI'], ParentType, ContextType>
@@ -43908,7 +44432,8 @@ export type RepositoryTopicResolvers<
 
 export type RepositoryTopicConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryTopicConnection'] = ResolversParentTypes['RepositoryTopicConnection']
+  ParentType extends
+    ResolversParentTypes['RepositoryTopicConnection'] = ResolversParentTypes['RepositoryTopicConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['RepositoryTopicEdge']>>>,
@@ -43927,7 +44452,8 @@ export type RepositoryTopicConnectionResolvers<
 
 export type RepositoryTopicEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryTopicEdge'] = ResolversParentTypes['RepositoryTopicEdge']
+  ParentType extends
+    ResolversParentTypes['RepositoryTopicEdge'] = ResolversParentTypes['RepositoryTopicEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -43940,7 +44466,8 @@ export type RepositoryTopicEdgeResolvers<
 
 export type RepositoryVisibilityChangeDisableAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryVisibilityChangeDisableAuditEntry'] = ResolversParentTypes['RepositoryVisibilityChangeDisableAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepositoryVisibilityChangeDisableAuditEntry'] = ResolversParentTypes['RepositoryVisibilityChangeDisableAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -44024,7 +44551,8 @@ export type RepositoryVisibilityChangeDisableAuditEntryResolvers<
 
 export type RepositoryVisibilityChangeEnableAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryVisibilityChangeEnableAuditEntry'] = ResolversParentTypes['RepositoryVisibilityChangeEnableAuditEntry']
+  ParentType extends
+    ResolversParentTypes['RepositoryVisibilityChangeEnableAuditEntry'] = ResolversParentTypes['RepositoryVisibilityChangeEnableAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -44108,7 +44636,8 @@ export type RepositoryVisibilityChangeEnableAuditEntryResolvers<
 
 export type RepositoryVulnerabilityAlertResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryVulnerabilityAlert'] = ResolversParentTypes['RepositoryVulnerabilityAlert']
+  ParentType extends
+    ResolversParentTypes['RepositoryVulnerabilityAlert'] = ResolversParentTypes['RepositoryVulnerabilityAlert']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   dismissReason?: Resolver<
@@ -44154,7 +44683,8 @@ export type RepositoryVulnerabilityAlertResolvers<
 
 export type RepositoryVulnerabilityAlertConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryVulnerabilityAlertConnection'] = ResolversParentTypes['RepositoryVulnerabilityAlertConnection']
+  ParentType extends
+    ResolversParentTypes['RepositoryVulnerabilityAlertConnection'] = ResolversParentTypes['RepositoryVulnerabilityAlertConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['RepositoryVulnerabilityAlertEdge']>>>,
@@ -44173,7 +44703,8 @@ export type RepositoryVulnerabilityAlertConnectionResolvers<
 
 export type RepositoryVulnerabilityAlertEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RepositoryVulnerabilityAlertEdge'] = ResolversParentTypes['RepositoryVulnerabilityAlertEdge']
+  ParentType extends
+    ResolversParentTypes['RepositoryVulnerabilityAlertEdge'] = ResolversParentTypes['RepositoryVulnerabilityAlertEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -44186,7 +44717,8 @@ export type RepositoryVulnerabilityAlertEdgeResolvers<
 
 export type RequestReviewsPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RequestReviewsPayload'] = ResolversParentTypes['RequestReviewsPayload']
+  ParentType extends
+    ResolversParentTypes['RequestReviewsPayload'] = ResolversParentTypes['RequestReviewsPayload']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   clientMutationId?: Resolver<
@@ -44209,7 +44741,8 @@ export type RequestReviewsPayloadResolvers<
 
 export type RequestedReviewerResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RequestedReviewer'] = ResolversParentTypes['RequestedReviewer']
+  ParentType extends
+    ResolversParentTypes['RequestedReviewer'] = ResolversParentTypes['RequestedReviewer']
 > = {
   __resolveType: TypeResolveFn<
     'Mannequin' | 'Team' | 'User',
@@ -44220,7 +44753,8 @@ export type RequestedReviewerResolvers<
 
 export type RequirableByPullRequestResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RequirableByPullRequest'] = ResolversParentTypes['RequirableByPullRequest']
+  ParentType extends
+    ResolversParentTypes['RequirableByPullRequest'] = ResolversParentTypes['RequirableByPullRequest']
 > = {
   __resolveType: TypeResolveFn<
     'CheckRun' | 'StatusContext',
@@ -44237,7 +44771,8 @@ export type RequirableByPullRequestResolvers<
 
 export type RerequestCheckSuitePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RerequestCheckSuitePayload'] = ResolversParentTypes['RerequestCheckSuitePayload']
+  ParentType extends
+    ResolversParentTypes['RerequestCheckSuitePayload'] = ResolversParentTypes['RerequestCheckSuitePayload']
 > = {
   checkSuite?: Resolver<
     Maybe<ResolversTypes['CheckSuite']>,
@@ -44254,7 +44789,8 @@ export type RerequestCheckSuitePayloadResolvers<
 
 export type ResolveReviewThreadPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ResolveReviewThreadPayload'] = ResolversParentTypes['ResolveReviewThreadPayload']
+  ParentType extends
+    ResolversParentTypes['ResolveReviewThreadPayload'] = ResolversParentTypes['ResolveReviewThreadPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -44271,7 +44807,8 @@ export type ResolveReviewThreadPayloadResolvers<
 
 export type RestrictedContributionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['RestrictedContribution'] = ResolversParentTypes['RestrictedContribution']
+  ParentType extends
+    ResolversParentTypes['RestrictedContribution'] = ResolversParentTypes['RestrictedContribution']
 > = {
   isRestricted?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   occurredAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -44283,7 +44820,8 @@ export type RestrictedContributionResolvers<
 
 export type ReviewDismissalAllowanceResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewDismissalAllowance'] = ResolversParentTypes['ReviewDismissalAllowance']
+  ParentType extends
+    ResolversParentTypes['ReviewDismissalAllowance'] = ResolversParentTypes['ReviewDismissalAllowance']
 > = {
   actor?: Resolver<
     Maybe<ResolversTypes['ReviewDismissalAllowanceActor']>,
@@ -44301,14 +44839,16 @@ export type ReviewDismissalAllowanceResolvers<
 
 export type ReviewDismissalAllowanceActorResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewDismissalAllowanceActor'] = ResolversParentTypes['ReviewDismissalAllowanceActor']
+  ParentType extends
+    ResolversParentTypes['ReviewDismissalAllowanceActor'] = ResolversParentTypes['ReviewDismissalAllowanceActor']
 > = {
   __resolveType: TypeResolveFn<'Team' | 'User', ParentType, ContextType>
 }
 
 export type ReviewDismissalAllowanceConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewDismissalAllowanceConnection'] = ResolversParentTypes['ReviewDismissalAllowanceConnection']
+  ParentType extends
+    ResolversParentTypes['ReviewDismissalAllowanceConnection'] = ResolversParentTypes['ReviewDismissalAllowanceConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ReviewDismissalAllowanceEdge']>>>,
@@ -44327,7 +44867,8 @@ export type ReviewDismissalAllowanceConnectionResolvers<
 
 export type ReviewDismissalAllowanceEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewDismissalAllowanceEdge'] = ResolversParentTypes['ReviewDismissalAllowanceEdge']
+  ParentType extends
+    ResolversParentTypes['ReviewDismissalAllowanceEdge'] = ResolversParentTypes['ReviewDismissalAllowanceEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -44340,7 +44881,8 @@ export type ReviewDismissalAllowanceEdgeResolvers<
 
 export type ReviewDismissedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewDismissedEvent'] = ResolversParentTypes['ReviewDismissedEvent']
+  ParentType extends
+    ResolversParentTypes['ReviewDismissedEvent'] = ResolversParentTypes['ReviewDismissedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -44379,7 +44921,8 @@ export type ReviewDismissedEventResolvers<
 
 export type ReviewRequestResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewRequest'] = ResolversParentTypes['ReviewRequest']
+  ParentType extends
+    ResolversParentTypes['ReviewRequest'] = ResolversParentTypes['ReviewRequest']
 > = {
   asCodeOwner?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   databaseId?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>
@@ -44395,7 +44938,8 @@ export type ReviewRequestResolvers<
 
 export type ReviewRequestConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewRequestConnection'] = ResolversParentTypes['ReviewRequestConnection']
+  ParentType extends
+    ResolversParentTypes['ReviewRequestConnection'] = ResolversParentTypes['ReviewRequestConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['ReviewRequestEdge']>>>,
@@ -44414,7 +44958,8 @@ export type ReviewRequestConnectionResolvers<
 
 export type ReviewRequestEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewRequestEdge'] = ResolversParentTypes['ReviewRequestEdge']
+  ParentType extends
+    ResolversParentTypes['ReviewRequestEdge'] = ResolversParentTypes['ReviewRequestEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -44427,7 +44972,8 @@ export type ReviewRequestEdgeResolvers<
 
 export type ReviewRequestRemovedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewRequestRemovedEvent'] = ResolversParentTypes['ReviewRequestRemovedEvent']
+  ParentType extends
+    ResolversParentTypes['ReviewRequestRemovedEvent'] = ResolversParentTypes['ReviewRequestRemovedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -44443,7 +44989,8 @@ export type ReviewRequestRemovedEventResolvers<
 
 export type ReviewRequestedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewRequestedEvent'] = ResolversParentTypes['ReviewRequestedEvent']
+  ParentType extends
+    ResolversParentTypes['ReviewRequestedEvent'] = ResolversParentTypes['ReviewRequestedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -44459,7 +45006,8 @@ export type ReviewRequestedEventResolvers<
 
 export type ReviewStatusHovercardContextResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ReviewStatusHovercardContext'] = ResolversParentTypes['ReviewStatusHovercardContext']
+  ParentType extends
+    ResolversParentTypes['ReviewStatusHovercardContext'] = ResolversParentTypes['ReviewStatusHovercardContext']
 > = {
   message?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   octicon?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -44473,7 +45021,8 @@ export type ReviewStatusHovercardContextResolvers<
 
 export type SavedReplyResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SavedReply'] = ResolversParentTypes['SavedReply']
+  ParentType extends
+    ResolversParentTypes['SavedReply'] = ResolversParentTypes['SavedReply']
 > = {
   body?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   bodyHTML?: Resolver<ResolversTypes['HTML'], ParentType, ContextType>
@@ -44486,7 +45035,8 @@ export type SavedReplyResolvers<
 
 export type SavedReplyConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SavedReplyConnection'] = ResolversParentTypes['SavedReplyConnection']
+  ParentType extends
+    ResolversParentTypes['SavedReplyConnection'] = ResolversParentTypes['SavedReplyConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['SavedReplyEdge']>>>,
@@ -44505,7 +45055,8 @@ export type SavedReplyConnectionResolvers<
 
 export type SavedReplyEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SavedReplyEdge'] = ResolversParentTypes['SavedReplyEdge']
+  ParentType extends
+    ResolversParentTypes['SavedReplyEdge'] = ResolversParentTypes['SavedReplyEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['SavedReply']>, ParentType, ContextType>
@@ -44514,7 +45065,8 @@ export type SavedReplyEdgeResolvers<
 
 export type SearchResultItemResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SearchResultItem'] = ResolversParentTypes['SearchResultItem']
+  ParentType extends
+    ResolversParentTypes['SearchResultItem'] = ResolversParentTypes['SearchResultItem']
 > = {
   __resolveType: TypeResolveFn<
     | 'App'
@@ -44532,7 +45084,8 @@ export type SearchResultItemResolvers<
 
 export type SearchResultItemConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SearchResultItemConnection'] = ResolversParentTypes['SearchResultItemConnection']
+  ParentType extends
+    ResolversParentTypes['SearchResultItemConnection'] = ResolversParentTypes['SearchResultItemConnection']
 > = {
   codeCount?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
   discussionCount?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
@@ -44556,7 +45109,8 @@ export type SearchResultItemConnectionResolvers<
 
 export type SearchResultItemEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SearchResultItemEdge'] = ResolversParentTypes['SearchResultItemEdge']
+  ParentType extends
+    ResolversParentTypes['SearchResultItemEdge'] = ResolversParentTypes['SearchResultItemEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -44574,7 +45128,8 @@ export type SearchResultItemEdgeResolvers<
 
 export type SecurityAdvisoryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SecurityAdvisory'] = ResolversParentTypes['SecurityAdvisory']
+  ParentType extends
+    ResolversParentTypes['SecurityAdvisory'] = ResolversParentTypes['SecurityAdvisory']
 > = {
   cvss?: Resolver<ResolversTypes['CVSS'], ParentType, ContextType>
   cwes?: Resolver<
@@ -44628,7 +45183,8 @@ export type SecurityAdvisoryResolvers<
 
 export type SecurityAdvisoryConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SecurityAdvisoryConnection'] = ResolversParentTypes['SecurityAdvisoryConnection']
+  ParentType extends
+    ResolversParentTypes['SecurityAdvisoryConnection'] = ResolversParentTypes['SecurityAdvisoryConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['SecurityAdvisoryEdge']>>>,
@@ -44647,7 +45203,8 @@ export type SecurityAdvisoryConnectionResolvers<
 
 export type SecurityAdvisoryEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SecurityAdvisoryEdge'] = ResolversParentTypes['SecurityAdvisoryEdge']
+  ParentType extends
+    ResolversParentTypes['SecurityAdvisoryEdge'] = ResolversParentTypes['SecurityAdvisoryEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -44660,7 +45217,8 @@ export type SecurityAdvisoryEdgeResolvers<
 
 export type SecurityAdvisoryIdentifierResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SecurityAdvisoryIdentifier'] = ResolversParentTypes['SecurityAdvisoryIdentifier']
+  ParentType extends
+    ResolversParentTypes['SecurityAdvisoryIdentifier'] = ResolversParentTypes['SecurityAdvisoryIdentifier']
 > = {
   type?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   value?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -44669,7 +45227,8 @@ export type SecurityAdvisoryIdentifierResolvers<
 
 export type SecurityAdvisoryPackageResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SecurityAdvisoryPackage'] = ResolversParentTypes['SecurityAdvisoryPackage']
+  ParentType extends
+    ResolversParentTypes['SecurityAdvisoryPackage'] = ResolversParentTypes['SecurityAdvisoryPackage']
 > = {
   ecosystem?: Resolver<
     ResolversTypes['SecurityAdvisoryEcosystem'],
@@ -44682,7 +45241,8 @@ export type SecurityAdvisoryPackageResolvers<
 
 export type SecurityAdvisoryPackageVersionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SecurityAdvisoryPackageVersion'] = ResolversParentTypes['SecurityAdvisoryPackageVersion']
+  ParentType extends
+    ResolversParentTypes['SecurityAdvisoryPackageVersion'] = ResolversParentTypes['SecurityAdvisoryPackageVersion']
 > = {
   identifier?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>
@@ -44690,7 +45250,8 @@ export type SecurityAdvisoryPackageVersionResolvers<
 
 export type SecurityAdvisoryReferenceResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SecurityAdvisoryReference'] = ResolversParentTypes['SecurityAdvisoryReference']
+  ParentType extends
+    ResolversParentTypes['SecurityAdvisoryReference'] = ResolversParentTypes['SecurityAdvisoryReference']
 > = {
   url?: Resolver<ResolversTypes['URI'], ParentType, ContextType>
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>
@@ -44698,7 +45259,8 @@ export type SecurityAdvisoryReferenceResolvers<
 
 export type SecurityVulnerabilityResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SecurityVulnerability'] = ResolversParentTypes['SecurityVulnerability']
+  ParentType extends
+    ResolversParentTypes['SecurityVulnerability'] = ResolversParentTypes['SecurityVulnerability']
 > = {
   advisory?: Resolver<
     ResolversTypes['SecurityAdvisory'],
@@ -44731,7 +45293,8 @@ export type SecurityVulnerabilityResolvers<
 
 export type SecurityVulnerabilityConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SecurityVulnerabilityConnection'] = ResolversParentTypes['SecurityVulnerabilityConnection']
+  ParentType extends
+    ResolversParentTypes['SecurityVulnerabilityConnection'] = ResolversParentTypes['SecurityVulnerabilityConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['SecurityVulnerabilityEdge']>>>,
@@ -44750,7 +45313,8 @@ export type SecurityVulnerabilityConnectionResolvers<
 
 export type SecurityVulnerabilityEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SecurityVulnerabilityEdge'] = ResolversParentTypes['SecurityVulnerabilityEdge']
+  ParentType extends
+    ResolversParentTypes['SecurityVulnerabilityEdge'] = ResolversParentTypes['SecurityVulnerabilityEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -44763,7 +45327,8 @@ export type SecurityVulnerabilityEdgeResolvers<
 
 export type SetEnterpriseIdentityProviderPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SetEnterpriseIdentityProviderPayload'] = ResolversParentTypes['SetEnterpriseIdentityProviderPayload']
+  ParentType extends
+    ResolversParentTypes['SetEnterpriseIdentityProviderPayload'] = ResolversParentTypes['SetEnterpriseIdentityProviderPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -44780,7 +45345,8 @@ export type SetEnterpriseIdentityProviderPayloadResolvers<
 
 export type SetOrganizationInteractionLimitPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SetOrganizationInteractionLimitPayload'] = ResolversParentTypes['SetOrganizationInteractionLimitPayload']
+  ParentType extends
+    ResolversParentTypes['SetOrganizationInteractionLimitPayload'] = ResolversParentTypes['SetOrganizationInteractionLimitPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -44797,7 +45363,8 @@ export type SetOrganizationInteractionLimitPayloadResolvers<
 
 export type SetRepositoryInteractionLimitPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SetRepositoryInteractionLimitPayload'] = ResolversParentTypes['SetRepositoryInteractionLimitPayload']
+  ParentType extends
+    ResolversParentTypes['SetRepositoryInteractionLimitPayload'] = ResolversParentTypes['SetRepositoryInteractionLimitPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -44814,7 +45381,8 @@ export type SetRepositoryInteractionLimitPayloadResolvers<
 
 export type SetUserInteractionLimitPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SetUserInteractionLimitPayload'] = ResolversParentTypes['SetUserInteractionLimitPayload']
+  ParentType extends
+    ResolversParentTypes['SetUserInteractionLimitPayload'] = ResolversParentTypes['SetUserInteractionLimitPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -44827,7 +45395,8 @@ export type SetUserInteractionLimitPayloadResolvers<
 
 export type SmimeSignatureResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SmimeSignature'] = ResolversParentTypes['SmimeSignature']
+  ParentType extends
+    ResolversParentTypes['SmimeSignature'] = ResolversParentTypes['SmimeSignature']
 > = {
   email?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   isValid?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -44845,14 +45414,16 @@ export type SmimeSignatureResolvers<
 
 export type SponsorResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Sponsor'] = ResolversParentTypes['Sponsor']
+  ParentType extends
+    ResolversParentTypes['Sponsor'] = ResolversParentTypes['Sponsor']
 > = {
   __resolveType: TypeResolveFn<'Organization' | 'User', ParentType, ContextType>
 }
 
 export type SponsorConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorConnection'] = ResolversParentTypes['SponsorConnection']
+  ParentType extends
+    ResolversParentTypes['SponsorConnection'] = ResolversParentTypes['SponsorConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['SponsorEdge']>>>,
@@ -44871,7 +45442,8 @@ export type SponsorConnectionResolvers<
 
 export type SponsorEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorEdge'] = ResolversParentTypes['SponsorEdge']
+  ParentType extends
+    ResolversParentTypes['SponsorEdge'] = ResolversParentTypes['SponsorEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Sponsor']>, ParentType, ContextType>
@@ -44880,7 +45452,8 @@ export type SponsorEdgeResolvers<
 
 export type SponsorableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Sponsorable'] = ResolversParentTypes['Sponsorable']
+  ParentType extends
+    ResolversParentTypes['Sponsorable'] = ResolversParentTypes['Sponsorable']
 > = {
   __resolveType: TypeResolveFn<'Organization' | 'User', ParentType, ContextType>
   estimatedNextSponsorsPayoutInCents?: Resolver<
@@ -44974,14 +45547,16 @@ export type SponsorableResolvers<
 
 export type SponsorableItemResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorableItem'] = ResolversParentTypes['SponsorableItem']
+  ParentType extends
+    ResolversParentTypes['SponsorableItem'] = ResolversParentTypes['SponsorableItem']
 > = {
   __resolveType: TypeResolveFn<'Organization' | 'User', ParentType, ContextType>
 }
 
 export type SponsorableItemConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorableItemConnection'] = ResolversParentTypes['SponsorableItemConnection']
+  ParentType extends
+    ResolversParentTypes['SponsorableItemConnection'] = ResolversParentTypes['SponsorableItemConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['SponsorableItemEdge']>>>,
@@ -45000,7 +45575,8 @@ export type SponsorableItemConnectionResolvers<
 
 export type SponsorableItemEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorableItemEdge'] = ResolversParentTypes['SponsorableItemEdge']
+  ParentType extends
+    ResolversParentTypes['SponsorableItemEdge'] = ResolversParentTypes['SponsorableItemEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -45013,7 +45589,8 @@ export type SponsorableItemEdgeResolvers<
 
 export type SponsorsActivityResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorsActivity'] = ResolversParentTypes['SponsorsActivity']
+  ParentType extends
+    ResolversParentTypes['SponsorsActivity'] = ResolversParentTypes['SponsorsActivity']
 > = {
   action?: Resolver<
     ResolversTypes['SponsorsActivityAction'],
@@ -45043,7 +45620,8 @@ export type SponsorsActivityResolvers<
 
 export type SponsorsActivityConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorsActivityConnection'] = ResolversParentTypes['SponsorsActivityConnection']
+  ParentType extends
+    ResolversParentTypes['SponsorsActivityConnection'] = ResolversParentTypes['SponsorsActivityConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['SponsorsActivityEdge']>>>,
@@ -45062,7 +45640,8 @@ export type SponsorsActivityConnectionResolvers<
 
 export type SponsorsActivityEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorsActivityEdge'] = ResolversParentTypes['SponsorsActivityEdge']
+  ParentType extends
+    ResolversParentTypes['SponsorsActivityEdge'] = ResolversParentTypes['SponsorsActivityEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -45075,7 +45654,8 @@ export type SponsorsActivityEdgeResolvers<
 
 export type SponsorsGoalResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorsGoal'] = ResolversParentTypes['SponsorsGoal']
+  ParentType extends
+    ResolversParentTypes['SponsorsGoal'] = ResolversParentTypes['SponsorsGoal']
 > = {
   description?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -45091,7 +45671,8 @@ export type SponsorsGoalResolvers<
 
 export type SponsorsListingResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorsListing'] = ResolversParentTypes['SponsorsListing']
+  ParentType extends
+    ResolversParentTypes['SponsorsListing'] = ResolversParentTypes['SponsorsListing']
 > = {
   activeGoal?: Resolver<
     Maybe<ResolversTypes['SponsorsGoal']>,
@@ -45127,7 +45708,8 @@ export type SponsorsListingResolvers<
 
 export type SponsorsTierResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorsTier'] = ResolversParentTypes['SponsorsTier']
+  ParentType extends
+    ResolversParentTypes['SponsorsTier'] = ResolversParentTypes['SponsorsTier']
 > = {
   adminInfo?: Resolver<
     Maybe<ResolversTypes['SponsorsTierAdminInfo']>,
@@ -45163,7 +45745,8 @@ export type SponsorsTierResolvers<
 
 export type SponsorsTierAdminInfoResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorsTierAdminInfo'] = ResolversParentTypes['SponsorsTierAdminInfo']
+  ParentType extends
+    ResolversParentTypes['SponsorsTierAdminInfo'] = ResolversParentTypes['SponsorsTierAdminInfo']
 > = {
   sponsorships?: Resolver<
     ResolversTypes['SponsorshipConnection'],
@@ -45176,7 +45759,8 @@ export type SponsorsTierAdminInfoResolvers<
 
 export type SponsorsTierConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorsTierConnection'] = ResolversParentTypes['SponsorsTierConnection']
+  ParentType extends
+    ResolversParentTypes['SponsorsTierConnection'] = ResolversParentTypes['SponsorsTierConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['SponsorsTierEdge']>>>,
@@ -45195,7 +45779,8 @@ export type SponsorsTierConnectionResolvers<
 
 export type SponsorsTierEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorsTierEdge'] = ResolversParentTypes['SponsorsTierEdge']
+  ParentType extends
+    ResolversParentTypes['SponsorsTierEdge'] = ResolversParentTypes['SponsorsTierEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -45208,7 +45793,8 @@ export type SponsorsTierEdgeResolvers<
 
 export type SponsorshipResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Sponsorship'] = ResolversParentTypes['Sponsorship']
+  ParentType extends
+    ResolversParentTypes['Sponsorship'] = ResolversParentTypes['Sponsorship']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
@@ -45250,7 +45836,8 @@ export type SponsorshipResolvers<
 
 export type SponsorshipConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorshipConnection'] = ResolversParentTypes['SponsorshipConnection']
+  ParentType extends
+    ResolversParentTypes['SponsorshipConnection'] = ResolversParentTypes['SponsorshipConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['SponsorshipEdge']>>>,
@@ -45279,7 +45866,8 @@ export type SponsorshipConnectionResolvers<
 
 export type SponsorshipEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorshipEdge'] = ResolversParentTypes['SponsorshipEdge']
+  ParentType extends
+    ResolversParentTypes['SponsorshipEdge'] = ResolversParentTypes['SponsorshipEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Sponsorship']>, ParentType, ContextType>
@@ -45288,7 +45876,8 @@ export type SponsorshipEdgeResolvers<
 
 export type SponsorshipNewsletterResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorshipNewsletter'] = ResolversParentTypes['SponsorshipNewsletter']
+  ParentType extends
+    ResolversParentTypes['SponsorshipNewsletter'] = ResolversParentTypes['SponsorshipNewsletter']
 > = {
   body?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -45302,7 +45891,8 @@ export type SponsorshipNewsletterResolvers<
 
 export type SponsorshipNewsletterConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorshipNewsletterConnection'] = ResolversParentTypes['SponsorshipNewsletterConnection']
+  ParentType extends
+    ResolversParentTypes['SponsorshipNewsletterConnection'] = ResolversParentTypes['SponsorshipNewsletterConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['SponsorshipNewsletterEdge']>>>,
@@ -45321,7 +45911,8 @@ export type SponsorshipNewsletterConnectionResolvers<
 
 export type SponsorshipNewsletterEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SponsorshipNewsletterEdge'] = ResolversParentTypes['SponsorshipNewsletterEdge']
+  ParentType extends
+    ResolversParentTypes['SponsorshipNewsletterEdge'] = ResolversParentTypes['SponsorshipNewsletterEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -45334,7 +45925,8 @@ export type SponsorshipNewsletterEdgeResolvers<
 
 export type StargazerConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['StargazerConnection'] = ResolversParentTypes['StargazerConnection']
+  ParentType extends
+    ResolversParentTypes['StargazerConnection'] = ResolversParentTypes['StargazerConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['StargazerEdge']>>>,
@@ -45353,7 +45945,8 @@ export type StargazerConnectionResolvers<
 
 export type StargazerEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['StargazerEdge'] = ResolversParentTypes['StargazerEdge']
+  ParentType extends
+    ResolversParentTypes['StargazerEdge'] = ResolversParentTypes['StargazerEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<ResolversTypes['User'], ParentType, ContextType>
@@ -45363,7 +45956,8 @@ export type StargazerEdgeResolvers<
 
 export type StarrableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Starrable'] = ResolversParentTypes['Starrable']
+  ParentType extends
+    ResolversParentTypes['Starrable'] = ResolversParentTypes['Starrable']
 > = {
   __resolveType: TypeResolveFn<
     'Gist' | 'Repository' | 'Topic',
@@ -45387,7 +45981,8 @@ export type StarrableResolvers<
 
 export type StarredRepositoryConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['StarredRepositoryConnection'] = ResolversParentTypes['StarredRepositoryConnection']
+  ParentType extends
+    ResolversParentTypes['StarredRepositoryConnection'] = ResolversParentTypes['StarredRepositoryConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['StarredRepositoryEdge']>>>,
@@ -45407,7 +46002,8 @@ export type StarredRepositoryConnectionResolvers<
 
 export type StarredRepositoryEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['StarredRepositoryEdge'] = ResolversParentTypes['StarredRepositoryEdge']
+  ParentType extends
+    ResolversParentTypes['StarredRepositoryEdge'] = ResolversParentTypes['StarredRepositoryEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<ResolversTypes['Repository'], ParentType, ContextType>
@@ -45417,7 +46013,8 @@ export type StarredRepositoryEdgeResolvers<
 
 export type StatusResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Status'] = ResolversParentTypes['Status']
+  ParentType extends
+    ResolversParentTypes['Status'] = ResolversParentTypes['Status']
 > = {
   combinedContexts?: Resolver<
     ResolversTypes['StatusCheckRollupContextConnection'],
@@ -45444,7 +46041,8 @@ export type StatusResolvers<
 
 export type StatusCheckRollupResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['StatusCheckRollup'] = ResolversParentTypes['StatusCheckRollup']
+  ParentType extends
+    ResolversParentTypes['StatusCheckRollup'] = ResolversParentTypes['StatusCheckRollup']
 > = {
   commit?: Resolver<Maybe<ResolversTypes['Commit']>, ParentType, ContextType>
   contexts?: Resolver<
@@ -45460,7 +46058,8 @@ export type StatusCheckRollupResolvers<
 
 export type StatusCheckRollupContextResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['StatusCheckRollupContext'] = ResolversParentTypes['StatusCheckRollupContext']
+  ParentType extends
+    ResolversParentTypes['StatusCheckRollupContext'] = ResolversParentTypes['StatusCheckRollupContext']
 > = {
   __resolveType: TypeResolveFn<
     'CheckRun' | 'StatusContext',
@@ -45471,7 +46070,8 @@ export type StatusCheckRollupContextResolvers<
 
 export type StatusCheckRollupContextConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['StatusCheckRollupContextConnection'] = ResolversParentTypes['StatusCheckRollupContextConnection']
+  ParentType extends
+    ResolversParentTypes['StatusCheckRollupContextConnection'] = ResolversParentTypes['StatusCheckRollupContextConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['StatusCheckRollupContextEdge']>>>,
@@ -45490,7 +46090,8 @@ export type StatusCheckRollupContextConnectionResolvers<
 
 export type StatusCheckRollupContextEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['StatusCheckRollupContextEdge'] = ResolversParentTypes['StatusCheckRollupContextEdge']
+  ParentType extends
+    ResolversParentTypes['StatusCheckRollupContextEdge'] = ResolversParentTypes['StatusCheckRollupContextEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -45503,7 +46104,8 @@ export type StatusCheckRollupContextEdgeResolvers<
 
 export type StatusContextResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['StatusContext'] = ResolversParentTypes['StatusContext']
+  ParentType extends
+    ResolversParentTypes['StatusContext'] = ResolversParentTypes['StatusContext']
 > = {
   avatarUrl?: Resolver<
     Maybe<ResolversTypes['URI']>,
@@ -45534,7 +46136,8 @@ export type StatusContextResolvers<
 
 export type SubmitPullRequestReviewPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SubmitPullRequestReviewPayload'] = ResolversParentTypes['SubmitPullRequestReviewPayload']
+  ParentType extends
+    ResolversParentTypes['SubmitPullRequestReviewPayload'] = ResolversParentTypes['SubmitPullRequestReviewPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -45551,7 +46154,8 @@ export type SubmitPullRequestReviewPayloadResolvers<
 
 export type SubmoduleResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Submodule'] = ResolversParentTypes['Submodule']
+  ParentType extends
+    ResolversParentTypes['Submodule'] = ResolversParentTypes['Submodule']
 > = {
   branch?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
   gitUrl?: Resolver<ResolversTypes['URI'], ParentType, ContextType>
@@ -45567,7 +46171,8 @@ export type SubmoduleResolvers<
 
 export type SubmoduleConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SubmoduleConnection'] = ResolversParentTypes['SubmoduleConnection']
+  ParentType extends
+    ResolversParentTypes['SubmoduleConnection'] = ResolversParentTypes['SubmoduleConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['SubmoduleEdge']>>>,
@@ -45586,7 +46191,8 @@ export type SubmoduleConnectionResolvers<
 
 export type SubmoduleEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SubmoduleEdge'] = ResolversParentTypes['SubmoduleEdge']
+  ParentType extends
+    ResolversParentTypes['SubmoduleEdge'] = ResolversParentTypes['SubmoduleEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Submodule']>, ParentType, ContextType>
@@ -45595,7 +46201,8 @@ export type SubmoduleEdgeResolvers<
 
 export type SubscribableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Subscribable'] = ResolversParentTypes['Subscribable']
+  ParentType extends
+    ResolversParentTypes['Subscribable'] = ResolversParentTypes['Subscribable']
 > = {
   __resolveType: TypeResolveFn<
     | 'Commit'
@@ -45623,7 +46230,8 @@ export type SubscribableResolvers<
 
 export type SubscribedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SubscribedEvent'] = ResolversParentTypes['SubscribedEvent']
+  ParentType extends
+    ResolversParentTypes['SubscribedEvent'] = ResolversParentTypes['SubscribedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -45638,7 +46246,8 @@ export type SubscribedEventResolvers<
 
 export type SuggestedReviewerResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['SuggestedReviewer'] = ResolversParentTypes['SuggestedReviewer']
+  ParentType extends
+    ResolversParentTypes['SuggestedReviewer'] = ResolversParentTypes['SuggestedReviewer']
 > = {
   isAuthor?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
   isCommenter?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -45786,7 +46395,8 @@ export type TeamResolvers<
 
 export type TeamAddMemberAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamAddMemberAuditEntry'] = ResolversParentTypes['TeamAddMemberAuditEntry']
+  ParentType extends
+    ResolversParentTypes['TeamAddMemberAuditEntry'] = ResolversParentTypes['TeamAddMemberAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -45868,7 +46478,8 @@ export type TeamAddMemberAuditEntryResolvers<
 
 export type TeamAddRepositoryAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamAddRepositoryAuditEntry'] = ResolversParentTypes['TeamAddRepositoryAuditEntry']
+  ParentType extends
+    ResolversParentTypes['TeamAddRepositoryAuditEntry'] = ResolversParentTypes['TeamAddRepositoryAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -45970,7 +46581,8 @@ export type TeamAddRepositoryAuditEntryResolvers<
 
 export type TeamAuditEntryDataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamAuditEntryData'] = ResolversParentTypes['TeamAuditEntryData']
+  ParentType extends
+    ResolversParentTypes['TeamAuditEntryData'] = ResolversParentTypes['TeamAuditEntryData']
 > = {
   __resolveType: TypeResolveFn<
     | 'OrgRestoreMemberMembershipTeamAuditEntryData'
@@ -45994,7 +46606,8 @@ export type TeamAuditEntryDataResolvers<
 
 export type TeamChangeParentTeamAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamChangeParentTeamAuditEntry'] = ResolversParentTypes['TeamChangeParentTeamAuditEntry']
+  ParentType extends
+    ResolversParentTypes['TeamChangeParentTeamAuditEntry'] = ResolversParentTypes['TeamChangeParentTeamAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -46112,7 +46725,8 @@ export type TeamChangeParentTeamAuditEntryResolvers<
 
 export type TeamConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamConnection'] = ResolversParentTypes['TeamConnection']
+  ParentType extends
+    ResolversParentTypes['TeamConnection'] = ResolversParentTypes['TeamConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['TeamEdge']>>>,
@@ -46131,7 +46745,8 @@ export type TeamConnectionResolvers<
 
 export type TeamDiscussionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamDiscussion'] = ResolversParentTypes['TeamDiscussion']
+  ParentType extends
+    ResolversParentTypes['TeamDiscussion'] = ResolversParentTypes['TeamDiscussion']
 > = {
   author?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   authorAssociation?: Resolver<
@@ -46225,7 +46840,8 @@ export type TeamDiscussionResolvers<
 
 export type TeamDiscussionCommentResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamDiscussionComment'] = ResolversParentTypes['TeamDiscussionComment']
+  ParentType extends
+    ResolversParentTypes['TeamDiscussionComment'] = ResolversParentTypes['TeamDiscussionComment']
 > = {
   author?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   authorAssociation?: Resolver<
@@ -46297,7 +46913,8 @@ export type TeamDiscussionCommentResolvers<
 
 export type TeamDiscussionCommentConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamDiscussionCommentConnection'] = ResolversParentTypes['TeamDiscussionCommentConnection']
+  ParentType extends
+    ResolversParentTypes['TeamDiscussionCommentConnection'] = ResolversParentTypes['TeamDiscussionCommentConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['TeamDiscussionCommentEdge']>>>,
@@ -46316,7 +46933,8 @@ export type TeamDiscussionCommentConnectionResolvers<
 
 export type TeamDiscussionCommentEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamDiscussionCommentEdge'] = ResolversParentTypes['TeamDiscussionCommentEdge']
+  ParentType extends
+    ResolversParentTypes['TeamDiscussionCommentEdge'] = ResolversParentTypes['TeamDiscussionCommentEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -46329,7 +46947,8 @@ export type TeamDiscussionCommentEdgeResolvers<
 
 export type TeamDiscussionConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamDiscussionConnection'] = ResolversParentTypes['TeamDiscussionConnection']
+  ParentType extends
+    ResolversParentTypes['TeamDiscussionConnection'] = ResolversParentTypes['TeamDiscussionConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['TeamDiscussionEdge']>>>,
@@ -46348,7 +46967,8 @@ export type TeamDiscussionConnectionResolvers<
 
 export type TeamDiscussionEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamDiscussionEdge'] = ResolversParentTypes['TeamDiscussionEdge']
+  ParentType extends
+    ResolversParentTypes['TeamDiscussionEdge'] = ResolversParentTypes['TeamDiscussionEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -46361,7 +46981,8 @@ export type TeamDiscussionEdgeResolvers<
 
 export type TeamEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamEdge'] = ResolversParentTypes['TeamEdge']
+  ParentType extends
+    ResolversParentTypes['TeamEdge'] = ResolversParentTypes['TeamEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['Team']>, ParentType, ContextType>
@@ -46370,7 +46991,8 @@ export type TeamEdgeResolvers<
 
 export type TeamMemberConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamMemberConnection'] = ResolversParentTypes['TeamMemberConnection']
+  ParentType extends
+    ResolversParentTypes['TeamMemberConnection'] = ResolversParentTypes['TeamMemberConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['TeamMemberEdge']>>>,
@@ -46389,7 +47011,8 @@ export type TeamMemberConnectionResolvers<
 
 export type TeamMemberEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamMemberEdge'] = ResolversParentTypes['TeamMemberEdge']
+  ParentType extends
+    ResolversParentTypes['TeamMemberEdge'] = ResolversParentTypes['TeamMemberEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   memberAccessResourcePath?: Resolver<
@@ -46405,7 +47028,8 @@ export type TeamMemberEdgeResolvers<
 
 export type TeamRemoveMemberAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamRemoveMemberAuditEntry'] = ResolversParentTypes['TeamRemoveMemberAuditEntry']
+  ParentType extends
+    ResolversParentTypes['TeamRemoveMemberAuditEntry'] = ResolversParentTypes['TeamRemoveMemberAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -46487,7 +47111,8 @@ export type TeamRemoveMemberAuditEntryResolvers<
 
 export type TeamRemoveRepositoryAuditEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamRemoveRepositoryAuditEntry'] = ResolversParentTypes['TeamRemoveRepositoryAuditEntry']
+  ParentType extends
+    ResolversParentTypes['TeamRemoveRepositoryAuditEntry'] = ResolversParentTypes['TeamRemoveRepositoryAuditEntry']
 > = {
   action?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   actor?: Resolver<
@@ -46589,7 +47214,8 @@ export type TeamRemoveRepositoryAuditEntryResolvers<
 
 export type TeamRepositoryConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamRepositoryConnection'] = ResolversParentTypes['TeamRepositoryConnection']
+  ParentType extends
+    ResolversParentTypes['TeamRepositoryConnection'] = ResolversParentTypes['TeamRepositoryConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['TeamRepositoryEdge']>>>,
@@ -46608,7 +47234,8 @@ export type TeamRepositoryConnectionResolvers<
 
 export type TeamRepositoryEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TeamRepositoryEdge'] = ResolversParentTypes['TeamRepositoryEdge']
+  ParentType extends
+    ResolversParentTypes['TeamRepositoryEdge'] = ResolversParentTypes['TeamRepositoryEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<ResolversTypes['Repository'], ParentType, ContextType>
@@ -46622,7 +47249,8 @@ export type TeamRepositoryEdgeResolvers<
 
 export type TextMatchResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TextMatch'] = ResolversParentTypes['TextMatch']
+  ParentType extends
+    ResolversParentTypes['TextMatch'] = ResolversParentTypes['TextMatch']
 > = {
   fragment?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   highlights?: Resolver<
@@ -46636,7 +47264,8 @@ export type TextMatchResolvers<
 
 export type TextMatchHighlightResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TextMatchHighlight'] = ResolversParentTypes['TextMatchHighlight']
+  ParentType extends
+    ResolversParentTypes['TextMatchHighlight'] = ResolversParentTypes['TextMatchHighlight']
 > = {
   beginIndice?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
   endIndice?: Resolver<ResolversTypes['Int'], ParentType, ContextType>
@@ -46646,7 +47275,8 @@ export type TextMatchHighlightResolvers<
 
 export type TopicResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Topic'] = ResolversParentTypes['Topic']
+  ParentType extends
+    ResolversParentTypes['Topic'] = ResolversParentTypes['Topic']
 > = {
   id?: Resolver<ResolversTypes['ID'], ParentType, ContextType>
   name?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -46682,7 +47312,8 @@ export type TopicResolvers<
 
 export type TopicAuditEntryDataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TopicAuditEntryData'] = ResolversParentTypes['TopicAuditEntryData']
+  ParentType extends
+    ResolversParentTypes['TopicAuditEntryData'] = ResolversParentTypes['TopicAuditEntryData']
 > = {
   __resolveType: TypeResolveFn<
     'RepoAddTopicAuditEntry' | 'RepoRemoveTopicAuditEntry',
@@ -46695,7 +47326,8 @@ export type TopicAuditEntryDataResolvers<
 
 export type TransferIssuePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TransferIssuePayload'] = ResolversParentTypes['TransferIssuePayload']
+  ParentType extends
+    ResolversParentTypes['TransferIssuePayload'] = ResolversParentTypes['TransferIssuePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -46708,7 +47340,8 @@ export type TransferIssuePayloadResolvers<
 
 export type TransferredEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TransferredEvent'] = ResolversParentTypes['TransferredEvent']
+  ParentType extends
+    ResolversParentTypes['TransferredEvent'] = ResolversParentTypes['TransferredEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -46742,7 +47375,8 @@ export type TreeResolvers<
 
 export type TreeEntryResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['TreeEntry'] = ResolversParentTypes['TreeEntry']
+  ParentType extends
+    ResolversParentTypes['TreeEntry'] = ResolversParentTypes['TreeEntry']
 > = {
   extension?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
   isGenerated?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -46768,7 +47402,8 @@ export interface UriScalarConfig
 
 export type UnarchiveRepositoryPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnarchiveRepositoryPayload'] = ResolversParentTypes['UnarchiveRepositoryPayload']
+  ParentType extends
+    ResolversParentTypes['UnarchiveRepositoryPayload'] = ResolversParentTypes['UnarchiveRepositoryPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -46785,7 +47420,8 @@ export type UnarchiveRepositoryPayloadResolvers<
 
 export type UnassignedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnassignedEvent'] = ResolversParentTypes['UnassignedEvent']
+  ParentType extends
+    ResolversParentTypes['UnassignedEvent'] = ResolversParentTypes['UnassignedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   assignable?: Resolver<ResolversTypes['Assignable'], ParentType, ContextType>
@@ -46802,7 +47438,8 @@ export type UnassignedEventResolvers<
 
 export type UnfollowUserPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnfollowUserPayload'] = ResolversParentTypes['UnfollowUserPayload']
+  ParentType extends
+    ResolversParentTypes['UnfollowUserPayload'] = ResolversParentTypes['UnfollowUserPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -46815,7 +47452,8 @@ export type UnfollowUserPayloadResolvers<
 
 export type UniformResourceLocatableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UniformResourceLocatable'] = ResolversParentTypes['UniformResourceLocatable']
+  ParentType extends
+    ResolversParentTypes['UniformResourceLocatable'] = ResolversParentTypes['UniformResourceLocatable']
 > = {
   __resolveType: TypeResolveFn<
     | 'Bot'
@@ -46849,7 +47487,8 @@ export type UniformResourceLocatableResolvers<
 
 export type UnknownSignatureResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnknownSignature'] = ResolversParentTypes['UnknownSignature']
+  ParentType extends
+    ResolversParentTypes['UnknownSignature'] = ResolversParentTypes['UnknownSignature']
 > = {
   email?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   isValid?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>
@@ -46867,7 +47506,8 @@ export type UnknownSignatureResolvers<
 
 export type UnlabeledEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnlabeledEvent'] = ResolversParentTypes['UnlabeledEvent']
+  ParentType extends
+    ResolversParentTypes['UnlabeledEvent'] = ResolversParentTypes['UnlabeledEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -46879,7 +47519,8 @@ export type UnlabeledEventResolvers<
 
 export type UnlinkRepositoryFromProjectPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnlinkRepositoryFromProjectPayload'] = ResolversParentTypes['UnlinkRepositoryFromProjectPayload']
+  ParentType extends
+    ResolversParentTypes['UnlinkRepositoryFromProjectPayload'] = ResolversParentTypes['UnlinkRepositoryFromProjectPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -46897,7 +47538,8 @@ export type UnlinkRepositoryFromProjectPayloadResolvers<
 
 export type UnlockLockablePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnlockLockablePayload'] = ResolversParentTypes['UnlockLockablePayload']
+  ParentType extends
+    ResolversParentTypes['UnlockLockablePayload'] = ResolversParentTypes['UnlockLockablePayload']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   clientMutationId?: Resolver<
@@ -46915,7 +47557,8 @@ export type UnlockLockablePayloadResolvers<
 
 export type UnlockedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnlockedEvent'] = ResolversParentTypes['UnlockedEvent']
+  ParentType extends
+    ResolversParentTypes['UnlockedEvent'] = ResolversParentTypes['UnlockedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -46926,7 +47569,8 @@ export type UnlockedEventResolvers<
 
 export type UnmarkDiscussionCommentAsAnswerPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnmarkDiscussionCommentAsAnswerPayload'] = ResolversParentTypes['UnmarkDiscussionCommentAsAnswerPayload']
+  ParentType extends
+    ResolversParentTypes['UnmarkDiscussionCommentAsAnswerPayload'] = ResolversParentTypes['UnmarkDiscussionCommentAsAnswerPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -46943,7 +47587,8 @@ export type UnmarkDiscussionCommentAsAnswerPayloadResolvers<
 
 export type UnmarkFileAsViewedPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnmarkFileAsViewedPayload'] = ResolversParentTypes['UnmarkFileAsViewedPayload']
+  ParentType extends
+    ResolversParentTypes['UnmarkFileAsViewedPayload'] = ResolversParentTypes['UnmarkFileAsViewedPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -46960,7 +47605,8 @@ export type UnmarkFileAsViewedPayloadResolvers<
 
 export type UnmarkIssueAsDuplicatePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnmarkIssueAsDuplicatePayload'] = ResolversParentTypes['UnmarkIssueAsDuplicatePayload']
+  ParentType extends
+    ResolversParentTypes['UnmarkIssueAsDuplicatePayload'] = ResolversParentTypes['UnmarkIssueAsDuplicatePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -46977,7 +47623,8 @@ export type UnmarkIssueAsDuplicatePayloadResolvers<
 
 export type UnmarkedAsDuplicateEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnmarkedAsDuplicateEvent'] = ResolversParentTypes['UnmarkedAsDuplicateEvent']
+  ParentType extends
+    ResolversParentTypes['UnmarkedAsDuplicateEvent'] = ResolversParentTypes['UnmarkedAsDuplicateEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   canonical?: Resolver<
@@ -47002,7 +47649,8 @@ export type UnmarkedAsDuplicateEventResolvers<
 
 export type UnminimizeCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnminimizeCommentPayload'] = ResolversParentTypes['UnminimizeCommentPayload']
+  ParentType extends
+    ResolversParentTypes['UnminimizeCommentPayload'] = ResolversParentTypes['UnminimizeCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47019,7 +47667,8 @@ export type UnminimizeCommentPayloadResolvers<
 
 export type UnpinIssuePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnpinIssuePayload'] = ResolversParentTypes['UnpinIssuePayload']
+  ParentType extends
+    ResolversParentTypes['UnpinIssuePayload'] = ResolversParentTypes['UnpinIssuePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47032,7 +47681,8 @@ export type UnpinIssuePayloadResolvers<
 
 export type UnpinnedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnpinnedEvent'] = ResolversParentTypes['UnpinnedEvent']
+  ParentType extends
+    ResolversParentTypes['UnpinnedEvent'] = ResolversParentTypes['UnpinnedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -47043,7 +47693,8 @@ export type UnpinnedEventResolvers<
 
 export type UnresolveReviewThreadPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnresolveReviewThreadPayload'] = ResolversParentTypes['UnresolveReviewThreadPayload']
+  ParentType extends
+    ResolversParentTypes['UnresolveReviewThreadPayload'] = ResolversParentTypes['UnresolveReviewThreadPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47060,7 +47711,8 @@ export type UnresolveReviewThreadPayloadResolvers<
 
 export type UnsubscribedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UnsubscribedEvent'] = ResolversParentTypes['UnsubscribedEvent']
+  ParentType extends
+    ResolversParentTypes['UnsubscribedEvent'] = ResolversParentTypes['UnsubscribedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
@@ -47075,7 +47727,8 @@ export type UnsubscribedEventResolvers<
 
 export type UpdatableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Updatable'] = ResolversParentTypes['Updatable']
+  ParentType extends
+    ResolversParentTypes['Updatable'] = ResolversParentTypes['Updatable']
 > = {
   __resolveType: TypeResolveFn<
     | 'CommitComment'
@@ -47098,7 +47751,8 @@ export type UpdatableResolvers<
 
 export type UpdatableCommentResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdatableComment'] = ResolversParentTypes['UpdatableComment']
+  ParentType extends
+    ResolversParentTypes['UpdatableComment'] = ResolversParentTypes['UpdatableComment']
 > = {
   __resolveType: TypeResolveFn<
     | 'CommitComment'
@@ -47123,7 +47777,8 @@ export type UpdatableCommentResolvers<
 
 export type UpdateBranchProtectionRulePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateBranchProtectionRulePayload'] = ResolversParentTypes['UpdateBranchProtectionRulePayload']
+  ParentType extends
+    ResolversParentTypes['UpdateBranchProtectionRulePayload'] = ResolversParentTypes['UpdateBranchProtectionRulePayload']
 > = {
   branchProtectionRule?: Resolver<
     Maybe<ResolversTypes['BranchProtectionRule']>,
@@ -47140,7 +47795,8 @@ export type UpdateBranchProtectionRulePayloadResolvers<
 
 export type UpdateCheckRunPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateCheckRunPayload'] = ResolversParentTypes['UpdateCheckRunPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateCheckRunPayload'] = ResolversParentTypes['UpdateCheckRunPayload']
 > = {
   checkRun?: Resolver<
     Maybe<ResolversTypes['CheckRun']>,
@@ -47157,7 +47813,8 @@ export type UpdateCheckRunPayloadResolvers<
 
 export type UpdateCheckSuitePreferencesPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateCheckSuitePreferencesPayload'] = ResolversParentTypes['UpdateCheckSuitePreferencesPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateCheckSuitePreferencesPayload'] = ResolversParentTypes['UpdateCheckSuitePreferencesPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47174,7 +47831,8 @@ export type UpdateCheckSuitePreferencesPayloadResolvers<
 
 export type UpdateDiscussionCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateDiscussionCommentPayload'] = ResolversParentTypes['UpdateDiscussionCommentPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateDiscussionCommentPayload'] = ResolversParentTypes['UpdateDiscussionCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47191,7 +47849,8 @@ export type UpdateDiscussionCommentPayloadResolvers<
 
 export type UpdateDiscussionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateDiscussionPayload'] = ResolversParentTypes['UpdateDiscussionPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateDiscussionPayload'] = ResolversParentTypes['UpdateDiscussionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47208,7 +47867,8 @@ export type UpdateDiscussionPayloadResolvers<
 
 export type UpdateEnterpriseAdministratorRolePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseAdministratorRolePayload'] = ResolversParentTypes['UpdateEnterpriseAdministratorRolePayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseAdministratorRolePayload'] = ResolversParentTypes['UpdateEnterpriseAdministratorRolePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47221,7 +47881,8 @@ export type UpdateEnterpriseAdministratorRolePayloadResolvers<
 
 export type UpdateEnterpriseAllowPrivateRepositoryForkingSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseAllowPrivateRepositoryForkingSettingPayload'] = ResolversParentTypes['UpdateEnterpriseAllowPrivateRepositoryForkingSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseAllowPrivateRepositoryForkingSettingPayload'] = ResolversParentTypes['UpdateEnterpriseAllowPrivateRepositoryForkingSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47239,7 +47900,8 @@ export type UpdateEnterpriseAllowPrivateRepositoryForkingSettingPayloadResolvers
 
 export type UpdateEnterpriseDefaultRepositoryPermissionSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseDefaultRepositoryPermissionSettingPayload'] = ResolversParentTypes['UpdateEnterpriseDefaultRepositoryPermissionSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseDefaultRepositoryPermissionSettingPayload'] = ResolversParentTypes['UpdateEnterpriseDefaultRepositoryPermissionSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47257,7 +47919,8 @@ export type UpdateEnterpriseDefaultRepositoryPermissionSettingPayloadResolvers<
 
 export type UpdateEnterpriseMembersCanChangeRepositoryVisibilitySettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseMembersCanChangeRepositoryVisibilitySettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanChangeRepositoryVisibilitySettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseMembersCanChangeRepositoryVisibilitySettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanChangeRepositoryVisibilitySettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47275,7 +47938,8 @@ export type UpdateEnterpriseMembersCanChangeRepositoryVisibilitySettingPayloadRe
 
 export type UpdateEnterpriseMembersCanCreateRepositoriesSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseMembersCanCreateRepositoriesSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanCreateRepositoriesSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseMembersCanCreateRepositoriesSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanCreateRepositoriesSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47293,7 +47957,8 @@ export type UpdateEnterpriseMembersCanCreateRepositoriesSettingPayloadResolvers<
 
 export type UpdateEnterpriseMembersCanDeleteIssuesSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseMembersCanDeleteIssuesSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanDeleteIssuesSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseMembersCanDeleteIssuesSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanDeleteIssuesSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47311,7 +47976,8 @@ export type UpdateEnterpriseMembersCanDeleteIssuesSettingPayloadResolvers<
 
 export type UpdateEnterpriseMembersCanDeleteRepositoriesSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseMembersCanDeleteRepositoriesSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanDeleteRepositoriesSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseMembersCanDeleteRepositoriesSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanDeleteRepositoriesSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47329,7 +47995,8 @@ export type UpdateEnterpriseMembersCanDeleteRepositoriesSettingPayloadResolvers<
 
 export type UpdateEnterpriseMembersCanInviteCollaboratorsSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseMembersCanInviteCollaboratorsSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanInviteCollaboratorsSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseMembersCanInviteCollaboratorsSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanInviteCollaboratorsSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47347,7 +48014,8 @@ export type UpdateEnterpriseMembersCanInviteCollaboratorsSettingPayloadResolvers
 
 export type UpdateEnterpriseMembersCanMakePurchasesSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseMembersCanMakePurchasesSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanMakePurchasesSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseMembersCanMakePurchasesSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanMakePurchasesSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47365,7 +48033,8 @@ export type UpdateEnterpriseMembersCanMakePurchasesSettingPayloadResolvers<
 
 export type UpdateEnterpriseMembersCanUpdateProtectedBranchesSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseMembersCanUpdateProtectedBranchesSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanUpdateProtectedBranchesSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseMembersCanUpdateProtectedBranchesSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanUpdateProtectedBranchesSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47383,7 +48052,8 @@ export type UpdateEnterpriseMembersCanUpdateProtectedBranchesSettingPayloadResol
 
 export type UpdateEnterpriseMembersCanViewDependencyInsightsSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseMembersCanViewDependencyInsightsSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanViewDependencyInsightsSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseMembersCanViewDependencyInsightsSettingPayload'] = ResolversParentTypes['UpdateEnterpriseMembersCanViewDependencyInsightsSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47401,7 +48071,8 @@ export type UpdateEnterpriseMembersCanViewDependencyInsightsSettingPayloadResolv
 
 export type UpdateEnterpriseOrganizationProjectsSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseOrganizationProjectsSettingPayload'] = ResolversParentTypes['UpdateEnterpriseOrganizationProjectsSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseOrganizationProjectsSettingPayload'] = ResolversParentTypes['UpdateEnterpriseOrganizationProjectsSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47419,7 +48090,8 @@ export type UpdateEnterpriseOrganizationProjectsSettingPayloadResolvers<
 
 export type UpdateEnterpriseProfilePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseProfilePayload'] = ResolversParentTypes['UpdateEnterpriseProfilePayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseProfilePayload'] = ResolversParentTypes['UpdateEnterpriseProfilePayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47436,7 +48108,8 @@ export type UpdateEnterpriseProfilePayloadResolvers<
 
 export type UpdateEnterpriseRepositoryProjectsSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseRepositoryProjectsSettingPayload'] = ResolversParentTypes['UpdateEnterpriseRepositoryProjectsSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseRepositoryProjectsSettingPayload'] = ResolversParentTypes['UpdateEnterpriseRepositoryProjectsSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47454,7 +48127,8 @@ export type UpdateEnterpriseRepositoryProjectsSettingPayloadResolvers<
 
 export type UpdateEnterpriseTeamDiscussionsSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseTeamDiscussionsSettingPayload'] = ResolversParentTypes['UpdateEnterpriseTeamDiscussionsSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseTeamDiscussionsSettingPayload'] = ResolversParentTypes['UpdateEnterpriseTeamDiscussionsSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47472,7 +48146,8 @@ export type UpdateEnterpriseTeamDiscussionsSettingPayloadResolvers<
 
 export type UpdateEnterpriseTwoFactorAuthenticationRequiredSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnterpriseTwoFactorAuthenticationRequiredSettingPayload'] = ResolversParentTypes['UpdateEnterpriseTwoFactorAuthenticationRequiredSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnterpriseTwoFactorAuthenticationRequiredSettingPayload'] = ResolversParentTypes['UpdateEnterpriseTwoFactorAuthenticationRequiredSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47490,7 +48165,8 @@ export type UpdateEnterpriseTwoFactorAuthenticationRequiredSettingPayloadResolve
 
 export type UpdateEnvironmentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateEnvironmentPayload'] = ResolversParentTypes['UpdateEnvironmentPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateEnvironmentPayload'] = ResolversParentTypes['UpdateEnvironmentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47507,7 +48183,8 @@ export type UpdateEnvironmentPayloadResolvers<
 
 export type UpdateIpAllowListEnabledSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateIpAllowListEnabledSettingPayload'] = ResolversParentTypes['UpdateIpAllowListEnabledSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateIpAllowListEnabledSettingPayload'] = ResolversParentTypes['UpdateIpAllowListEnabledSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47524,7 +48201,8 @@ export type UpdateIpAllowListEnabledSettingPayloadResolvers<
 
 export type UpdateIpAllowListEntryPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateIpAllowListEntryPayload'] = ResolversParentTypes['UpdateIpAllowListEntryPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateIpAllowListEntryPayload'] = ResolversParentTypes['UpdateIpAllowListEntryPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47541,7 +48219,8 @@ export type UpdateIpAllowListEntryPayloadResolvers<
 
 export type UpdateIpAllowListForInstalledAppsEnabledSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateIpAllowListForInstalledAppsEnabledSettingPayload'] = ResolversParentTypes['UpdateIpAllowListForInstalledAppsEnabledSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateIpAllowListForInstalledAppsEnabledSettingPayload'] = ResolversParentTypes['UpdateIpAllowListForInstalledAppsEnabledSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47558,7 +48237,8 @@ export type UpdateIpAllowListForInstalledAppsEnabledSettingPayloadResolvers<
 
 export type UpdateIssueCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateIssueCommentPayload'] = ResolversParentTypes['UpdateIssueCommentPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateIssueCommentPayload'] = ResolversParentTypes['UpdateIssueCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47575,7 +48255,8 @@ export type UpdateIssueCommentPayloadResolvers<
 
 export type UpdateIssuePayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateIssuePayload'] = ResolversParentTypes['UpdateIssuePayload']
+  ParentType extends
+    ResolversParentTypes['UpdateIssuePayload'] = ResolversParentTypes['UpdateIssuePayload']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   clientMutationId?: Resolver<
@@ -47589,7 +48270,8 @@ export type UpdateIssuePayloadResolvers<
 
 export type UpdateNotificationRestrictionSettingPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateNotificationRestrictionSettingPayload'] = ResolversParentTypes['UpdateNotificationRestrictionSettingPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateNotificationRestrictionSettingPayload'] = ResolversParentTypes['UpdateNotificationRestrictionSettingPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47606,7 +48288,8 @@ export type UpdateNotificationRestrictionSettingPayloadResolvers<
 
 export type UpdateProjectCardPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateProjectCardPayload'] = ResolversParentTypes['UpdateProjectCardPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateProjectCardPayload'] = ResolversParentTypes['UpdateProjectCardPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47623,7 +48306,8 @@ export type UpdateProjectCardPayloadResolvers<
 
 export type UpdateProjectColumnPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateProjectColumnPayload'] = ResolversParentTypes['UpdateProjectColumnPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateProjectColumnPayload'] = ResolversParentTypes['UpdateProjectColumnPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47640,7 +48324,8 @@ export type UpdateProjectColumnPayloadResolvers<
 
 export type UpdateProjectPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateProjectPayload'] = ResolversParentTypes['UpdateProjectPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateProjectPayload'] = ResolversParentTypes['UpdateProjectPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47653,7 +48338,8 @@ export type UpdateProjectPayloadResolvers<
 
 export type UpdatePullRequestPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdatePullRequestPayload'] = ResolversParentTypes['UpdatePullRequestPayload']
+  ParentType extends
+    ResolversParentTypes['UpdatePullRequestPayload'] = ResolversParentTypes['UpdatePullRequestPayload']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   clientMutationId?: Resolver<
@@ -47671,7 +48357,8 @@ export type UpdatePullRequestPayloadResolvers<
 
 export type UpdatePullRequestReviewCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdatePullRequestReviewCommentPayload'] = ResolversParentTypes['UpdatePullRequestReviewCommentPayload']
+  ParentType extends
+    ResolversParentTypes['UpdatePullRequestReviewCommentPayload'] = ResolversParentTypes['UpdatePullRequestReviewCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47688,7 +48375,8 @@ export type UpdatePullRequestReviewCommentPayloadResolvers<
 
 export type UpdatePullRequestReviewPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdatePullRequestReviewPayload'] = ResolversParentTypes['UpdatePullRequestReviewPayload']
+  ParentType extends
+    ResolversParentTypes['UpdatePullRequestReviewPayload'] = ResolversParentTypes['UpdatePullRequestReviewPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47705,7 +48393,8 @@ export type UpdatePullRequestReviewPayloadResolvers<
 
 export type UpdateRefPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateRefPayload'] = ResolversParentTypes['UpdateRefPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateRefPayload'] = ResolversParentTypes['UpdateRefPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47718,7 +48407,8 @@ export type UpdateRefPayloadResolvers<
 
 export type UpdateRepositoryPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateRepositoryPayload'] = ResolversParentTypes['UpdateRepositoryPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateRepositoryPayload'] = ResolversParentTypes['UpdateRepositoryPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47735,7 +48425,8 @@ export type UpdateRepositoryPayloadResolvers<
 
 export type UpdateSponsorshipPreferencesPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateSponsorshipPreferencesPayload'] = ResolversParentTypes['UpdateSponsorshipPreferencesPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateSponsorshipPreferencesPayload'] = ResolversParentTypes['UpdateSponsorshipPreferencesPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47752,7 +48443,8 @@ export type UpdateSponsorshipPreferencesPayloadResolvers<
 
 export type UpdateSubscriptionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateSubscriptionPayload'] = ResolversParentTypes['UpdateSubscriptionPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateSubscriptionPayload'] = ResolversParentTypes['UpdateSubscriptionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47769,7 +48461,8 @@ export type UpdateSubscriptionPayloadResolvers<
 
 export type UpdateTeamDiscussionCommentPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateTeamDiscussionCommentPayload'] = ResolversParentTypes['UpdateTeamDiscussionCommentPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateTeamDiscussionCommentPayload'] = ResolversParentTypes['UpdateTeamDiscussionCommentPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47786,7 +48479,8 @@ export type UpdateTeamDiscussionCommentPayloadResolvers<
 
 export type UpdateTeamDiscussionPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateTeamDiscussionPayload'] = ResolversParentTypes['UpdateTeamDiscussionPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateTeamDiscussionPayload'] = ResolversParentTypes['UpdateTeamDiscussionPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -47803,7 +48497,8 @@ export type UpdateTeamDiscussionPayloadResolvers<
 
 export type UpdateTopicsPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UpdateTopicsPayload'] = ResolversParentTypes['UpdateTopicsPayload']
+  ParentType extends
+    ResolversParentTypes['UpdateTopicsPayload'] = ResolversParentTypes['UpdateTopicsPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -48193,7 +48888,8 @@ export type UserResolvers<
 
 export type UserBlockedEventResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UserBlockedEvent'] = ResolversParentTypes['UserBlockedEvent']
+  ParentType extends
+    ResolversParentTypes['UserBlockedEvent'] = ResolversParentTypes['UserBlockedEvent']
 > = {
   actor?: Resolver<Maybe<ResolversTypes['Actor']>, ParentType, ContextType>
   blockDuration?: Resolver<
@@ -48209,7 +48905,8 @@ export type UserBlockedEventResolvers<
 
 export type UserConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UserConnection'] = ResolversParentTypes['UserConnection']
+  ParentType extends
+    ResolversParentTypes['UserConnection'] = ResolversParentTypes['UserConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['UserEdge']>>>,
@@ -48228,7 +48925,8 @@ export type UserConnectionResolvers<
 
 export type UserContentEditResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UserContentEdit'] = ResolversParentTypes['UserContentEdit']
+  ParentType extends
+    ResolversParentTypes['UserContentEdit'] = ResolversParentTypes['UserContentEdit']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   deletedAt?: Resolver<
@@ -48247,7 +48945,8 @@ export type UserContentEditResolvers<
 
 export type UserContentEditConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UserContentEditConnection'] = ResolversParentTypes['UserContentEditConnection']
+  ParentType extends
+    ResolversParentTypes['UserContentEditConnection'] = ResolversParentTypes['UserContentEditConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['UserContentEditEdge']>>>,
@@ -48266,7 +48965,8 @@ export type UserContentEditConnectionResolvers<
 
 export type UserContentEditEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UserContentEditEdge'] = ResolversParentTypes['UserContentEditEdge']
+  ParentType extends
+    ResolversParentTypes['UserContentEditEdge'] = ResolversParentTypes['UserContentEditEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -48279,7 +48979,8 @@ export type UserContentEditEdgeResolvers<
 
 export type UserEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UserEdge'] = ResolversParentTypes['UserEdge']
+  ParentType extends
+    ResolversParentTypes['UserEdge'] = ResolversParentTypes['UserEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['User']>, ParentType, ContextType>
@@ -48288,7 +48989,8 @@ export type UserEdgeResolvers<
 
 export type UserEmailMetadataResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UserEmailMetadata'] = ResolversParentTypes['UserEmailMetadata']
+  ParentType extends
+    ResolversParentTypes['UserEmailMetadata'] = ResolversParentTypes['UserEmailMetadata']
 > = {
   primary?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>
   type?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
@@ -48298,7 +49000,8 @@ export type UserEmailMetadataResolvers<
 
 export type UserStatusResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UserStatus'] = ResolversParentTypes['UserStatus']
+  ParentType extends
+    ResolversParentTypes['UserStatus'] = ResolversParentTypes['UserStatus']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   emoji?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>
@@ -48327,7 +49030,8 @@ export type UserStatusResolvers<
 
 export type UserStatusConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UserStatusConnection'] = ResolversParentTypes['UserStatusConnection']
+  ParentType extends
+    ResolversParentTypes['UserStatusConnection'] = ResolversParentTypes['UserStatusConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['UserStatusEdge']>>>,
@@ -48346,7 +49050,8 @@ export type UserStatusConnectionResolvers<
 
 export type UserStatusEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['UserStatusEdge'] = ResolversParentTypes['UserStatusEdge']
+  ParentType extends
+    ResolversParentTypes['UserStatusEdge'] = ResolversParentTypes['UserStatusEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<Maybe<ResolversTypes['UserStatus']>, ParentType, ContextType>
@@ -48355,7 +49060,8 @@ export type UserStatusEdgeResolvers<
 
 export type VerifiableDomainResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['VerifiableDomain'] = ResolversParentTypes['VerifiableDomain']
+  ParentType extends
+    ResolversParentTypes['VerifiableDomain'] = ResolversParentTypes['VerifiableDomain']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   databaseId?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>
@@ -48405,7 +49111,8 @@ export type VerifiableDomainResolvers<
 
 export type VerifiableDomainConnectionResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['VerifiableDomainConnection'] = ResolversParentTypes['VerifiableDomainConnection']
+  ParentType extends
+    ResolversParentTypes['VerifiableDomainConnection'] = ResolversParentTypes['VerifiableDomainConnection']
 > = {
   edges?: Resolver<
     Maybe<Array<Maybe<ResolversTypes['VerifiableDomainEdge']>>>,
@@ -48424,7 +49131,8 @@ export type VerifiableDomainConnectionResolvers<
 
 export type VerifiableDomainEdgeResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['VerifiableDomainEdge'] = ResolversParentTypes['VerifiableDomainEdge']
+  ParentType extends
+    ResolversParentTypes['VerifiableDomainEdge'] = ResolversParentTypes['VerifiableDomainEdge']
 > = {
   cursor?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   node?: Resolver<
@@ -48437,7 +49145,8 @@ export type VerifiableDomainEdgeResolvers<
 
 export type VerifiableDomainOwnerResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['VerifiableDomainOwner'] = ResolversParentTypes['VerifiableDomainOwner']
+  ParentType extends
+    ResolversParentTypes['VerifiableDomainOwner'] = ResolversParentTypes['VerifiableDomainOwner']
 > = {
   __resolveType: TypeResolveFn<
     'Enterprise' | 'Organization',
@@ -48448,7 +49157,8 @@ export type VerifiableDomainOwnerResolvers<
 
 export type VerifyVerifiableDomainPayloadResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['VerifyVerifiableDomainPayload'] = ResolversParentTypes['VerifyVerifiableDomainPayload']
+  ParentType extends
+    ResolversParentTypes['VerifyVerifiableDomainPayload'] = ResolversParentTypes['VerifyVerifiableDomainPayload']
 > = {
   clientMutationId?: Resolver<
     Maybe<ResolversTypes['String']>,
@@ -48465,7 +49175,8 @@ export type VerifyVerifiableDomainPayloadResolvers<
 
 export type ViewerHovercardContextResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['ViewerHovercardContext'] = ResolversParentTypes['ViewerHovercardContext']
+  ParentType extends
+    ResolversParentTypes['ViewerHovercardContext'] = ResolversParentTypes['ViewerHovercardContext']
 > = {
   message?: Resolver<ResolversTypes['String'], ParentType, ContextType>
   octicon?: Resolver<ResolversTypes['String'], ParentType, ContextType>
@@ -48475,7 +49186,8 @@ export type ViewerHovercardContextResolvers<
 
 export type VotableResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Votable'] = ResolversParentTypes['Votable']
+  ParentType extends
+    ResolversParentTypes['Votable'] = ResolversParentTypes['Votable']
 > = {
   __resolveType: TypeResolveFn<
     'Discussion' | 'DiscussionComment',
@@ -48493,7 +49205,8 @@ export type VotableResolvers<
 
 export type WorkflowResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['Workflow'] = ResolversParentTypes['Workflow']
+  ParentType extends
+    ResolversParentTypes['Workflow'] = ResolversParentTypes['Workflow']
 > = {
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>
   databaseId?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>
@@ -48505,7 +49218,8 @@ export type WorkflowResolvers<
 
 export type WorkflowRunResolvers<
   ContextType = any,
-  ParentType extends ResolversParentTypes['WorkflowRun'] = ResolversParentTypes['WorkflowRun']
+  ParentType extends
+    ResolversParentTypes['WorkflowRun'] = ResolversParentTypes['WorkflowRun']
 > = {
   checkSuite?: Resolver<ResolversTypes['CheckSuite'], ParentType, ContextType>
   createdAt?: Resolver<ResolversTypes['DateTime'], ParentType, ContextType>

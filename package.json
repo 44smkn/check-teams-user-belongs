@@ -31,12 +31,12 @@
     "graphql-request": "4.3.0"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "4.0.1",
-    "@graphql-codegen/typescript": "4.0.1",
-    "@graphql-codegen/typescript-document-nodes": "4.0.1",
-    "@graphql-codegen/typescript-graphql-request": "5.0.0",
-    "@graphql-codegen/typescript-operations": "4.0.1",
-    "@graphql-codegen/typescript-resolvers": "4.0.1",
+    "@graphql-codegen/cli": "8.0.0",
+    "@graphql-codegen/typescript": "7.0.1",
+    "@graphql-codegen/typescript-document-nodes": "7.0.0",
+    "@graphql-codegen/typescript-graphql-request": "8.0.2",
+    "@graphql-codegen/typescript-operations": "7.0.1",
+    "@graphql-codegen/typescript-resolvers": "7.0.1",
     "@octokit/graphql-schema": "10.74.1",
     "@types/node": "18.17.5",
     "@typescript-eslint/parser": "5.62.0",
